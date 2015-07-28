@@ -1,0 +1,1273 @@
+﻿[2015.07.20-22.47.17:889][  0]Log file open, 07/20/15 17:47:17
+[2015.07.20-22.47.17:889][  0]LogInit:Display: Running engine for game: TheForsakens
+[2015.07.20-22.47.17:889][  0]LogInit:Display: RandInit(595789495) SRandInit(595789496).
+[2015.07.20-22.47.17:889][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.20-22.47.17:889][  0]LogStats: Stats thread started
+[2015.07.20-22.47.17:889][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.20-22.47.17:889][  0]LogInit: API Version: 2579680
+[2015.07.20-22.47.17:889][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.20-22.47.17:889][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.20-22.47.17:889][  0]LogInit: Build Configuration: Development
+[2015.07.20-22.47.17:889][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.20-22.47.17:889][  0]LogInit: Command line:  
+[2015.07.20-22.47.17:889][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.20-22.47.17:889][  0]LogInit: Rocket: 1
+[2015.07.20-22.47.18:480][  0]LogInit: Using libcurl 7.41.0
+[2015.07.20-22.47.18:480][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.20-22.47.18:480][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.20-22.47.18:480][  0]LogInit:  - other features:
+[2015.07.20-22.47.18:480][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.20-22.47.18:480][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.20-22.47.18:480][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.20-22.47.18:480][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.20-22.47.18:480][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.20-22.47.18:485][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.20-22.47.18:496][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.20-22.47.18:496][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.20-22.47.18:496][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.20-22.47.18:496][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.20-22.47.18:683][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.20-22.47.20:464][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.20-22.47.20:758][  0]LogInit: Object subsystem initialized
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.20-22.47.21:473][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.20-22.47.21:818][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.20-22.47.21:818][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.20-22.47.22:393][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.07.20-22.47.22:393][  0]LogInit: User: Christian
+[2015.07.20-22.47.22:393][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.20-22.47.22:393][  0]LogInit: High frequency timer resolution =2.143570 MHz
+[2015.07.20-22.47.22:536][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.07.20-22.47.22:701][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.20-22.47.22:701][  0]LogMemory: Process Physical Memory: 47.90 MB used, 47.90 MB peak
+[2015.07.20-22.47.22:701][  0]LogMemory: Process Virtual Memory: 20.96 MB used, 21.80 MB peak
+[2015.07.20-22.47.22:701][  0]LogMemory: Physical Memory: 3799.17 MB used, 3983.27 MB total
+[2015.07.20-22.47.22:701][  0]LogMemory: Virtual Memory: 289.59 MB used, 8388608.00 MB total
+[2015.07.20-22.47.33:922][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.20-22.47.35:588][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.20-22.47.41:804][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.07.20-22.47.41:804][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.07.20-22.47.41:807][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.20-22.47.41:807][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.20-22.47.41:807][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.20-22.47.41:899][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.47.41:899][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.20-22.47.41:912][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.07.20-22.47.41:925][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.20-22.47.42:974][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.20-22.48.02:872][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.20-22.48.02:984][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.20-22.48.03:079][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.20-22.48.03:186][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.20-22.48.03:327][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.20-22.48.03:493][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.20-22.48.03:614][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.20-22.48.03:707][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.20-22.48.03:847][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.20-22.48.03:949][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.20-22.48.04:164][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.20-22.48.04:267][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.20-22.48.04:719][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.20-22.48.04:761][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.20-22.48.04:807][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.20-22.48.04:957][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.20-22.48.04:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.20-22.48.09:185][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.20-22.48.11:540][  0]LogDerivedDataCache: Loaded boot cache 2.35s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.20-22.48.11:541][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.20-22.48.11:541][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.20-22.48.11:541][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.20-22.48.11:541][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.20-22.48.11:541][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.20-22.48.12:061][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.20-22.48.12:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.20-22.48.44:846][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.20-22.48.46:222][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.20-22.48.46:224][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.20-22.48.46:484][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.20-22.48.46:484][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.20-22.48.50:152][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.20-22.49.11:230][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.20-22.49.13:939][  0]SourceControl: Info Source control is disabled
+[2015.07.20-22.49.13:939][  0]SourceControl: Info Source control is disabled
+[2015.07.20-22.49.14:004][  0]SourceControl: Info Source control is disabled
+[2015.07.20-22.49.14:098][  0]SourceControl: Info Source control is disabled
+[2015.07.20-22.49.15:538][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.20-22.49.15:538][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.20-22.49.16:277][  0]LogEngine: Initializing Engine...
+[2015.07.20-22.49.16:370][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.20-22.49.16:509][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.20-22.49.17:731][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.20-22.49.17:889][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-22.49.18:379][  0]LogInit: FAudioDevice initialized.
+[2015.07.20-22.49.18:443][  0]LogDerivedDataCache: Saved boot cache 0.06s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.20-22.49.18:709][  0]LogInit: Texture streaming: Disabled
+[2015.07.20-22.49.19:347][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.20-22.49.19:347][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.20-22.49.19:347][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.07.20-22.49.19:348][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.20-22.49.19:565][  0]LogInit: Transaction tracking system initialized
+[2015.07.20-22.49.20:592][  0]BlueprintLog: New page: Editor Load
+[2015.07.20-22.49.20:709][  0]LogAssetRegistry: FAssetRegistry took 0.0179 seconds to start up
+[2015.07.20-22.49.20:730][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.20-22.49.28:923][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.20-22.49.28:925][  0]LogConsoleResponse:Display: 
+[2015.07.20-22.49.32:202][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.20-22.49.35:676][  0]SourceControl: Info Source control is disabled
+[2015.07.20-22.49.36:086][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.50.14:137][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.20-22.50.14:260][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.07.20-22.50.14:291][  0]LightingResults: New page: Lighting Build
+[2015.07.20-22.50.14:433][  0]MapCheck: New page: Map Check
+[2015.07.20-22.50.14:433][  0]LightingResults: New page: Lighting Build
+[2015.07.20-22.50.14:623][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055EBB62160
+[2015.07.20-22.50.16:488][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.20-22.50.16:678][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.20-22.50.16:730][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.20-22.50.16:805][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.669ms to complete.
+[2015.07.20-22.50.16:817][  0]LogFileHelpers: Loading map 'Template_Default' took 2.557
+[2015.07.20-22.50.17:986][  0]LogCollectionManager: Loaded 0 collections in 0.005179 seconds
+[2015.07.20-22.50.18:041][  0]LogContentBrowser: Native class hierarchy populated in 0.0540 seconds. Added 1792 classes and 301 folders.
+[2015.07.20-22.50.18:250][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.07.20-22.50.18:657][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2015.07.20-22.50.18:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.07.20-22.50.19:943][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.20-22.50.20:027][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.50.20:052][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.20-22.50.20:108][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1b68_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_18f0_0///####STATCAT_Advanced####
+[2015.07.20-22.50.20:108][  0]LogLoad: Full Startup: 198.57 seconds (BP compile: 0.84 seconds)
+[2015.07.20-22.50.20:116][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.20-22.50.21:638][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.20-22.50.21:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.20-22.50.22:373][  0]LogRenderer: Reallocating scene render targets to support 856x376 (Frame:2).
+[2015.07.20-22.50.23:356][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.50.25:055][  8]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.50.26:018][ 21]LogAssetRegistry: Asset discovery search completed in 65.3263 seconds
+[2015.07.20-22.50.34:993][223]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.50.35:112][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2'
+[2015.07.20-22.50.35:112][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/WomanInWhite/Woman.uasset.
+[2015.07.20-22.50.35:113][223]LoadErrors:Error: Error /Game/Enenmies/WomanInWhite/Woman : Can't find file for asset. /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2
+[2015.07.20-22.50.35:114][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2'
+[2015.07.20-22.50.35:115][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/WomanInWhite/Woman.uasset.
+[2015.07.20-22.50.35:404][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2'
+[2015.07.20-22.50.35:406][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.35:406][223]LoadErrors:Error: Error /Game/Maps/Mansion : Can't find file for asset. /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2
+[2015.07.20-22.50.35:407][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2'
+[2015.07.20-22.50.35:408][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.35:410][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2'
+[2015.07.20-22.50.35:411][223]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2.ThirdPersonAnimBlueprint_Copy2_C Referenced by Default__Woman_C
+[2015.07.20-22.50.35:411][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy2' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.35:441][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3'
+[2015.07.20-22.50.35:442][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/Zombie01/ZombieAI.uasset.
+[2015.07.20-22.50.35:442][223]LoadErrors:Error: Error /Game/Enenmies/Zombie01/ZombieAI : Can't find file for asset. /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3
+[2015.07.20-22.50.35:444][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3'
+[2015.07.20-22.50.35:444][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/Zombie01/ZombieAI.uasset.
+[2015.07.20-22.50.35:696][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3'
+[2015.07.20-22.50.35:696][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.35:697][223]LoadErrors:Error: Error /Game/Maps/Mansion : Can't find file for asset. /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3
+[2015.07.20-22.50.35:697][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3'
+[2015.07.20-22.50.35:697][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.35:700][223]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3'
+[2015.07.20-22.50.35:700][223]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3.ThirdPersonAnimBlueprint_Copy3_C Referenced by Default__ZombieAI_C
+[2015.07.20-22.50.35:700][223]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ThirdPersonAnimBlueprint_Copy3' while loading ../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap.
+[2015.07.20-22.50.55:340][223]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.50.56:793][223]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.07.20-22.50.56:796][223]LightingResults: New page: Lighting Build
+[2015.07.20-22.50.56:835][223]LoadErrors: New page: Loading map: Mansion.umap
+[2015.07.20-22.50.56:836][223]MapCheck: New page: Map Check
+[2015.07.20-22.50.56:836][223]LightingResults: New page: Lighting Build
+[2015.07.20-22.50.56:920][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F71E77E0
+[2015.07.20-22.50.57:909][223]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.50.58:138][223]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.20-22.50.58:240][223]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.20-22.50.58:375][223]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.091ms to complete.
+[2015.07.20-22.50.58:377][223]LogFileHelpers: Loading map 'Mansion' took 1.587
+[2015.07.20-22.52.01:221][472]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.01:636][497]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.14:528][642]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.14:659][642]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christian/Desktop/Unreal 4/Character Models/BigGuy.fbx)
+[2015.07.20-22.52.15:112][642]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.07.20-22.52.15:112][642]LogFbx: ItemName: Model, ItemCount : 73
+[2015.07.20-22.52.15:112][642]LogFbx: ItemName: Material, ItemCount : 4
+[2015.07.20-22.52.15:112][642]LogFbx: ItemName: Texture, ItemCount : 9
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: Video, ItemCount : 9
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: Geometry, ItemCount : 5
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: Deformer, ItemCount : 176
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2015.07.20-22.52.15:113][642]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2015.07.20-22.52.15:402][642]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.16:416][642]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.23:776][642]LogFbx: Loading FBX Scene from ../../../../../../Users/Christian/Desktop/Unreal 4/Character Models/BigGuy.fbx
+[2015.07.20-22.52.24:034][642]LogFbx: FBX Scene Loaded Succesfully
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node START [Body] 
+[2015.07.20-22.52.24:069][642]LogFbx: 	Total Deformer Count -168789264.
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: 	Attribute (Bodymesh) Type (4).
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node END [Body]
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node START [Eyes] 
+[2015.07.20-22.52.24:069][642]LogFbx: 	Total Deformer Count -168789264.
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: 	Attribute (Eyesmesh) Type (4).
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node END [Eyes]
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node START [Eyelashes] 
+[2015.07.20-22.52.24:069][642]LogFbx: 	Total Deformer Count -2127682880.
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: 	Attribute (Eyelashesmesh) Type (4).
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node END [Eyelashes]
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node START [Masks] 
+[2015.07.20-22.52.24:069][642]LogFbx: 	Total Deformer Count -168789456.
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: 	Attribute (Masksmesh) Type (4).
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node Attribute Child 1] Masks (Type Mesh).
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node END [Masks]
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node START [Bottoms] 
+[2015.07.20-22.52.24:069][642]LogFbx: 	Total Deformer Count -2040162480.
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:069][642]LogFbx: =================================================
+[2015.07.20-22.52.24:069][642]LogFbx: 	Attribute (Bottomsmesh) Type (4).
+[2015.07.20-22.52.24:069][642]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.07.20-22.52.24:069][642]LogFbx: Dumping Node END [Bottoms]
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node START [Body] 
+[2015.07.20-22.52.24:070][642]LogFbx: 	Total Deformer Count -168789264.
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: 	Attribute (Bodymesh) Type (4).
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node END [Body]
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node START [Eyes] 
+[2015.07.20-22.52.24:070][642]LogFbx: 	Total Deformer Count -168789264.
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: 	Attribute (Eyesmesh) Type (4).
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node END [Eyes]
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node START [Eyelashes] 
+[2015.07.20-22.52.24:070][642]LogFbx: 	Total Deformer Count -2127682880.
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: 	Attribute (Eyelashesmesh) Type (4).
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node END [Eyelashes]
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node START [Masks] 
+[2015.07.20-22.52.24:070][642]LogFbx: 	Total Deformer Count -168789360.
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: 	Attribute (Masksmesh) Type (4).
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node Attribute Child 1] Masks (Type Mesh).
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node END [Masks]
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node START [Bottoms] 
+[2015.07.20-22.52.24:070][642]LogFbx: 	Total Deformer Count -2040162144.
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.07.20-22.52.24:070][642]LogFbx: =================================================
+[2015.07.20-22.52.24:070][642]LogFbx: 	Attribute (Bottomsmesh) Type (4).
+[2015.07.20-22.52.24:070][642]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.07.20-22.52.24:070][642]LogFbx: Dumping Node END [Bottoms]
+[2015.07.20-22.52.24:193][642]LogFbx: Valid bind pose for Pose (UE4BindPose) - Body
+[2015.07.20-22.52.24:235][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat'
+[2015.07.20-22.52.24:235][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat'
+[2015.07.20-22.52.24:235][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat'
+[2015.07.20-22.52.24:236][642]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Enenmies/BigGuy/Bodymat.Bodymat'
+[2015.07.20-22.52.24:285][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_diffuse'
+[2015.07.20-22.52.24:286][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_diffuse'
+[2015.07.20-22.52.24:286][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_diffuse'
+[2015.07.20-22.52.24:287][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Body_diffuse.BigGuy_Body_diffuse'
+[2015.07.20-22.52.24:510][642]LogTexture:Display: Building textures: BigGuy_Body_diffuse (AutoDXT)
+[2015.07.20-22.52.28:141][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_specular'
+[2015.07.20-22.52.28:141][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_specular'
+[2015.07.20-22.52.28:142][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_specular'
+[2015.07.20-22.52.28:142][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Body_specular.BigGuy_Body_specular'
+[2015.07.20-22.52.28:221][642]LogTexture:Display: Building textures: BigGuy_Body_specular (AutoDXT)
+[2015.07.20-22.52.28:735][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_normal'
+[2015.07.20-22.52.28:736][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_normal'
+[2015.07.20-22.52.28:736][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Body_normal'
+[2015.07.20-22.52.28:736][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Body_normal.BigGuy_Body_normal'
+[2015.07.20-22.52.28:862][642]LogTexture:Display: Building textures: BigGuy_Body_normal (BC5)
+[2015.07.20-22.52.29:370][642]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2015.07.20-22.52.29:732][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat_eyelashes'
+[2015.07.20-22.52.29:733][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat_eyelashes'
+[2015.07.20-22.52.29:733][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bodymat_eyelashes'
+[2015.07.20-22.52.29:733][642]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Enenmies/BigGuy/Bodymat_eyelashes.Bodymat_eyelashes'
+[2015.07.20-22.52.29:875][642]LogTexture:Display: Building textures: BigGuy_Body_diffuse (AutoDXT)
+[2015.07.20-22.52.34:559][642]LogTexture:Display: Building textures: BigGuy_Body_specular (AutoDXT)
+[2015.07.20-22.52.35:426][642]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for BigGuy_Body_normal
+[2015.07.20-22.52.35:715][642]LogTexture:Display: Building textures: BigGuy_Body_normal (BC5)
+[2015.07.20-22.52.36:304][642]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling. 
+[2015.07.20-22.52.36:408][642]LogFbx: Triangulating skeletal mesh Body
+[2015.07.20-22.52.43:961][642]LogFbx: Triangulating skeletal mesh Eyes
+[2015.07.20-22.52.44:570][642]LogFbx: Triangulating skeletal mesh Eyelashes
+[2015.07.20-22.52.44:616][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Maskmat'
+[2015.07.20-22.52.44:616][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Maskmat'
+[2015.07.20-22.52.44:617][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Maskmat'
+[2015.07.20-22.52.44:617][642]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Enenmies/BigGuy/Maskmat.Maskmat'
+[2015.07.20-22.52.44:620][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_diffuse'
+[2015.07.20-22.52.44:620][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_diffuse'
+[2015.07.20-22.52.44:620][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_diffuse'
+[2015.07.20-22.52.44:620][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Mask_diffuse.BigGuy_Mask_diffuse'
+[2015.07.20-22.52.44:636][642]LogTexture:Display: Building textures: BigGuy_Mask_diffuse (AutoDXT)
+[2015.07.20-22.52.45:373][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_specular'
+[2015.07.20-22.52.45:373][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_specular'
+[2015.07.20-22.52.45:374][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_specular'
+[2015.07.20-22.52.45:374][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Mask_specular.BigGuy_Mask_specular'
+[2015.07.20-22.52.45:411][642]LogTexture:Display: Building textures: BigGuy_Mask_specular (AutoDXT)
+[2015.07.20-22.52.45:487][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_normal'
+[2015.07.20-22.52.45:488][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_normal'
+[2015.07.20-22.52.45:488][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Mask_normal'
+[2015.07.20-22.52.45:488][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Mask_normal.BigGuy_Mask_normal'
+[2015.07.20-22.52.45:529][642]LogTexture:Display: Building textures: BigGuy_Mask_normal (BC5)
+[2015.07.20-22.52.45:673][642]LogMaterial: Missing cached shader map for material Maskmat, compiling. 
+[2015.07.20-22.52.45:710][642]LogFbx: Triangulating skeletal mesh Masks
+[2015.07.20-22.52.46:358][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bottommat'
+[2015.07.20-22.52.46:358][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bottommat'
+[2015.07.20-22.52.46:359][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/Bottommat'
+[2015.07.20-22.52.46:359][642]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Enenmies/BigGuy/Bottommat.Bottommat'
+[2015.07.20-22.52.46:376][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_diffuse'
+[2015.07.20-22.52.46:376][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_diffuse'
+[2015.07.20-22.52.46:376][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_diffuse'
+[2015.07.20-22.52.46:377][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Bottom_diffuse.BigGuy_Bottom_diffuse'
+[2015.07.20-22.52.46:411][642]LogTexture:Display: Building textures: BigGuy_Bottom_diffuse (AutoDXT)
+[2015.07.20-22.52.47:634][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_specular'
+[2015.07.20-22.52.47:634][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_specular'
+[2015.07.20-22.52.47:634][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_specular'
+[2015.07.20-22.52.47:634][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Bottom_specular.BigGuy_Bottom_specular'
+[2015.07.20-22.52.47:656][642]LogTexture:Display: Building textures: BigGuy_Bottom_specular (AutoDXT)
+[2015.07.20-22.52.47:805][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_normal'
+[2015.07.20-22.52.47:805][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_normal'
+[2015.07.20-22.52.47:805][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_Bottom_normal'
+[2015.07.20-22.52.47:805][642]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Enenmies/BigGuy/BigGuy_Bottom_normal.BigGuy_Bottom_normal'
+[2015.07.20-22.52.47:840][642]LogTexture:Display: Building textures: BigGuy_Bottom_normal (BC5)
+[2015.07.20-22.52.47:997][642]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2015.07.20-22.52.48:041][642]LogFbx: Triangulating skeletal mesh Bottoms
+[2015.07.20-22.52.50:270][642]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2015.07.20-22.52.50:716][642]LogSkeletalMesh: Chunk 0: 3771 rigid vertices, 3606 soft vertices, 52 active bones
+[2015.07.20-22.52.50:716][642]LogSkeletalMesh: Chunk 1: 98 rigid vertices, 0 soft vertices, 1 active bones
+[2015.07.20-22.52.50:716][642]LogSkeletalMesh: Chunk 2: 421 rigid vertices, 231 soft vertices, 3 active bones
+[2015.07.20-22.52.50:717][642]LogSkeletalMesh: Chunk 3: 268 rigid vertices, 1434 soft vertices, 10 active bones
+[2015.07.20-22.52.50:817][642]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 13100 triangles
+[2015.07.20-22.52.50:817][642]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 106 triangles
+[2015.07.20-22.52.50:817][642]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 926 triangles
+[2015.07.20-22.52.50:817][642]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 2852 triangles
+[2015.07.20-22.52.50:837][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_PhysicsAsset'
+[2015.07.20-22.52.50:837][642]LogLinker:Warning: Can't find file '/Game/Enenmies/BigGuy/BigGuy_PhysicsAsset'
+[2015.07.20-22.52.50:838][642]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Enenmies/BigGuy/BigGuy_PhysicsAsset.BigGuy_PhysicsAsset'
+[2015.07.20-22.52.50:975][642]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+lowerarm_twist_01_l  
+upperarm_twist_01_l  
+lowerarm_twist_01_r  
+upperarm_twist_01_r  
+calf_twist_01_l  
+thigh_twist_01_l  
+calf_twist_01_r  
+thigh_twist_01_r  
+ik_foot_root  
+ik_foot_l  
+ik_foot_r  
+ik_hand_root  
+ik_hand_gun  
+ik_hand_l  
+ik_hand_r  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.07.20-22.52.50:978][642]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.52.52:090][645]LogMaterial:Warning: Material /Game/Enenmies/BigGuy/Bodymat.Bodymat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.20-22.52.52:106][645]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2015.07.20-22.52.52:163][645]LogMaterial: 0.014244 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.20-22.52.52:163][645]LogMaterial:Warning: Material /Game/Enenmies/BigGuy/Bodymat_eyelashes.Bodymat_eyelashes needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.20-22.52.52:186][645]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling. 
+[2015.07.20-22.52.52:216][645]LogMaterial: 0.000464 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.20-22.52.52:216][645]LogMaterial:Warning: Material /Game/Enenmies/BigGuy/Maskmat.Maskmat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.20-22.52.52:220][645]LogMaterial: Missing cached shader map for material Maskmat, compiling. 
+[2015.07.20-22.52.52:253][645]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.20-22.52.52:253][645]LogMaterial:Warning: Material /Game/Enenmies/BigGuy/Bottommat.Bottommat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.07.20-22.52.52:270][645]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2015.07.20-22.52.52:302][645]LogMaterial: 0.000432 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.20-22.52.53:727][650]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.53.40:828][870]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.53.43:246][889]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor22)
+[2015.07.20-22.53.43:681][889]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.53.45:266][945]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-22.53.45:266][945]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-22.53.45:851][945]LogPlayLevel: PIE:  Blueprint regeneration took 592 ms (1 blueprints)
+[2015.07.20-22.53.46:170][945]PIE: New page: PIE session: Mansion (Jul 20, 2015, 12:53:45 PM)
+[2015.07.20-22.53.46:188][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-22.53.51:155][945]LogPlayLevel: PIE: StaticDuplicateObject took: (4.967603s)
+[2015.07.20-22.53.51:157][945]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.53.51:160][945]LogPlayLevel: PIE: World Init took: (0.004930s)
+[2015.07.20-22.53.51:240][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (5.052743s)
+[2015.07.20-22.53.51:528][945]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-22.53.51:898][945]LogInit: FAudioDevice initialized.
+[2015.07.20-22.53.51:962][945]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.53.52:187][945]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-22.53.52:571][945]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-22.53.52:571][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-17.53.52
+[2015.07.20-22.53.52:571][945]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.53.52:634][945]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.53.53:035][945]LogWorld: Bringing up level for play took: 0.599771
+[2015.07.20-22.53.53:612][945]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 7.766
+[2015.07.20-22.53.54:152][945]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:538).
+[2015.07.20-22.54.00:929][965]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.54.00:929][965]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.54.02:392][970]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.54.02:392][970]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.54.03:252][974]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.54.03:252][974]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.54.03:888][977]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.54.03:888][977]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.54.05:379][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055897F62A0
+[2015.07.20-22.54.11:505][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor22)
+[2015.07.20-22.54.12:980][ 55]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.07.20-22.54.20:407][125]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.22:452][248]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.22:791][267]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.23:989][338]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.36:740][652]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.38:906][652]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.43:139][857]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.46:185][947]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.54.58:935][ 95]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.55.14:774][331]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-22.55.14:774][331]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-22.55.15:707][331]LogPlayLevel: PIE:  Blueprint regeneration took 933 ms (1 blueprints)
+[2015.07.20-22.55.15:708][331]PIE: New page: PIE session: Mansion (Jul 20, 2015, 12:55:15 PM)
+[2015.07.20-22.55.15:708][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-22.55.17:944][331]LogPlayLevel: PIE: StaticDuplicateObject took: (2.235567s)
+[2015.07.20-22.55.17:946][331]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.55.17:949][331]LogPlayLevel: PIE: World Init took: (0.005144s)
+[2015.07.20-22.55.17:950][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (2.241959s)
+[2015.07.20-22.55.18:052][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-22.55.18:113][331]LogInit: FAudioDevice initialized.
+[2015.07.20-22.55.18:116][331]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.55.22:701][331]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-22.55.22:814][331]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-22.55.22:814][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-17.55.22
+[2015.07.20-22.55.22:814][331]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.55.22:815][331]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.55.22:827][331]LogWorld: Bringing up level for play took: 0.123113
+[2015.07.20-22.55.22:934][331]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 9.088
+[2015.07.20-22.55.55:334][475]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.55.55:334][475]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.55.59:770][498]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.55.59:771][498]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.00:522][501]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.56.00:959][501]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.00:959][501]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.00:987][502]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.56.00:987][502]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.56.01:857][507]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.01:857][507]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.02:425][510]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.02:425][510]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.17:788][597]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.17:788][597]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.35:703][708]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.35:703][708]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.39:101][729]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.39:101][729]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.39:660][732]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.56.39:660][732]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.56.44:654][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055861C4EA0
+[2015.07.20-22.56.44:686][743]Cmd: SELECT NONE
+[2015.07.20-22.56.45:781][749]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.07.20-22.56.59:199][878]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.57.02:915][878]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.57.03:036][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enenmies/BigGuy/BigGuy" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy.uasset" SILENT=true
+[2015.07.20-22.57.03:481][878]LogSavePackage: Save=365.308807ms
+[2015.07.20-22.57.03:481][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy8A1DF716425CA4060CCF73BCDAD575DA.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy.uasset'
+[2015.07.20-22.57.03:845][878]LogSavePackage: Save=294.236725ms
+[2015.07.20-22.57.03:845][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Body_diffuse6B0FA16346763C53062079B6DAB70305.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Body_diffuse.uasset'
+[2015.07.20-22.57.04:194][878]LogSavePackage: Save=315.448517ms
+[2015.07.20-22.57.04:194][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Body_normalFF2A14364C995D8E2836C4B86E1636DE.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Body_normal.uasset'
+[2015.07.20-22.57.04:365][878]LogSavePackage: Save=138.144318ms
+[2015.07.20-22.57.04:365][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Body_specular12D0B3E44397030062488FB0177C0989.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Body_specular.uasset'
+[2015.07.20-22.57.04:475][878]LogSavePackage: Save=79.938141ms
+[2015.07.20-22.57.04:475][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Bottom_diffuse3E987DC24965F00172AFB3B46C2548D4.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Bottom_diffuse.uasset'
+[2015.07.20-22.57.04:633][878]LogSavePackage: Save=126.814148ms
+[2015.07.20-22.57.04:633][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Bottom_normal83496C2E428FB6F7636FF1B2D1D9A55F.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Bottom_normal.uasset'
+[2015.07.20-22.57.04:705][878]LogSavePackage: Save=41.354843ms
+[2015.07.20-22.57.04:705][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Bottom_specularF541826447DED7BD7C3722923299AE33.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Bottom_specular.uasset'
+[2015.07.20-22.57.04:824][878]LogSavePackage: Save=83.786858ms
+[2015.07.20-22.57.04:824][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Mask_diffuse744FD4ED44577715F2D20D973761D88F.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Mask_diffuse.uasset'
+[2015.07.20-22.57.04:974][878]LogSavePackage: Save=117.022072ms
+[2015.07.20-22.57.04:974][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Mask_normal72A590B3401B762AFA5852AA304B84F5.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Mask_normal.uasset'
+[2015.07.20-22.57.05:027][878]LogSavePackage: Save=23.302715ms
+[2015.07.20-22.57.05:027][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_Mask_specular478B03EE448050C35EC6B6A76EB5ACDF.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_Mask_specular.uasset'
+[2015.07.20-22.57.05:059][878]LogSavePackage: Save=14.853725ms
+[2015.07.20-22.57.05:059][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/BigGuy_PhysicsAssetB9B0622E4C6CF24FF0B6539F69641300.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/BigGuy_PhysicsAsset.uasset'
+[2015.07.20-22.57.05:110][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enenmies/BigGuy/Bodymat" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Bodymat.uasset" SILENT=true
+[2015.07.20-22.57.05:186][878]LogSavePackage: Save=43.999031ms
+[2015.07.20-22.57.05:186][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Bodymat712C6B124BE784346AF1C7AC3F3A0D67.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Bodymat.uasset'
+[2015.07.20-22.57.05:264][878]LogSavePackage: Save=21.966160ms
+[2015.07.20-22.57.05:264][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Bodymat_eyelashes943EE12C47C947E8848DA5A35006C41B.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Bodymat_eyelashes.uasset'
+[2015.07.20-22.57.05:314][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enenmies/BigGuy/Bottommat" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Bottommat.uasset" SILENT=true
+[2015.07.20-22.57.05:380][878]LogSavePackage: Save=21.104979ms
+[2015.07.20-22.57.05:380][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Bottommat0830544D4C45AF8574C6E8AA3DA29F95.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Bottommat.uasset'
+[2015.07.20-22.57.05:496][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enenmies/BigGuy/Maskmat" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Maskmat.uasset" SILENT=true
+[2015.07.20-22.57.05:550][878]LogSavePackage: Save=41.662273ms
+[2015.07.20-22.57.05:550][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Maskmat5E66BAAB461306BED9CD34BADB32E829.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Enenmies/BigGuy/Maskmat.uasset'
+[2015.07.20-22.57.24:411][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Mansion" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.20-22.57.28:010][878]LogSavePackage: Save=2136.826904ms
+[2015.07.20-22.57.28:010][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Mansion3521A02949DF404327E2FC9518406DBD.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap'
+[2015.07.20-22.57.28:126][878]LogFileHelpers: Saving map 'Mansion' took 22.555
+[2015.07.20-22.57.28:167][878]LogSavePackage: Save=4.760283ms
+[2015.07.20-22.57.28:167][878]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Owen_SkeletonA188195F40E08891AC7C28B56930CA3E.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/RealisticBlueprintWeapons/ExampleContent/AnimationDemo/Meshes/Owen_Skeleton.uasset'
+[2015.07.20-22.57.30:822][904]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-22.57.30:822][904]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-22.57.30:993][904]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2015.07.20-22.57.30:994][904]PIE: New page: PIE session: Mansion (Jul 20, 2015, 12:57:30 PM)
+[2015.07.20-22.57.30:994][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-22.57.31:488][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.494718s)
+[2015.07.20-22.57.31:489][904]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.57.31:490][904]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2015.07.20-22.57.31:491][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.497349s)
+[2015.07.20-22.57.31:565][904]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-22.57.31:576][904]LogInit: FAudioDevice initialized.
+[2015.07.20-22.57.31:578][904]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.57.31:613][904]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-22.57.31:715][904]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-22.57.31:715][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-17.57.31
+[2015.07.20-22.57.31:715][904]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.57.31:716][904]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.57.31:730][904]LogWorld: Bringing up level for play took: 0.114378
+[2015.07.20-22.57.31:780][904]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.934
+[2015.07.20-22.57.42:461][955]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.57.42:461][955]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.57.44:042][963]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.57.44:042][963]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.57.48:778][988]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.57.48:778][988]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.57.50:915][999]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.57.50:915][999]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.57.55:064][ 21]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.57.55:064][ 21]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.00:189][ 49]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.00:189][ 49]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.03:553][ 68]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.03:553][ 68]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.08:686][ 96]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.08:687][ 96]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.11:263][110]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.11:263][110]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.12:590][117]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.13:330][121]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.13:330][121]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.14:461][127]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.14:461][127]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.21:474][167]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.21:474][167]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.23:402][178]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.23:403][178]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.26:135][193]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.26:135][193]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.27:300][199]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.27:300][199]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.28:289][204]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.28:289][204]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.29:096][208]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.29:096][208]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.29:705][211]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.29:705][211]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.30:281][214]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.30:281][214]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.30:891][217]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.30:891][217]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.31:450][220]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.31:450][220]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.31:652][221]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.32:143][223]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.32:144][223]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.32:458][225]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.35:130][239]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.35:131][239]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.35:917][243]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.35:917][243]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.36:518][246]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.36:518][246]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.40:869][269]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.40:869][269]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.41:454][272]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.41:454][272]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.42:011][275]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.42:011][275]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.42:612][278]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.42:612][278]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.42:826][279]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.43:001][280]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.43:205][281]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.43:571][283]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-22.58.44:527][288]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.44:527][288]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.45:115][291]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-22.58.45:115][291]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-22.58.46:071][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F7D874C0
+[2015.07.20-22.58.49:993][313]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-22.58.49:993][313]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-22.58.50:162][313]LogPlayLevel: PIE:  Blueprint regeneration took 168 ms (1 blueprints)
+[2015.07.20-22.58.50:162][313]PIE: New page: PIE session: Mansion (Jul 20, 2015, 12:58:50 PM)
+[2015.07.20-22.58.50:162][313]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-22.58.50:334][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171681s)
+[2015.07.20-22.58.50:335][313]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-22.58.50:336][313]LogPlayLevel: PIE: World Init took: (0.001905s)
+[2015.07.20-22.58.50:336][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.174014s)
+[2015.07.20-22.58.50:408][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-22.58.50:430][313]LogInit: FAudioDevice initialized.
+[2015.07.20-22.58.50:433][313]LogD3D11RHI: InitD3DDevice
+[2015.07.20-22.58.50:465][313]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-22.58.50:564][313]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-22.58.50:564][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-17.58.50
+[2015.07.20-22.58.50:565][313]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.58.50:567][313]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-22.58.50:579][313]LogWorld: Bringing up level for play took: 0.110899
+[2015.07.20-22.58.50:627][313]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.78
+[2015.07.20-22.59.19:248][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055861C4C20
+[2015.07.20-23.03.02:344][179]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.03.02:344][179]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.03.02:514][179]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2015.07.20-23.03.02:514][179]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:03:02 PM)
+[2015.07.20-23.03.02:515][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.03.02:697][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182096s)
+[2015.07.20-23.03.02:699][179]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.03.02:700][179]LogPlayLevel: PIE: World Init took: (0.002233s)
+[2015.07.20-23.03.02:700][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.184847s)
+[2015.07.20-23.03.02:776][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.03.02:787][179]LogInit: FAudioDevice initialized.
+[2015.07.20-23.03.02:789][179]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.03.02:829][179]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.03.02:943][179]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.03.02:943][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-18.03.02
+[2015.07.20-23.03.02:943][179]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.03.02:943][179]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.03.02:957][179]LogWorld: Bringing up level for play took: 0.125524
+[2015.07.20-23.03.03:004][179]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.157
+[2015.07.20-23.03.15:596][237]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.15:596][237]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.16:185][240]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.16:185][240]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.17:013][244]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.17:014][244]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.17:179][245]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.03.17:408][246]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.03.17:794][248]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.03.18:004][249]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.03.20:693][263]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.20:693][263]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.21:478][267]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.21:478][267]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.22:101][270]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.22:101][270]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.23:560][278]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.23:560][278]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.24:546][283]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.24:546][283]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.25:365][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.25:365][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.28:080][301]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.03.28:080][301]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.03.41:493][373]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.03.43:238][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F72BCD60
+[2015.07.20-23.03.53:385][480]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.03.53:385][480]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.03.53:551][480]LogPlayLevel: PIE:  Blueprint regeneration took 166 ms (1 blueprints)
+[2015.07.20-23.03.53:552][480]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:03:53 PM)
+[2015.07.20-23.03.53:552][480]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.03.53:723][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170512s)
+[2015.07.20-23.03.53:724][480]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.03.53:725][480]LogPlayLevel: PIE: World Init took: (0.002108s)
+[2015.07.20-23.03.53:725][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.173129s)
+[2015.07.20-23.03.53:797][480]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.03.53:806][480]LogInit: FAudioDevice initialized.
+[2015.07.20-23.03.53:809][480]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.03.53:839][480]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.03.53:964][480]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.03.53:964][480]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-18.03.53
+[2015.07.20-23.03.53:964][480]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.03.53:965][480]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.03.53:978][480]LogWorld: Bringing up level for play took: 0.134596
+[2015.07.20-23.03.54:028][480]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 0.181
+[2015.07.20-23.04.16:875][589]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.16:875][589]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.17:474][592]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.17:474][592]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.18:234][596]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.18:234][596]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.18:610][598]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.04.19:019][600]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.04.19:382][602]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.04.24:723][630]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.24:723][630]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.25:517][634]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.25:517][634]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.29:105][653]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.29:105][653]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.29:886][657]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.29:886][657]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.33:092][674]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.33:092][674]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.33:878][678]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.33:879][678]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.40:867][715]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.04.40:867][715]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.04.42:405][723]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.04.58:885][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F7D84360
+[2015.07.20-23.05.01:136][828]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.05.02:350][828]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.05.03:265][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Mansion" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.20-23.05.06:265][828]LogSavePackage: Save=1979.301880ms
+[2015.07.20-23.05.06:265][828]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/MansionAA65C446475A599B2A19E289A8CAFDB3.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap'
+[2015.07.20-23.05.06:309][828]LogFileHelpers: Saving map 'Mansion' took 3.941
+[2015.07.20-23.18.32:399][257]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.18.32:399][257]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.18.32:611][257]LogPlayLevel: PIE:  Blueprint regeneration took 212 ms (1 blueprints)
+[2015.07.20-23.18.32:612][257]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:18:32 PM)
+[2015.07.20-23.18.32:612][257]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.18.33:626][257]LogPlayLevel: PIE: StaticDuplicateObject took: (1.012848s)
+[2015.07.20-23.18.33:628][257]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.18.33:631][257]LogPlayLevel: PIE: World Init took: (0.005487s)
+[2015.07.20-23.18.33:632][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (1.019104s)
+[2015.07.20-23.18.33:724][257]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.18.33:766][257]LogInit: FAudioDevice initialized.
+[2015.07.20-23.18.33:769][257]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.18.33:802][257]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.18.33:926][257]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.18.33:926][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-18.18.33
+[2015.07.20-23.18.33:926][257]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.18.33:927][257]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.18.33:940][257]LogWorld: Bringing up level for play took: 0.136255
+[2015.07.20-23.18.33:994][257]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 2.148
+[2015.07.20-23.18.39:811][283]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.18.39:811][283]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.18.40:870][288]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.18.40:870][288]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.18.41:480][291]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.18.41:480][291]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.18.47:836][321]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.18.49:144][327]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.18.50:241][332]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.18.51:153][336]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.18.51:353][337]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.18.55:804][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.18.55:804][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.18.57:811][366]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.18.57:811][366]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.00:279][377]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.00:280][377]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.02:934][389]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.02:934][389]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.04:679][397]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.04:679][397]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.19:164][468]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.19:164][468]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.20:598][475]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.20:598][475]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.20:978][477]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.19.20:979][477]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.19.22:144][483]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.19.22:324][484]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.19.28:784][517]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.28:785][517]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.29:578][521]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.29:578][521]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.30:953][528]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.30:953][528]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.33:748][542]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.33:748][542]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.34:593][546]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.34:593][546]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.36:388][555]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.36:388][555]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.38:180][564]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.38:180][564]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.41:777][582]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.19.44:763][597]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.19.44:763][597]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.19.47:028][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F7E7A5C0
+[2015.07.20-23.19.56:738][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor22)
+[2015.07.20-23.19.58:098][705]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.07.20-23.20.08:335][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.20.08:335][804]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.20.08:542][804]LogPlayLevel: PIE:  Blueprint regeneration took 207 ms (1 blueprints)
+[2015.07.20-23.20.08:543][804]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:20:08 PM)
+[2015.07.20-23.20.08:543][804]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.20.08:796][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.252279s)
+[2015.07.20-23.20.08:798][804]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.20.08:799][804]LogPlayLevel: PIE: World Init took: (0.003195s)
+[2015.07.20-23.20.08:799][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.255921s)
+[2015.07.20-23.20.08:873][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.20.08:882][804]LogInit: FAudioDevice initialized.
+[2015.07.20-23.20.08:884][804]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.20.08:924][804]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.20.09:051][804]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.20.09:051][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 0) at 2015.07.20-18.20.09
+[2015.07.20-23.20.09:052][804]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.20.09:052][804]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.20.09:066][804]LogWorld: Bringing up level for play took: 0.139729
+[2015.07.20-23.20.09:115][804]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.269
+[2015.07.20-23.20.17:580][843]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.17:580][843]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.18:463][847]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.18:463][847]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.21:054][859]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.21:054][859]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.21:937][863]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.20.24:310][874]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.20.25:820][881]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.25:820][881]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.26:677][885]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.26:677][885]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.27:543][889]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.27:543][889]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.29:950][900]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.20.29:950][900]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.20.40:713][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F72BF100
+[2015.07.20-23.20.43:252][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor22)
+[2015.07.20-23.21.12:106][287]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.15:411][313]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.18:277][370]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.21:302][433]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.24:081][492]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.26:870][547]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.29:914][596]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.34:639][689]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.37:724][756]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.42:183][829]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.45:425][897]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.48:160][955]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.21.58:987][ 91]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.07.20-23.22.37:587][477]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.07.20-23.22.39:604][497]Cmd: DELETE
+[2015.07.20-23.22.39:604][497]Cmd: ACTOR DELETE
+[2015.07.20-23.22.39:767][497]LogEditorActor: Deleted Actor: PointLight
+[2015.07.20-23.22.39:889][497]LogEditorActor: Deleted 1 Actors (0.173 secs)
+[2015.07.20-23.22.45:075][565]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2015.07.20-23.22.46:476][582]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2015.07.20-23.22.47:241][592]Cmd: DELETE
+[2015.07.20-23.22.47:241][592]Cmd: ACTOR DELETE
+[2015.07.20-23.22.47:261][592]LogEditorActor: Deleted Actor: PointLight
+[2015.07.20-23.22.47:398][592]LogEditorActor: Deleted 1 Actors (0.158 secs)
+[2015.07.20-23.22.59:424][763]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.23.00:714][763]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.23.01:390][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Mansion" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.20-23.23.04:560][763]LogSavePackage: Save=2149.644287ms
+[2015.07.20-23.23.04:561][763]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Mansion4A7F1E4D4F868407053ED8910512D488.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap'
+[2015.07.20-23.23.04:611][763]LogFileHelpers: Saving map 'Mansion' took 3.879
+[2015.07.20-23.23.12:488][806]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.23.12:488][806]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.23.12:657][806]LogPlayLevel: PIE:  Blueprint regeneration took 168 ms (1 blueprints)
+[2015.07.20-23.23.12:657][806]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:23:12 PM)
+[2015.07.20-23.23.12:658][806]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.23.12:896][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.237872s)
+[2015.07.20-23.23.12:897][806]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.23.12:898][806]LogPlayLevel: PIE: World Init took: (0.002530s)
+[2015.07.20-23.23.12:899][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.240936s)
+[2015.07.20-23.23.12:994][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.23.13:003][806]LogInit: FAudioDevice initialized.
+[2015.07.20-23.23.13:005][806]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.23.13:042][806]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.23.13:147][806]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.23.13:148][806]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2015.07.20-18.23.13
+[2015.07.20-23.23.13:148][806]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.23.13:149][806]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.23.13:164][806]LogWorld: Bringing up level for play took: 0.119472
+[2015.07.20-23.23.13:214][806]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.368
+[2015.07.20-23.23.34:442][960]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.23.34:442][960]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.23.36:377][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055863C74C0
+[2015.07.20-23.23.38:048][  3]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.23.39:298][ 75]MapCheck: New page: Map Check
+[2015.07.20-23.23.39:378][ 75]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.23.39:394][ 75]Cmd: MAP REBUILD ALLVISIBLE
+[2015.07.20-23.23.39:425][ 75]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.07.20-23.23.46:924][ 75]LightingResults: New page: Lighting Build - Jul 20, 2015, 1:23:46 PM
+[2015.07.20-23.24.35:003][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.07.20-23.24.35:003][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.07.20-23.24.35:003][ 75]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.07.20-23.24.35:003][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.07.20-23.24.35:003][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.07.20-23.24.40:082][ 75]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.24.40:107][ 75]LogEditorBuildUtils: Build time 0:01:00
+[2015.07.20-23.24.40:656][ 79]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.07.20-23.24.40:825][ 79]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.07.20-23.25.03:075][ 84]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.25.37:969][179]LightingResults:Error: Error NewLight Object has overlapping UVs.
+[2015.07.20-23.25.37:978][179]LightingResults: Info NewLight Lightmap UV are overlapping by 28.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.38:302][180]LightingResults:Error: Error NewLight Object has overlapping UVs.
+[2015.07.20-23.25.38:302][180]LightingResults: Info NewLight Lightmap UV are overlapping by 28.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.41:972][191]LightingResults:Error: Error Element Object has overlapping UVs.
+[2015.07.20-23.25.41:972][191]LightingResults: Info Element Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.44:642][199]LightingResults:Error: Error Element Object has overlapping UVs.
+[2015.07.20-23.25.44:642][199]LightingResults: Info Element Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.44:975][200]LightingResults:Error: Error Element Object has overlapping UVs.
+[2015.07.20-23.25.44:975][200]LightingResults: Info Element Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.44:976][200]LightingResults:Error: Error Element Object has overlapping UVs.
+[2015.07.20-23.25.44:976][200]LightingResults: Info Element Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.45:643][202]LightingResults:Error: Error Element Object has overlapping UVs.
+[2015.07.20-23.25.45:643][202]LightingResults: Info Element Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.48:649][211]LightingResults:Error: Error Largedoor Object has overlapping UVs.
+[2015.07.20-23.25.48:649][211]LightingResults: Info Largedoor Lightmap UV are overlapping by 6.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.54:654][229]LightingResults:Error: Error <None> Object has overlapping UVs.
+[2015.07.20-23.25.54:654][229]LightingResults: Info <None> Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
+[2015.07.20-23.25.59:324][243]Job is a success!
+[2015.07.20-23.25.59:659][244]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.25.59:743][244]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.26.08:125][244]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.07.20-23.26.08:173][244]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.07.20-23.26.08:177][244]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.07.20-23.26.08:180][244]LightingResults:Error: Error PointLight16_14 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.07.20-23.26.08:184][244]LightingResults:Error: Error PointLight_9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.07.20-23.26.08:956][244]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.07.20-23.26.09:862][244]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.07.20-23.26.09:883][244]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.07.20-23.26.09:935][244]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.07.20-23.26.10:104][244]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.07.20-23.26.10:419][244]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.07.20-23.26.10:511][244]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.07.20-23.26.10:673][244]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.07.20-23.26.10:888][244]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.07.20-23.26.11:214][244]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.07.20-23.26.11:382][244]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.07.20-23.26.11:706][244]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.07.20-23.26.11:967][244]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.07.20-23.26.12:480][244]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.07.20-23.26.12:801][244]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.07.20-23.26.13:131][244]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.07.20-23.26.13:271][244]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.07.20-23.26.13:479][244]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.07.20-23.26.14:419][244]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.07.20-23.26.14:554][244]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.07.20-23.26.14:927][244]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.07.20-23.26.15:040][244]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.07.20-23.26.15:106][244]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.07.20-23.26.15:236][244]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.07.20-23.26.15:336][244]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.07.20-23.26.15:428][244]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.07.20-23.26.15:489][244]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.07.20-23.26.29:317][244]Lightmass on CHRISTIANGAMING: 1:05 min total, 1.38 sec importing, 686 ms setup, 2.92 sec photons, 1:00 min processing, 0 ms extra exporting [953/953 mappings]. Threads: 4:00 min total, 2:07 min processing.
+[2015.07.20-23.26.29:318][244]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.26.30:553][244]LogStaticLightingSystem: Illumination: 2:43 min (7.27 sec encoding lightmaps)
+[2015.07.20-23.26.30:554][244]LogStaticLightingSystem: Lightmap texture memory:  5.8 MB (4.4 MB streaming, 1.3 MB non-streaming), 18 textures
+[2015.07.20-23.26.30:554][244]LogStaticLightingSystem: Shadowmap texture memory: 9.5 MB (6.8 MB streaming, 2.7 MB non-streaming), 9 textures
+[2015.07.20-23.26.31:006][245]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.07.20-23.26.31:034][245]MapCheck: New page: Mansion - Jul 20, 2015, 1:26:31 PM
+[2015.07.20-23.26.31:300][245]MapCheck:Error: Error Element_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.07.20-23.26.31:587][245]MapCheck:Warning: Warning Element_4 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element_4 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Error: Error Element5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element5 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element5 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Error: Error Element4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element4 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element4 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Error: Error Element3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element3 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:603][245]MapCheck:Warning: Warning Element3 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:604][245]MapCheck:Error: Error Element2_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.07.20-23.26.31:604][245]MapCheck:Warning: Warning Element2_7 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:604][245]MapCheck:Warning: Warning Element2_7 Static mesh actor has NULL StaticMesh property 
+[2015.07.20-23.26.31:939][245]MapCheck: Info Map check complete: 5 Error(s), 10 Warning(s), took 873.038ms to complete.
+[2015.07.20-23.26.31:940][245]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.26.32:975][248]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.27.47:288][560]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.27.49:551][579]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.27.49:880][579]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.27.51:171][579]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.20-23.27.51:490][579]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.20-23.28.11:720][686]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.28.22:337][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.20-23.28.30:334][ 14]BlueprintLog: New page: Compile MyCharacter
+[2015.07.20-23.28.31:356][ 14]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.07.20-23.28.31:738][ 14]BlueprintEditorCompileResults: Info [2490.16] Compile of MyCharacter successful! [in 1,366 ms]
+[2015.07.20-23.28.33:236][ 24]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.28.33:647][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.20-23.28.36:035][ 60]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.28.36:057][ 60]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.28.36:314][ 60]LogPlayLevel: PIE:  Blueprint regeneration took 278 ms (1 blueprints)
+[2015.07.20-23.28.36:315][ 60]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:28:36 PM)
+[2015.07.20-23.28.36:315][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.28.36:971][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.655829s)
+[2015.07.20-23.28.36:973][ 60]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.28.36:974][ 60]LogPlayLevel: PIE: World Init took: (0.002334s)
+[2015.07.20-23.28.36:974][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (0.658849s)
+[2015.07.20-23.28.37:093][ 60]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.28.37:111][ 60]LogInit: FAudioDevice initialized.
+[2015.07.20-23.28.37:113][ 60]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.28.37:166][ 60]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.28.37:306][ 60]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.28.37:306][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2015.07.20-18.28.37
+[2015.07.20-23.28.37:306][ 60]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.28.37:307][ 60]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.28.37:319][ 60]LogWorld: Bringing up level for play took: 0.149792
+[2015.07.20-23.28.37:418][ 60]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 1.572
+[2015.07.20-23.28.45:536][105]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.28.45:536][105]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.29.20:021][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.29.20:021][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.29.21:233][366]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.29.21:233][366]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.29.31:611][441]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.07.20-23.29.32:605][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F70D3B00
+[2015.07.20-23.29.46:424][516]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.29.50:384][628]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.20-23.29.50:397][628]LogPlayLevel: [PIE] Compiling Mansion before PIE...
+[2015.07.20-23.29.50:633][628]LogPlayLevel: PIE:  Blueprint regeneration took 248 ms (1 blueprints)
+[2015.07.20-23.29.50:634][628]PIE: New page: PIE session: Mansion (Jul 20, 2015, 1:29:50 PM)
+[2015.07.20-23.29.50:634][628]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mansion
+[2015.07.20-23.29.51:640][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.994461s)
+[2015.07.20-23.29.51:641][628]LogAIModule: Creating AISystem for world Mansion
+[2015.07.20-23.29.51:642][628]LogPlayLevel: PIE: World Init took: (0.002758s)
+[2015.07.20-23.29.51:643][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mansion.Mansion to /Game/Maps/UEDPIE_0_Mansion.Mansion (1.009045s)
+[2015.07.20-23.29.51:899][628]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.20-23.29.52:107][628]LogInit: FAudioDevice initialized.
+[2015.07.20-23.29.52:113][628]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.29.52:158][628]LogWorld: Game class is 'MyGame_C'
+[2015.07.20-23.29.52:296][628]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.20-23.29.52:296][628]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mansion.Mansion up for play (max tick rate 60) at 2015.07.20-18.29.52
+[2015.07.20-23.29.52:296][628]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.29.52:297][628]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Mansion.Mansion:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.20-23.29.52:309][628]LogWorld: Bringing up level for play took: 0.147888
+[2015.07.20-23.29.52:342][628]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Mansion 2.496
+[2015.07.20-23.29.54:065][638]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.29.54:065][638]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.29.54:778][642]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.07.20-23.29.54:778][642]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.07.20-23.30.33:457][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055CD31A200
+[2015.07.20-23.30.36:141][982]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.30.38:450][982]LogD3D11RHI: InitD3DDevice
+[2015.07.20-23.30.44:139][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Mansion" FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.20-23.30.51:471][982]LogSavePackage: Save=3545.063965ms
+[2015.07.20-23.30.51:471][982]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/Mansion285DADCE4EE92627BEB058980E56B601.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/Maps/Mansion.umap'
+[2015.07.20-23.30.51:926][982]LogFileHelpers: Saving map 'Mansion' took 13.453
+[2015.07.20-23.30.53:906][982]LogSavePackage: Save=1065.322388ms
+[2015.07.20-23.30.53:906][982]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Saved/MyCharacterEC1C537D4F42629CC71B3AB5C6B20379.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheForsakens 4.8/Content/RealisticBlueprintWeapons/Blueprints/MyCharacter.uasset'
+[2015.07.20-23.30.56:155][982]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.20-23.31.06:063][983]Cmd: QUIT_EDITOR
+[2015.07.20-23.31.19:445][983]LogExit: Preparing to exit.
+[2015.07.20-23.31.47:655][983]LogExit: Editor shut down
+[2015.07.20-23.31.50:476][983]LogExit: Transaction tracking system shut down
+[2015.07.20-23.31.51:366][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055F7411E40
+[2015.07.20-23.31.51:502][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055E02999E0
+[2015.07.20-23.31.51:502][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005587603060
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055813CEFC0
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055EE0C71A0
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005589555300
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005587601620
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055EA246160
+[2015.07.20-23.31.51:557][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000558624E200
+[2015.07.20-23.32.19:766][983]LogExit: Object subsystem successfully closed.
+[2015.07.20-23.32.36:316][983]LogD3D11RHI: Shutdown
+[2015.07.20-23.32.36:318][983]LogD3D11RHI: CleanupD3DDevice
+[2015.07.20-23.32.37:804][983]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.20-23.32.46:108][983]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.20-23.32.46:135][983]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.20-23.32.46:135][983]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.20-23.32.46:135][983]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.20-23.32.46:174][983]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.20-23.32.46:393][983]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.20-23.32.46:393][983]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.20-23.32.46:452][983]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.20-23.32.46:473][983]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.20-23.32.46:483][983]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.20-23.32.46:587][983]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.20-23.32.46:587][983]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.20-23.32.46:600][983]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.20-23.32.46:600][983]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.20-23.32.46:600][983]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.20-23.32.46:628][983]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.20-23.32.46:646][983]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.20-23.32.46:657][983]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.20-23.32.46:658][983]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.20-23.32.46:704][983]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.20-23.32.47:059][983]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.20-23.32.47:142][983]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.20-23.32.47:254][983]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.20-23.32.47:260][983]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.20-23.32.47:293][983]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.20-23.32.47:301][983]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.20-23.32.47:590][983]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.20-23.32.47:590][983]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.20-23.32.47:590][983]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.20-23.32.47:590][983]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.20-23.32.47:680][983]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.20-23.32.47:704][983]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.20-23.32.47:800][983]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.20-23.32.47:848][983]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.20-23.32.47:948][983]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.20-23.32.47:948][983]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.20-23.32.47:975][983]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.20-23.32.48:029][983]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.20-23.32.48:103][983]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.20-23.32.48:103][983]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.20-23.32.48:145][983]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.20-23.32.48:145][983]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.20-23.32.48:334][983]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.20-23.32.48:362][983]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.20-23.32.48:432][983]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.20-23.32.48:464][983]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.20-23.32.48:485][983]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.20-23.32.48:511][983]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.20-23.32.48:534][983]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.20-23.32.48:551][983]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.20-23.32.48:551][983]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.20-23.32.48:606][983]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.20-23.32.48:632][983]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.20-23.32.48:737][983]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.20-23.32.48:997][983]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.20-23.32.48:997][983]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.20-23.32.48:997][983]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.20-23.32.48:998][983]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.20-23.32.51:776][983]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.20-23.32.51:891][983]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.20-23.32.51:929][983]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.20-23.32.51:929][983]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.20-23.32.51:942][983]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.20-23.32.51:958][983]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.20-23.32.51:991][983]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.20-23.32.52:105][983]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.20-23.32.52:136][983]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.20-23.32.52:179][983]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.20-23.32.52:179][983]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.20-23.32.52:207][983]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.20-23.32.52:208][983]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.20-23.32.52:208][983]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.20-23.32.52:216][983]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.20-23.32.52:265][983]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.20-23.32.52:265][983]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.20-23.32.52:265][983]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.20-23.32.52:460][983]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.20-23.32.52:502][983]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.20-23.32.52:512][983]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.20-23.32.52:512][983]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.20-23.32.52:534][983]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.20-23.32.52:534][983]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.20-23.32.52:534][983]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.20-23.32.53:224][983]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.20-23.32.53:224][983]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.20-23.32.53:224][983]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.20-23.32.53:358][983]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.20-23.32.53:434][983]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.20-23.32.53:434][983]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.20-23.32.53:504][983]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.20-23.32.53:534][983]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.20-23.32.53:555][983]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.20-23.32.53:593][983]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.20-23.32.53:593][983]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.20-23.32.53:683][983]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.20-23.32.53:775][983]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.20-23.32.53:805][983]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.20-23.32.53:846][983]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.20-23.32.53:846][983]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.20-23.32.53:847][983]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.20-23.32.53:864][983]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.20-23.32.53:905][983]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.20-23.32.53:951][983]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.20-23.32.54:109][983]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.20-23.32.54:128][983]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.20-23.32.54:194][983]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.20-23.32.54:477][983]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.20-23.32.54:479][983]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.20-23.32.54:560][983]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.20-23.32.54:687][983]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.20-23.32.54:697][983]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.20-23.32.54:860][983]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.20-23.32.54:875][983]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.20-23.32.54:931][983]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.20-23.32.54:932][983]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.20-23.32.54:993][983]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.20-23.32.55:016][983]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.20-23.32.55:036][983]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.20-23.32.55:063][983]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.20-23.32.55:123][983]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.20-23.32.55:123][983]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.20-23.32.55:200][983]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.20-23.32.55:247][983]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.20-23.32.55:267][983]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.20-23.32.55:309][983]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.20-23.32.55:309][983]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.20-23.32.55:554][983]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.20-23.32.55:554][983]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.20-23.32.55:573][983]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.20-23.32.55:581][983]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.20-23.32.55:581][983]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.20-23.32.55:581][983]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.20-23.32.55:581][983]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.20-23.32.55:612][983]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.20-23.32.55:612][983]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.20-23.32.55:647][983]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.20-23.32.55:751][983]LogDerivedDataCache: Shutdown
+[2015.07.20-23.32.55:751][983]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.20-23.32.55:821][983]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.20-23.32.56:018][983]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.20-23.32.56:407][983]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.20-23.32.56:476][983]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.20-23.32.56:531][983]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.20-23.32.56:673][983]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.20-23.32.56:673][983]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.20-23.32.56:720][983]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.20-23.32.56:883][983]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.20-23.32.56:890][983]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.20-23.32.56:896][983]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.20-23.32.56:896][983]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.20-23.32.56:986][983]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.20-23.32.57:098][983]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.20-23.32.57:098][983]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.20-23.32.57:098][983]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.20-23.32.57:099][983]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.20-23.32.57:099][983]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.20-23.32.57:099][983]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.20-23.32.57:099][983]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.20-23.32.57:099][983]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.20-23.32.57:143][983]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.20-23.32.57:405][983]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.20-23.32.57:457][983]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.20-23.32.57:555][983]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.20-23.32.57:576][983]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.20-23.32.57:746][983]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.20-23.32.57:746][983]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.20-23.32.57:746][983]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.20-23.32.57:811][983]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.20-23.32.57:950][983]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.20-23.32.57:950][983]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.20-23.32.57:950][983]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.20-23.32.57:950][983]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.20-23.32.57:950][983]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.20-23.32.58:656][983]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.20-23.32.58:671][983]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.20-23.32.58:671][983]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.20-23.32.58:671][983]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.20-23.32.58:671][983]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.20-23.32.58:671][983]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.20-23.32.58:751][983]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.20-23.32.58:783][983]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.20-23.32.58:832][983]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.20-23.32.59:971][983]LogExit: Exiting.
+[2015.07.20-23.33.01:774][983]Log file closed, 07/20/15 18:33:01
