@@ -1,0 +1,784 @@
+﻿[2015.08.04-23.10.10:605][  0]Log file open, 08/04/15 18:10:10
+[2015.08.04-23.10.10:605][  0]LogInit:Display: Running engine for game: TheForsakens
+[2015.08.04-23.10.10:605][  0]LogInit:Display: RandInit(-1310446264) SRandInit(-1310446264).
+[2015.08.04-23.10.10:605][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.04-23.10.10:605][  0]LogStats: Stats thread started
+[2015.08.04-23.10.10:605][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.04-23.10.10:605][  0]LogInit: API Version: 2579680
+[2015.08.04-23.10.10:605][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.04-23.10.10:605][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.04-23.10.10:605][  0]LogInit: Build Configuration: Development
+[2015.08.04-23.10.10:605][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.04-23.10.10:605][  0]LogInit: Command line:  
+[2015.08.04-23.10.10:605][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.04-23.10.10:605][  0]LogInit: Rocket: 1
+[2015.08.04-23.10.10:679][  0]LogInit: Using libcurl 7.41.0
+[2015.08.04-23.10.10:679][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.04-23.10.10:679][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.04-23.10.10:679][  0]LogInit:  - other features:
+[2015.08.04-23.10.10:679][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.04-23.10.10:680][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.04-23.10.10:680][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.04-23.10.10:680][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.04-23.10.10:680][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.04-23.10.10:680][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.04-23.10.10:680][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.04-23.10.10:680][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.04-23.10.10:680][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.04-23.10.10:680][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.04-23.10.10:703][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.04-23.10.10:796][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.04-23.10.10:827][  0]LogInit: Object subsystem initialized
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.04-23.10.10:831][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.04-23.10.10:833][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.04-23.10.10:833][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.04-23.10.10:879][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.08.04-23.10.10:879][  0]LogInit: User: Christian
+[2015.08.04-23.10.10:879][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.04-23.10.10:879][  0]LogInit: High frequency timer resolution =2.143569 MHz
+[2015.08.04-23.10.10:879][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.08.04-23.10.10:879][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.04-23.10.10:879][  0]LogMemory: Process Physical Memory: 49.81 MB used, 49.84 MB peak
+[2015.08.04-23.10.10:879][  0]LogMemory: Process Virtual Memory: 25.02 MB used, 25.02 MB peak
+[2015.08.04-23.10.10:879][  0]LogMemory: Physical Memory: 1676.54 MB used, 3983.27 MB total
+[2015.08.04-23.10.10:879][  0]LogMemory: Virtual Memory: 293.65 MB used, 8388608.00 MB total
+[2015.08.04-23.10.11:322][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.04-23.10.11:864][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.04-23.10.12:942][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.08.04-23.10.12:942][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.08.04-23.10.12:943][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.04-23.10.12:943][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.04-23.10.12:943][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.04-23.10.12:959][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.10.12:959][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.04-23.10.12:959][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.08.04-23.10.12:963][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.04-23.10.13:004][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.04-23.10.22:141][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.04-23.10.22:198][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.04-23.10.22:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.04-23.10.22:277][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.04-23.10.22:322][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.04-23.10.22:356][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.04-23.10.22:385][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.04-23.10.22:415][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.04-23.10.22:439][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.04-23.10.22:461][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.04-23.10.22:483][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.04-23.10.22:512][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.04-23.10.22:657][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.04-23.10.22:690][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.04-23.10.22:721][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.04-23.10.22:772][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.04-23.10.22:772][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.04-23.10.23:568][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.04-23.10.24:341][  0]LogDerivedDataCache: Loaded boot cache 0.77s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.04-23.10.24:342][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.04-23.10.24:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Desktop/The-Forsaken/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.04-23.10.24:342][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.04-23.10.24:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Desktop/The-Forsaken/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.04-23.10.24:342][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.04-23.10.24:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.04-23.10.24:709][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.04-23.10.29:283][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.04-23.10.29:470][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.04-23.10.29:470][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.04-23.10.29:550][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.04-23.10.29:550][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.04-23.10.30:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.04-23.10.51:715][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.04-23.10.53:153][  0]SourceControl: Info Source control is disabled
+[2015.08.04-23.10.53:294][  0]SourceControl: Info Source control is disabled
+[2015.08.04-23.10.53:362][  0]SourceControl: Info Source control is disabled
+[2015.08.04-23.10.53:441][  0]SourceControl: Info Source control is disabled
+[2015.08.04-23.10.54:429][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.04-23.10.54:429][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.04-23.10.54:725][  0]LogEngine: Initializing Engine...
+[2015.08.04-23.10.54:729][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.04-23.10.55:016][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.04-23.10.55:427][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.04-23.10.55:592][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.04-23.10.55:605][  0]LogInit: FAudioDevice initialized.
+[2015.08.04-23.10.55:649][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.04-23.10.55:662][  0]LogInit: Texture streaming: Disabled
+[2015.08.04-23.10.55:790][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.04-23.10.55:790][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.04-23.10.55:790][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.08.04-23.10.55:791][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.04-23.10.55:905][  0]LogInit: Transaction tracking system initialized
+[2015.08.04-23.10.56:313][  0]BlueprintLog: New page: Editor Load
+[2015.08.04-23.10.56:379][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.08.04-23.10.56:380][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.04-23.11.00:706][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.04-23.11.00:707][  0]LogConsoleResponse:Display: 
+[2015.08.04-23.11.02:939][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.04-23.11.04:406][  0]SourceControl: Info Source control is disabled
+[2015.08.04-23.11.04:406][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.04-23.11.04:519][  0]LightingResults: New page: Lighting Build
+[2015.08.04-23.11.04:560][  0]MapCheck: New page: Map Check
+[2015.08.04-23.11.04:560][  0]LightingResults: New page: Lighting Build
+[2015.08.04-23.11.04:591][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F1AF7E200
+[2015.08.04-23.11.06:593][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.04-23.11.06:696][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.04-23.11.06:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.04-23.11.06:817][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.959ms to complete.
+[2015.08.04-23.11.06:817][  0]LogFileHelpers: Loading map 'Template_Default' took 2.411
+[2015.08.04-23.11.07:506][  0]LogCollectionManager: Loaded 0 collections in 0.003046 seconds
+[2015.08.04-23.11.07:517][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 1792 classes and 301 folders.
+[2015.08.04-23.11.07:799][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.08.04-23.11.09:555][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.04-23.11.09:664][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.08.04-23.11.10:247][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.04-23.11.10:251][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.11.10:260][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.04-23.11.10:313][  0]LogLoad: Full Startup: 65.32 seconds (BP compile: 0.31 seconds)
+[2015.08.04-23.11.11:522][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.04-23.11.11:953][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.04-23.11.12:459][  0]LogRenderer: Reallocating scene render targets to support 736x360 (Frame:2).
+[2015.08.04-23.11.22:383][ 28]LogAssetRegistry: Asset discovery search completed in 26.0159 seconds
+[2015.08.04-23.12.22:661][214]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.12.27:129][331]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.12.39:872][331]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.12.40:444][331]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.04-23.12.40:444][331]LightingResults: New page: Lighting Build
+[2015.08.04-23.12.40:519][331]LoadErrors: New page: Loading map: MansionNew.umap
+[2015.08.04-23.12.40:520][331]MapCheck: New page: Map Check
+[2015.08.04-23.12.40:520][331]LightingResults: New page: Lighting Build
+[2015.08.04-23.12.40:586][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F1C677560
+[2015.08.04-23.12.44:196][331]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.12.44:446][331]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.04-23.12.45:585][331]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.04-23.12.45:705][331]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.441ms to complete.
+[2015.08.04-23.12.45:707][331]LogFileHelpers: Loading map 'MansionNew' took 5.264
+[2015.08.04-23.13.02:770][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big55)
+[2015.08.04-23.13.03:814][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big55)
+[2015.08.04-23.13.04:406][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big55)
+[2015.08.04-23.13.05:298][734]Cmd: DELETE
+[2015.08.04-23.13.05:298][734]Cmd: ACTOR DELETE
+[2015.08.04-23.13.05:601][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.04-23.13.05:687][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.04-23.13.05:785][734]LogEditorActor: Deleted 1 Actors (0.250 secs)
+[2015.08.04-23.13.10:985][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big54)
+[2015.08.04-23.13.11:717][883]Cmd: DELETE
+[2015.08.04-23.13.11:717][883]Cmd: ACTOR DELETE
+[2015.08.04-23.13.11:723][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.04-23.13.11:826][883]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2015.08.04-23.13.16:844][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big51)
+[2015.08.04-23.13.50:990][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane206)
+[2015.08.04-23.13.54:585][908]Cmd: TRANSACTION UNDO
+[2015.08.04-23.13.54:605][908]LogEditorTransaction: Undo Move Actors
+[2015.08.04-23.13.54:621][908]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.13.56:132][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane183)
+[2015.08.04-23.14.15:509][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big52)
+[2015.08.04-23.14.25:820][669]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.14.27:099][669]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.14.27:262][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.04-23.14.37:713][669]LogSavePackage: Save=10200.300781ms
+[2015.08.04-23.14.37:713][669]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/The-Forsaken/Saved/MansionNewE5C38B5143BA005093A4489B4EF8C870.tmp' to '../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap'
+[2015.08.04-23.14.37:914][669]LogFileHelpers: Saving map 'MansionNew' took 10.788
+[2015.08.04-23.14.39:465][710]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.04-23.14.39:691][710]PIE: New page: PIE session: MansionNew (Aug 4, 2015, 1:14:39 PM)
+[2015.08.04-23.14.39:699][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.04-23.14.40:569][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.870288s)
+[2015.08.04-23.14.40:572][710]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.14.40:574][710]LogPlayLevel: PIE: World Init took: (0.005330s)
+[2015.08.04-23.14.40:576][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.877307s)
+[2015.08.04-23.14.40:681][710]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.04-23.14.40:689][710]LogInit: FAudioDevice initialized.
+[2015.08.04-23.14.40:775][710]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.14.56:799][710]LogWorld: Game class is 'MyGame_C'
+[2015.08.04-23.14.57:368][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.04-18.14.57
+[2015.08.04-23.14.57:368][710]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.14.57:400][710]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.14.57:679][710]LogWorld: Bringing up level for play took: 0.565667
+[2015.08.04-23.14.58:420][710]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 18.373
+[2015.08.04-23.14.58:945][710]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:2546).
+[2015.08.04-23.15.24:695][934]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.15.24:695][934]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.15.25:414][940]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.15.25:414][940]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.15.26:086][945]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.15.26:086][945]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.15.26:749][951]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.04-23.15.43:285][117]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.15.43:285][117]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.15.59:205][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F14905C60
+[2015.08.04-23.17.12:937][726]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.17.13:054][727]LogActorFactory: Actor Factory created cupboard_short
+[2015.08.04-23.17.14:211][749]LogActorFactory: Actor Factory created cupboard_short
+[2015.08.04-23.17.57:072][564]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.18.34:063][281]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.18.44:414][537]LogEditorViewport: Clicking on Actor (LMB): Pistol_Pickup_Blueprint_C (Pistol_Pickup_Blueprint)
+[2015.08.04-23.18.46:162][570]Cmd: DELETE
+[2015.08.04-23.18.46:162][570]Cmd: ACTOR DELETE
+[2015.08.04-23.18.46:169][570]LogEditorActor: Deleted Actor: Pistol_Pickup_Blueprint_C
+[2015.08.04-23.18.46:170][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.04-23.18.46:314][570]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2015.08.04-23.18.47:540][596]LogEditorViewport: Clicking on Actor (LMB): Pistol_Pickup_Blueprint_C (Pistol_Pickup_Blueprint2)
+[2015.08.04-23.19.50:471][786]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.19.51:611][786]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.19.51:783][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.04-23.19.59:869][786]LogSavePackage: Save=7925.575195ms
+[2015.08.04-23.19.59:869][786]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/The-Forsaken/Saved/MansionNew454F66A04D74B65A0E2857BC18318EF7.tmp' to '../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap'
+[2015.08.04-23.19.59:934][786]LogFileHelpers: Saving map 'MansionNew' took 8.305
+[2015.08.04-23.20.11:099][  7]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.16:634][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big61)
+[2015.08.04-23.20.18:196][193]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big61)
+[2015.08.04-23.20.18:329][193]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.18:690][208]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.19:291][236]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.19:392][238]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.19:972][268]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.20:179][277]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.20:236][278]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.20:329][279]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.20:466][282]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.21:974][363]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.22:024][364]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.22:064][365]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.22:560][390]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.25:146][526]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.25:187][527]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.25:971][566]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.04-23.20.25:972][566]PIE: New page: PIE session: MansionNew (Aug 4, 2015, 1:20:25 PM)
+[2015.08.04-23.20.25:972][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.04-23.20.26:506][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.533338s)
+[2015.08.04-23.20.26:508][566]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.20.26:509][566]LogPlayLevel: PIE: World Init took: (0.003034s)
+[2015.08.04-23.20.26:510][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.537031s)
+[2015.08.04-23.20.26:597][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.04-23.20.26:605][566]LogInit: FAudioDevice initialized.
+[2015.08.04-23.20.26:783][566]LogWorld: Game class is 'MyGame_C'
+[2015.08.04-23.20.27:027][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.04-18.20.27
+[2015.08.04-23.20.27:027][566]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.20.27:028][566]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.20.27:035][566]LogWorld: Bringing up level for play took: 0.247070
+[2015.08.04-23.20.27:064][566]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.017
+[2015.08.04-23.20.33:644][711]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.20.33:645][711]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.20.34:178][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.20.34:178][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.20.34:722][733]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.20.34:722][733]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.20.34:915][737]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.04-23.20.39:516][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F6F349580
+[2015.08.04-23.20.41:109][864]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.04-23.20.41:110][864]PIE: New page: PIE session: MansionNew (Aug 4, 2015, 1:20:41 PM)
+[2015.08.04-23.20.41:138][864]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.04-23.20.41:654][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.515798s)
+[2015.08.04-23.20.41:655][864]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.20.41:657][864]LogPlayLevel: PIE: World Init took: (0.002572s)
+[2015.08.04-23.20.41:657][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.519103s)
+[2015.08.04-23.20.41:735][864]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.04-23.20.41:742][864]LogInit: FAudioDevice initialized.
+[2015.08.04-23.20.41:745][864]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.20.41:787][864]LogWorld: Game class is 'MyGame_C'
+[2015.08.04-23.20.42:032][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.04-18.20.42
+[2015.08.04-23.20.42:032][864]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.20.42:033][864]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.20.42:040][864]LogWorld: Bringing up level for play took: 0.249670
+[2015.08.04-23.20.42:087][864]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.04
+[2015.08.04-23.21.04:957][ 63]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.04:957][ 63]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.05:701][ 69]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.05:701][ 69]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.19:791][207]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.19:791][207]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.29:578][308]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.29:578][308]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.30:115][313]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.30:115][313]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.30:682][318]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.30:682][318]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.31:201][323]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.31:202][323]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.31:753][328]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.31:753][328]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.32:291][333]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.21.32:292][333]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.21.32:513][335]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.04-23.21.50:006][515]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F2A592980
+[2015.08.04-23.23.01:737][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane217)
+[2015.08.04-23.23.41:290][701]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big63)
+[2015.08.04-23.23.41:330][701]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.23.44:166][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane226)
+[2015.08.04-23.24.25:359][555]Cmd: TRANSACTION UNDO
+[2015.08.04-23.24.25:359][555]LogEditorTransaction: Undo Move Actors
+[2015.08.04-23.24.25:415][555]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.24.40:706][863]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wallPlane231)
+[2015.08.04-23.24.40:718][863]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.24.51:569][ 86]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big64)
+[2015.08.04-23.24.51:623][ 86]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.24.53:584][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane231)
+[2015.08.04-23.24.54:208][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane232)
+[2015.08.04-23.25.41:516][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane234)
+[2015.08.04-23.25.44:099][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane235)
+[2015.08.04-23.25.52:015][274]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big66)
+[2015.08.04-23.25.52:110][274]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.25.52:189][274]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big66)
+[2015.08.04-23.25.52:206][274]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.25.53:661][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane236)
+[2015.08.04-23.26.27:588][978]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.26.28:902][978]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.26.29:079][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.04-23.26.37:775][978]LogSavePackage: Save=8350.845703ms
+[2015.08.04-23.26.37:775][978]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/The-Forsaken/Saved/MansionNewB3391F1245FE955EC97B5D9082682683.tmp' to '../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap'
+[2015.08.04-23.26.37:839][978]LogFileHelpers: Saving map 'MansionNew' took 8.909
+[2015.08.04-23.27.17:689][578]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.04-23.27.17:689][578]PIE: New page: PIE session: MansionNew (Aug 4, 2015, 1:27:17 PM)
+[2015.08.04-23.27.17:690][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.04-23.27.18:207][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.516321s)
+[2015.08.04-23.27.18:208][578]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.04-23.27.18:210][578]LogPlayLevel: PIE: World Init took: (0.002529s)
+[2015.08.04-23.27.18:210][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.519589s)
+[2015.08.04-23.27.18:295][578]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.04-23.27.18:303][578]LogInit: FAudioDevice initialized.
+[2015.08.04-23.27.18:306][578]LogD3D11RHI: InitD3DDevice
+[2015.08.04-23.27.18:345][578]LogWorld: Game class is 'MyGame_C'
+[2015.08.04-23.27.18:607][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 0) at 2015.08.04-18.27.18
+[2015.08.04-23.27.18:608][578]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.27.18:608][578]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.04-23.27.18:616][578]LogWorld: Bringing up level for play took: 0.269157
+[2015.08.04-23.27.18:663][578]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.616
+[2015.08.04-23.27.35:632][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.27.35:632][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.27.42:714][784]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.27.42:714][784]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.27.54:846][904]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.04-23.27.54:846][904]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.04-23.28.27:041][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F0CC3EAC0
+[2015.08.04-23.36.44:126][ 82]Cmd: SELECT NONE
+[2015.08.05-02.36.01:642][981]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big26)
+[2015.08.05-02.36.57:757][981]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.37.06:343][981]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.08.05-02.37.09:699][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big27)
+[2015.08.05-02.38.06:563][ 54]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.48.27:178][ 54]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.48.43:803][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.05-02.48.45:973][ 54]LogWorld: Updating cull distance volumes took  1.46 seconds
+[2015.08.05-02.49.25:060][ 54]LogSavePackage: Save=33840.750000ms
+[2015.08.05-02.49.25:060][ 54]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/The-Forsaken/Saved/MansionNew30B328AE47F06230B62982A7438E6C51.tmp' to '../../../../../../Users/Christian/Desktop/The-Forsaken/Content/Maps/MansionNew.umap'
+[2015.08.05-02.49.26:115][ 54]LogFileHelpers: Saving map 'MansionNew' took 58.746
+[2015.08.05-02.56.22:666][303]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.05-02.56.22:876][303]PIE: New page: PIE session: MansionNew (Aug 4, 2015, 4:56:22 PM)
+[2015.08.05-02.56.22:964][303]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.05-02.56.32:366][303]LogPlayLevel: PIE: StaticDuplicateObject took: (9.369264s)
+[2015.08.05-02.56.33:796][303]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.05-02.56.34:076][303]LogPlayLevel: PIE: World Init took: (1.708873s)
+[2015.08.05-02.56.34:140][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (11.175967s)
+[2015.08.05-02.56.34:936][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.05-02.56.35:195][303]LogInit: FAudioDevice initialized.
+[2015.08.05-02.56.35:376][303]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.56.36:394][303]LogWorld: Game class is 'MyGame_C'
+[2015.08.05-02.56.41:803][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 3) at 2015.08.04-21.56.41
+[2015.08.05-02.56.41:803][303]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-02.56.42:232][303]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-02.56.42:536][303]LogWorld: Bringing up level for play took: 5.668649
+[2015.08.05-02.56.44:320][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 22.251
+[2015.08.05-02.56.54:390][330]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.05-02.56.54:402][330]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.05-02.57.09:450][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001F0D1A7060
+[2015.08.05-02.57.11:819][484]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.57.21:233][523]LogD3D11RHI: InitD3DDevice
+[2015.08.05-02.57.24:549][523]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-02.57.25:510][523]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-03.16.29:891][ 42]LogD3D11RHI: InitD3DDevice
+[2015.08.05-03.16.30:038][ 42]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christian/Desktop/Maincharacter_Flashlight.fbx)
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Model, ItemCount : 71
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Material, ItemCount : 8
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Texture, ItemCount : 15
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Video, ItemCount : 15
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Deformer, ItemCount : 110
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2015.08.05-03.16.30:527][ 42]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2015.08.05-03.16.30:755][ 42]LogD3D11RHI: InitD3DDevice
+[2015.08.05-03.16.34:907][ 42]LogD3D11RHI: InitD3DDevice
+[2015.08.05-03.16.45:784][ 42]LogFbx: Loading FBX Scene from ../../../../../../Users/Christian/Desktop/Maincharacter_Flashlight.fbx
+[2015.08.05-03.16.46:213][ 42]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.05-03.16.46:249][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:249][ 42]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-03.16.46:249][ 42]LogFbx: 	Total Deformer Count -1806629328.
+[2015.08.05-03.16.46:249][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:261][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:261][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:261][ 42]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-03.16.46:261][ 42]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-03.16.46:261][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:261][ 42]LogFbx: Dumping Node START [polySurface7] 
+[2015.08.05-03.16.46:261][ 42]LogFbx: 	Total Deformer Count -1806629328.
+[2015.08.05-03.16.46:261][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:261][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:261][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:261][ 42]LogFbx: 		[Node Attribute Child 1] polySurface7 (Type Mesh).
+[2015.08.05-03.16.46:261][ 42]LogFbx: Dumping Node END [polySurface7]
+[2015.08.05-03.16.46:261][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:261][ 42]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-03.16.46:261][ 42]LogFbx: 	Total Deformer Count -1823483576.
+[2015.08.05-03.16.46:261][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:261][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:261][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:261][ 42]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-03.16.46:261][ 42]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Total Deformer Count -1806629328.
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node START [polySurface7] 
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Total Deformer Count -1806629328.
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node Attribute Child 1] polySurface7 (Type Mesh).
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node END [polySurface7]
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Total Deformer Count -1823483240.
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.16.46:262][ 42]LogFbx: =================================================
+[2015.08.05-03.16.46:262][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.16.46:262][ 42]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-03.16.46:262][ 42]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-03.16.46:385][ 42]LogFbx: Valid bind pose for Pose (UE4BindPose) - polySurface1
+[2015.08.05-03.16.46:509][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert2'
+[2015.08.05-03.16.46:510][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert2'
+[2015.08.05-03.16.46:510][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert2'
+[2015.08.05-03.16.46:522][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/lambert2.lambert2'
+[2015.08.05-03.16.51:391][ 42]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.08.05-03.16.53:709][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat'
+[2015.08.05-03.16.53:710][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat'
+[2015.08.05-03.16.53:710][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat'
+[2015.08.05-03.16.53:710][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bodymat.Bodymat'
+[2015.08.05-03.16.53:783][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-03.16.53:783][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-03.16.53:783][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-03.16.53:783][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_diffuse.RyanNew02_Body_diffuse'
+[2015.08.05-03.16.54:610][ 42]LogTexture:Display: Building textures: RyanNew02_Body_diffuse (AutoDXT)
+[2015.08.05-03.16.59:094][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-03.16.59:094][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-03.16.59:094][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-03.16.59:095][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_specular.RyanNew02_Body_specular'
+[2015.08.05-03.16.59:532][ 42]LogTexture:Display: Building textures: RyanNew02_Body_specular (AutoDXT)
+[2015.08.05-03.17.00:181][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-03.17.00:181][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-03.17.00:181][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-03.17.00:181][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_normal.RyanNew02_Body_normal'
+[2015.08.05-03.17.00:501][ 42]LogTexture:Display: Building textures: RyanNew02_Body_normal (BC5)
+[2015.08.05-03.17.01:207][ 42]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2015.08.05-03.17.03:197][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes'
+[2015.08.05-03.17.03:199][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes'
+[2015.08.05-03.17.03:200][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes'
+[2015.08.05-03.17.03:200][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bodymat_eyelashes.Bodymat_eyelashes'
+[2015.08.05-03.17.03:660][ 42]LogTexture:Display: Building textures: RyanNew02_Body_diffuse (AutoDXT)
+[2015.08.05-03.17.08:844][ 42]LogTexture:Display: Building textures: RyanNew02_Body_specular (AutoDXT)
+[2015.08.05-03.17.09:442][ 42]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for RyanNew02_Body_normal
+[2015.08.05-03.17.09:813][ 42]LogTexture:Display: Building textures: RyanNew02_Body_normal (BC5)
+[2015.08.05-03.17.10:494][ 42]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling. 
+[2015.08.05-03.17.10:897][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat'
+[2015.08.05-03.17.10:898][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat'
+[2015.08.05-03.17.10:899][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat'
+[2015.08.05-03.17.10:899][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Hairmat.Hairmat'
+[2015.08.05-03.17.10:936][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-03.17.10:936][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-03.17.10:937][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-03.17.10:937][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_diffuse.RyanNew02_Hair_diffuse'
+[2015.08.05-03.17.11:205][ 42]LogTexture:Display: Building textures: RyanNew02_Hair_diffuse (AutoDXT)
+[2015.08.05-03.17.13:326][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-03.17.13:326][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-03.17.13:327][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-03.17.13:327][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_specular.RyanNew02_Hair_specular'
+[2015.08.05-03.17.13:593][ 42]LogTexture:Display: Building textures: RyanNew02_Hair_specular (AutoDXT)
+[2015.08.05-03.17.14:440][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-03.17.14:440][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-03.17.14:440][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-03.17.14:441][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_normal.RyanNew02_Hair_normal'
+[2015.08.05-03.17.14:670][ 42]LogTexture:Display: Building textures: RyanNew02_Hair_normal (BC5)
+[2015.08.05-03.17.15:265][ 42]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2015.08.05-03.17.15:897][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat'
+[2015.08.05-03.17.15:898][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat'
+[2015.08.05-03.17.15:898][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat'
+[2015.08.05-03.17.15:899][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Topmat.Topmat'
+[2015.08.05-03.17.15:934][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-03.17.15:934][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-03.17.15:934][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-03.17.15:935][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_diffuse.RyanNew02_Top_diffuse'
+[2015.08.05-03.17.16:185][ 42]LogTexture:Display: Building textures: RyanNew02_Top_diffuse (AutoDXT)
+[2015.08.05-03.17.21:815][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-03.17.21:815][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-03.17.21:815][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-03.17.21:815][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_specular.RyanNew02_Top_specular'
+[2015.08.05-03.17.21:964][ 42]LogTexture:Display: Building textures: RyanNew02_Top_specular (AutoDXT)
+[2015.08.05-03.17.22:546][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-03.17.22:546][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-03.17.22:546][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-03.17.22:546][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_normal.RyanNew02_Top_normal'
+[2015.08.05-03.17.22:791][ 42]LogTexture:Display: Building textures: RyanNew02_Top_normal (BC5)
+[2015.08.05-03.17.23:351][ 42]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2015.08.05-03.17.24:590][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat'
+[2015.08.05-03.17.24:591][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat'
+[2015.08.05-03.17.24:591][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat'
+[2015.08.05-03.17.24:591][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bottommat.Bottommat'
+[2015.08.05-03.17.24:620][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-03.17.24:621][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-03.17.24:621][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-03.17.24:621][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse.RyanNew02_Bottom_diffuse'
+[2015.08.05-03.17.24:869][ 42]LogTexture:Display: Building textures: RyanNew02_Bottom_diffuse (AutoDXT)
+[2015.08.05-03.17.26:141][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-03.17.26:142][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-03.17.26:142][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-03.17.26:142][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_specular.RyanNew02_Bottom_specular'
+[2015.08.05-03.17.26:211][ 42]LogTexture:Display: Building textures: RyanNew02_Bottom_specular (AutoDXT)
+[2015.08.05-03.17.26:389][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-03.17.26:389][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-03.17.26:389][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-03.17.26:389][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_normal.RyanNew02_Bottom_normal'
+[2015.08.05-03.17.26:560][ 42]LogTexture:Display: Building textures: RyanNew02_Bottom_normal (BC5)
+[2015.08.05-03.17.26:879][ 42]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2015.08.05-03.17.27:512][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat'
+[2015.08.05-03.17.27:513][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat'
+[2015.08.05-03.17.27:513][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat'
+[2015.08.05-03.17.27:513][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Shoesmat.Shoesmat'
+[2015.08.05-03.17.27:564][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-03.17.27:565][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-03.17.27:565][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-03.17.27:565][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse.RyanNew02_Shoes_diffuse'
+[2015.08.05-03.17.27:641][ 42]LogTexture:Display: Building textures: RyanNew02_Shoes_diffuse (AutoDXT)
+[2015.08.05-03.17.28:810][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-03.17.28:810][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-03.17.28:811][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-03.17.28:811][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_specular.RyanNew02_Shoes_specular'
+[2015.08.05-03.17.29:011][ 42]LogTexture:Display: Building textures: RyanNew02_Shoes_specular (AutoDXT)
+[2015.08.05-03.17.29:229][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-03.17.29:230][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-03.17.29:230][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-03.17.29:230][ 42]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_normal.RyanNew02_Shoes_normal'
+[2015.08.05-03.17.29:664][ 42]LogTexture:Display: Building textures: RyanNew02_Shoes_normal (BC5)
+[2015.08.05-03.17.30:390][ 42]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2015.08.05-03.17.30:975][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight'
+[2015.08.05-03.17.30:976][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight'
+[2015.08.05-03.17.30:976][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight'
+[2015.08.05-03.17.30:976][ 42]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Flashlight.Flashlight'
+[2015.08.05-03.17.31:057][ 42]LogMaterial: Missing cached shader map for material Flashlight, compiling. 
+[2015.08.05-03.17.32:146][ 42]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2015.08.05-03.17.34:129][ 42]LogSkeletalMesh: Chunk 0: 534 rigid vertices, 2018 soft vertices, 7 active bones
+[2015.08.05-03.17.34:130][ 42]LogSkeletalMesh: Chunk 1: 2403 rigid vertices, 4841 soft vertices, 32 active bones
+[2015.08.05-03.17.34:130][ 42]LogSkeletalMesh: Chunk 2: 98 rigid vertices, 0 soft vertices, 1 active bones
+[2015.08.05-03.17.34:131][ 42]LogSkeletalMesh: Chunk 3: 701 rigid vertices, 233 soft vertices, 2 active bones
+[2015.08.05-03.17.34:131][ 42]LogSkeletalMesh: Chunk 4: 109 rigid vertices, 938 soft vertices, 18 active bones
+[2015.08.05-03.17.34:131][ 42]LogSkeletalMesh: Chunk 5: 150 rigid vertices, 554 soft vertices, 11 active bones
+[2015.08.05-03.17.34:131][ 42]LogSkeletalMesh: Chunk 6: 0 rigid vertices, 1040 soft vertices, 6 active bones
+[2015.08.05-03.17.34:132][ 42]LogSkeletalMesh: Chunk 7: 507 rigid vertices, 1068 soft vertices, 2 active bones
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2512 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 12626 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 106 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 1490 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 2031 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 1380 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 1984 triangles
+[2015.08.05-03.17.34:290][ 42]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 1308 triangles
+[2015.08.05-03.17.34:331][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Maincharacter_Flashlight_PhysicsAsset'
+[2015.08.05-03.17.34:331][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Maincharacter_Flashlight_PhysicsAsset'
+[2015.08.05-03.17.34:331][ 42]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ryan/NewFolder/Maincharacter_Flashlight_PhysicsAsset.Maincharacter_Flashlight_PhysicsAsset'
+[2015.08.05-03.17.34:454][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:454][ 42]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-03.17.34:454][ 42]LogFbx: 	Total Deformer Count -1564559072.
+[2015.08.05-03.17.34:454][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:454][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:454][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:454][ 42]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-03.17.34:454][ 42]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-03.17.34:454][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:454][ 42]LogFbx: Dumping Node START [polySurface7] 
+[2015.08.05-03.17.34:454][ 42]LogFbx: 	Total Deformer Count -1564559072.
+[2015.08.05-03.17.34:454][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:454][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:454][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:454][ 42]LogFbx: 		[Node Attribute Child 1] polySurface7 (Type Mesh).
+[2015.08.05-03.17.34:454][ 42]LogFbx: Dumping Node END [polySurface7]
+[2015.08.05-03.17.34:454][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:454][ 42]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-03.17.34:454][ 42]LogFbx: 	Total Deformer Count 1544122320.
+[2015.08.05-03.17.34:454][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:455][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:455][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:455][ 42]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-03.17.34:455][ 42]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-03.17.34:455][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:455][ 42]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-03.17.34:455][ 42]LogFbx: 	Total Deformer Count -1564559072.
+[2015.08.05-03.17.34:455][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:455][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:455][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:455][ 42]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-03.17.34:455][ 42]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-03.17.34:455][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:455][ 42]LogFbx: Dumping Node START [polySurface7] 
+[2015.08.05-03.17.34:455][ 42]LogFbx: 	Total Deformer Count -1564559072.
+[2015.08.05-03.17.34:455][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:455][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:455][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:455][ 42]LogFbx: 		[Node Attribute Child 1] polySurface7 (Type Mesh).
+[2015.08.05-03.17.34:455][ 42]LogFbx: Dumping Node END [polySurface7]
+[2015.08.05-03.17.34:456][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:456][ 42]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-03.17.34:456][ 42]LogFbx: 	Total Deformer Count 1544124672.
+[2015.08.05-03.17.34:456][ 42]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-03.17.34:456][ 42]LogFbx: =================================================
+[2015.08.05-03.17.34:456][ 42]LogFbx: 	Attribute () Type (4).
+[2015.08.05-03.17.34:456][ 42]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-03.17.34:456][ 42]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(0) root
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(1) pelvis
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(2) spine_01
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(3) spine_02
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(4) spine_03
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(5) clavicle_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(6) upperarm_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(7) lowerarm_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(8) hand_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(9) index_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(10) index_02_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(11) index_03_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(12) middle_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(13) middle_02_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(14) middle_03_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(15) pinky_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(16) pinky_02_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(17) pinky_03_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(18) ring_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(19) ring_02_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(20) ring_03_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(21) thumb_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(22) thumb_02_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(23) thumb_03_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2015.08.05-03.17.34:522][ 42]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(26) clavicle_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(27) upperarm_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(28) lowerarm_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(29) hand_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(30) index_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(31) index_02_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(32) index_03_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(33) middle_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(34) middle_02_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(35) middle_03_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(36) pinky_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(37) pinky_02_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(38) pinky_03_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(39) ring_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(40) ring_02_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(41) ring_03_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(42) thumb_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(43) thumb_02_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(44) thumb_03_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(47) neck_01
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(48) head
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(49) thigh_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(50) calf_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(52) foot_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(53) ball_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(55) thigh_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(56) calf_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(58) foot_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(59) ball_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(61) ik_foot_root
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(62) ik_foot_l
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(63) ik_foot_r
+[2015.08.05-03.17.34:523][ 42]LogFbx: SortedLinks :(64) ik_hand_root
+[2015.08.05-03.17.34:524][ 42]LogFbx: SortedLinks :(65) ik_hand_gun
+[2015.08.05-03.17.34:524][ 42]LogFbx: SortedLinks :(66) ik_hand_l
+[2015.08.05-03.17.34:524][ 42]LogFbx: SortedLinks :(67) ik_hand_r
+[2015.08.05-03.17.35:147][ 42]LogFbx: Parsing AnimStack mixamo.com
+[2015.08.05-03.17.35:504][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Maincharacter_Flashlight_Anim'
+[2015.08.05-03.17.35:505][ 42]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Maincharacter_Flashlight_Anim'
+[2015.08.05-03.17.35:505][ 42]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ryan/NewFolder/Maincharacter_Flashlight_Anim.Maincharacter_Flashlight_Anim'
+[2015.08.05-03.17.37:807][ 42]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_l:65) 
+Source Global Transform (68.470528,-9.018515,143.172409|0.000000,-1.593475,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (136.912354,-3.781851,3.924984|0.000000,-1.593475,-90.000000|1.000000,1.000000,1.000000)
+[2015.08.05-03.17.37:837][ 42]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_r:66) 
+Source Global Transform (-68.570526,-9.132696,143.172424|0.000000,-1.593475,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.019535,0.027419,0.000000|0.000000,-1.593475,89.999977|1.000000,1.000000,1.000000)
+[2015.08.05-03.17.37:837][ 42]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_l:65) 
+Source Global Transform (68.470528,-9.018515,143.172409|0.000000,-1.593475,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (136.912354,-3.781851,3.924984|0.000000,-1.593475,-90.000000|1.000000,1.000000,1.000000)
+[2015.08.05-03.17.37:837][ 42]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_r:66) 
+Source Global Transform (-68.570526,-9.132696,143.172424|0.000000,-1.593475,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.019535,0.027419,0.000000|0.000000,-1.593475,89.999977|1.000000,1.000000,1.000000)
+[2015.08.05-03.17.37:927][ 42]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+middle_01_l  
+middle_02_l  
+middle_03_l  
+pinky_01_l  
+pinky_02_l  
+pinky_03_l  
+lowerarm_twist_01_l  
+upperarm_twist_01_l  
+middle_01_r  
+middle_02_r  
+middle_03_r  
+pinky_01_r  
+pinky_02_r  
+pinky_03_r  
+lowerarm_twist_01_r  
+upperarm_twist_01_r  
+calf_twist_01_l  
+thigh_twist_01_l  
+calf_twist_01_r  
+thigh_twist_01_r  
+ik_foot_root  
+ik_foot_l  
+ik_foot_r  
+ik_hand_root  
+ik_hand_gun  
+ik_hand_l  
+ik_hand_r  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.08.05-03.17.37:927][ 42]FBXImport:Warning: Warning Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2015.08.05-03.17.37:940][ 42]LogD3D11RHI: InitD3DDevice
+[2015.08.05-03.17.39:232][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.39:333][ 44]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.08.05-03.17.39:414][ 44]LogMaterial: 0.033525 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.39:414][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bodymat.Bodymat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.39:481][ 44]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2015.08.05-03.17.39:511][ 44]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.39:511][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bodymat_eyelashes.Bodymat_eyelashes needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.39:561][ 44]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling. 
+[2015.08.05-03.17.39:588][ 44]LogMaterial: 0.000201 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.39:588][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Hairmat.Hairmat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.39:881][ 44]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2015.08.05-03.17.39:913][ 44]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.39:914][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Topmat.Topmat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.40:301][ 44]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2015.08.05-03.17.40:606][ 44]LogMaterial: 0.000238 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.40:606][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bottommat.Bottommat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.41:063][ 44]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2015.08.05-03.17.41:320][ 44]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-03.17.41:320][ 44]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Shoesmat.Shoesmat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-03.17.41:792][ 44]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2015.08.05-03.17.42:154][ 44]LogMaterial: 0.000258 seconds spent updating 1 mat

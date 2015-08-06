@@ -1,0 +1,1421 @@
+﻿[2015.08.05-07.29.10:335][  0]Log file open, 08/05/15 02:29:10
+[2015.08.05-07.29.10:335][  0]LogInit:Display: Running engine for game: TheForsakens
+[2015.08.05-07.29.10:335][  0]LogInit:Display: RandInit(-1554023785) SRandInit(-1554023784).
+[2015.08.05-07.29.10:335][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.05-07.29.10:335][  0]LogStats: Stats thread started
+[2015.08.05-07.29.10:335][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.05-07.29.10:335][  0]LogInit: API Version: 2579680
+[2015.08.05-07.29.10:335][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.05-07.29.10:335][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.05-07.29.10:335][  0]LogInit: Build Configuration: Development
+[2015.08.05-07.29.10:335][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.05-07.29.10:335][  0]LogInit: Command line:  
+[2015.08.05-07.29.10:335][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.05-07.29.10:335][  0]LogInit: Rocket: 1
+[2015.08.05-07.29.10:362][  0]LogInit: Using libcurl 7.41.0
+[2015.08.05-07.29.10:362][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.05-07.29.10:362][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.05-07.29.10:362][  0]LogInit:  - other features:
+[2015.08.05-07.29.10:362][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.05-07.29.10:362][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.05-07.29.10:362][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.05-07.29.10:362][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.05-07.29.10:362][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.05-07.29.10:362][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.05-07.29.10:362][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.05-07.29.10:362][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.05-07.29.10:362][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.05-07.29.10:362][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.05-07.29.10:383][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.05-07.29.10:408][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.05-07.29.10:431][  0]LogInit: Object subsystem initialized
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.05-07.29.10:432][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/The-Forsaken/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-07.29.10:433][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.05-07.29.10:433][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.05-07.29.10:534][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.08.05-07.29.10:534][  0]LogInit: User: Christian
+[2015.08.05-07.29.10:534][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.05-07.29.10:534][  0]LogInit: High frequency timer resolution =2.143569 MHz
+[2015.08.05-07.29.10:535][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.08.05-07.29.10:535][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.05-07.29.10:535][  0]LogMemory: Process Physical Memory: 52.55 MB used, 52.55 MB peak
+[2015.08.05-07.29.10:535][  0]LogMemory: Process Virtual Memory: 25.03 MB used, 25.03 MB peak
+[2015.08.05-07.29.10:535][  0]LogMemory: Physical Memory: 2216.89 MB used, 3983.27 MB total
+[2015.08.05-07.29.10:535][  0]LogMemory: Virtual Memory: 293.65 MB used, 8388608.00 MB total
+[2015.08.05-07.29.10:620][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.05-07.29.11:216][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.05-07.29.11:960][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.08.05-07.29.11:960][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.08.05-07.29.11:961][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.05-07.29.11:961][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.05-07.29.11:961][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.05-07.29.11:975][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.29.11:975][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.05-07.29.11:975][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.08.05-07.29.11:977][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.05-07.29.11:997][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.05-07.29.15:093][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.05-07.29.15:118][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.05-07.29.15:141][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.05-07.29.15:164][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.05-07.29.15:189][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.05-07.29.15:208][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.05-07.29.15:226][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.05-07.29.15:245][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.05-07.29.15:264][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.05-07.29.15:284][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.05-07.29.15:304][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.05-07.29.15:323][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.05-07.29.15:390][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.05-07.29.15:408][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.05-07.29.15:428][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.05-07.29.15:471][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.05-07.29.15:471][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.05-07.29.15:799][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.05-07.29.16:822][  0]LogDerivedDataCache: Loaded boot cache 1.02s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.05-07.29.16:822][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.05-07.29.16:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Desktop/The-Forsaken/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.05-07.29.16:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.05-07.29.16:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Desktop/The-Forsaken/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.05-07.29.16:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.05-07.29.17:122][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.05-07.29.17:135][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.05-07.29.18:864][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.05-07.29.19:000][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.05-07.29.19:001][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.05-07.29.19:041][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.05-07.29.19:041][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.05-07.29.19:767][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.05-07.29.37:132][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.05-07.29.38:253][  0]SourceControl: Info Source control is disabled
+[2015.08.05-07.29.38:274][  0]SourceControl: Info Source control is disabled
+[2015.08.05-07.29.38:288][  0]SourceControl: Info Source control is disabled
+[2015.08.05-07.29.38:303][  0]SourceControl: Info Source control is disabled
+[2015.08.05-07.29.39:092][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.05-07.29.39:092][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.05-07.29.39:222][  0]LogEngine: Initializing Engine...
+[2015.08.05-07.29.39:225][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.05-07.29.39:226][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.05-07.29.39:469][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.05-07.29.39:474][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.05-07.29.39:493][  0]LogInit: FAudioDevice initialized.
+[2015.08.05-07.29.39:534][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.05-07.29.39:549][  0]LogInit: Texture streaming: Disabled
+[2015.08.05-07.29.39:584][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.05-07.29.39:585][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.05-07.29.39:585][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.08.05-07.29.39:585][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.05-07.29.39:655][  0]LogInit: Transaction tracking system initialized
+[2015.08.05-07.29.39:893][  0]BlueprintLog: New page: Editor Load
+[2015.08.05-07.29.39:947][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.08.05-07.29.39:948][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.05-07.29.41:488][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.05-07.29.41:489][  0]LogConsoleResponse:Display: 
+[2015.08.05-07.29.41:854][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.05-07.29.42:278][  0]SourceControl: Info Source control is disabled
+[2015.08.05-07.29.42:279][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.05-07.29.42:279][  0]LightingResults: New page: Lighting Build
+[2015.08.05-07.29.42:311][  0]MapCheck: New page: Map Check
+[2015.08.05-07.29.42:311][  0]LightingResults: New page: Lighting Build
+[2015.08.05-07.29.42:355][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000466DB1E200
+[2015.08.05-07.29.43:546][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.05-07.29.43:559][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.05-07.29.43:641][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.05-07.29.43:717][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.858ms to complete.
+[2015.08.05-07.29.43:717][  0]LogFileHelpers: Loading map 'Template_Default' took 1.439
+[2015.08.05-07.29.44:002][  0]LogCollectionManager: Loaded 0 collections in 0.005266 seconds
+[2015.08.05-07.29.44:021][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 1792 classes and 301 folders.
+[2015.08.05-07.29.44:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.05-07.29.44:249][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.08.05-07.29.44:291][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.08.05-07.29.44:499][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.05-07.29.44:503][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.29.44:507][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.05-07.29.44:533][  0]LogLoad: Full Startup: 37.67 seconds (BP compile: 0.47 seconds)
+[2015.08.05-07.29.44:955][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.05-07.29.45:099][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.05-07.29.45:559][  0]LogRenderer: Reallocating scene render targets to support 736x360 (Frame:2).
+[2015.08.05-07.29.56:330][ 30]LogAssetRegistry: Asset discovery search completed in 16.3936 seconds
+[2015.08.05-07.30.36:587][164]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.30.44:778][348]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.30.45:905][396]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.30.47:203][466]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.30.49:250][580]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.31.04:550][580]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.4.0
+
+
+[2015.08.05-07.32.43:426][100]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.32.43:465][100]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christian/Downloads/Ryan_Textured_Unrigged.fbx)
+[2015.08.05-07.32.43:745][100]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.05-07.32.43:745][100]LogFbx: ItemName: NodeAttribute, ItemCount : 73
+[2015.08.05-07.32.43:745][100]LogFbx: ItemName: Model, ItemCount : 82
+[2015.08.05-07.32.43:745][100]LogFbx: ItemName: Material, ItemCount : 8
+[2015.08.05-07.32.43:745][100]LogFbx: ItemName: Texture, ItemCount : 15
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: Video, ItemCount : 15
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: Geometry, ItemCount : 9
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: Deformer, ItemCount : 218
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2015.08.05-07.32.43:746][100]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2015.08.05-07.32.43:769][100]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.33.06:364][100]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.33.15:832][100]LogFbx: Loading FBX Scene from ../../../../../../Users/Christian/Downloads/Ryan_Textured_Unrigged.fbx
+[2015.08.05-07.33.15:933][100]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 2090448384.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 2090395352.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 237222928.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 237222928.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 1884701888.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.33.15:943][100]LogFbx: 	Total Deformer Count 237216016.
+[2015.08.05-07.33.15:943][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:943][100]LogFbx: =================================================
+[2015.08.05-07.33.15:943][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.33.15:944][100]LogFbx: 	Total Deformer Count 237216016.
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.33.15:944][100]LogFbx: 	Total Deformer Count 2090395352.
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.33.15:944][100]LogFbx: 	Total Deformer Count 237212560.
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.33.15:944][100]LogFbx: 	Total Deformer Count 2090448384.
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:944][100]LogFbx: =================================================
+[2015.08.05-07.33.15:944][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:944][100]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 2090395296.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 237222928.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 237222928.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 1884701888.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 237212560.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 237212560.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 2090395296.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.33.15:945][100]LogFbx: =================================================
+[2015.08.05-07.33.15:945][100]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.33.15:945][100]LogFbx: 	Total Deformer Count 237216016.
+[2015.08.05-07.33.15:945][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.15:946][100]LogFbx: =================================================
+[2015.08.05-07.33.15:946][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.15:946][100]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.33.15:946][100]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.33.15:950][100]LogFbx: Valid bind pose for Pose (UE4BindPose) - polySurface1
+[2015.08.05-07.33.15:953][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert3'
+[2015.08.05-07.33.15:954][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert3'
+[2015.08.05-07.33.15:954][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/lambert3'
+[2015.08.05-07.33.15:954][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/lambert3.lambert3'
+[2015.08.05-07.33.16:033][100]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2015.08.05-07.33.16:129][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight1'
+[2015.08.05-07.33.16:130][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight1'
+[2015.08.05-07.33.16:130][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Flashlight1'
+[2015.08.05-07.33.16:130][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Flashlight1.Flashlight1'
+[2015.08.05-07.33.16:188][100]LogMaterial: Missing cached shader map for material Flashlight1, compiling. 
+[2015.08.05-07.33.16:208][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat2'
+[2015.08.05-07.33.16:208][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat2'
+[2015.08.05-07.33.16:208][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat2'
+[2015.08.05-07.33.16:209][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bodymat2.Bodymat2'
+[2015.08.05-07.33.16:212][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:212][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:213][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:213][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_diffuse.RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:213][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:213][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:213][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:213][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_diffuse.png
+[2015.08.05-07.33.16:213][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:214][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:214][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:214][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_specular.RyanNew02_Body_specular'
+[2015.08.05-07.33.16:214][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:214][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:214][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:215][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_specular.png
+[2015.08.05-07.33.16:215][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:215][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:215][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:216][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_normal.RyanNew02_Body_normal'
+[2015.08.05-07.33.16:216][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:216][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:216][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:216][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_normal.png
+[2015.08.05-07.33.16:309][100]LogMaterial: Missing cached shader map for material Bodymat2, compiling. 
+[2015.08.05-07.33.16:370][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes2'
+[2015.08.05-07.33.16:371][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes2'
+[2015.08.05-07.33.16:371][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bodymat_eyelashes2'
+[2015.08.05-07.33.16:371][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bodymat_eyelashes2.Bodymat_eyelashes2'
+[2015.08.05-07.33.16:373][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:373][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:373][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:373][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_diffuse.RyanNew02_Body_diffuse'
+[2015.08.05-07.33.16:374][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:374][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:374][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_diffuse.png' error.
+[2015.08.05-07.33.16:374][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_diffuse.png
+[2015.08.05-07.33.16:374][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:374][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:374][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_specular'
+[2015.08.05-07.33.16:375][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_specular.RyanNew02_Body_specular'
+[2015.08.05-07.33.16:375][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:375][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:375][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_specular.png' error.
+[2015.08.05-07.33.16:375][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_specular.png
+[2015.08.05-07.33.16:375][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:375][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:375][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Body_normal'
+[2015.08.05-07.33.16:376][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Body_normal.RyanNew02_Body_normal'
+[2015.08.05-07.33.16:376][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:376][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:376][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Body_normal.png' error.
+[2015.08.05-07.33.16:376][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Body_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Body_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Body_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Body_normal.png
+[2015.08.05-07.33.16:405][100]LogMaterial: Missing cached shader map for material Bodymat_eyelashes2, compiling. 
+[2015.08.05-07.33.16:420][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat2'
+[2015.08.05-07.33.16:420][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat2'
+[2015.08.05-07.33.16:420][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Hairmat2'
+[2015.08.05-07.33.16:421][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Hairmat2.Hairmat2'
+[2015.08.05-07.33.16:423][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-07.33.16:423][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-07.33.16:424][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_diffuse'
+[2015.08.05-07.33.16:424][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_diffuse.RyanNew02_Hair_diffuse'
+[2015.08.05-07.33.16:424][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_diffuse.png' error.
+[2015.08.05-07.33.16:424][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_diffuse.png' error.
+[2015.08.05-07.33.16:424][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Hair_diffuse.png' error.
+[2015.08.05-07.33.16:424][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Hair_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Hair_diffuse.png
+[2015.08.05-07.33.16:425][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-07.33.16:425][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-07.33.16:425][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_specular'
+[2015.08.05-07.33.16:425][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_specular.RyanNew02_Hair_specular'
+[2015.08.05-07.33.16:426][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_specular.png' error.
+[2015.08.05-07.33.16:426][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_specular.png' error.
+[2015.08.05-07.33.16:426][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Hair_specular.png' error.
+[2015.08.05-07.33.16:426][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Hair_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Hair_specular.png
+[2015.08.05-07.33.16:426][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-07.33.16:426][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-07.33.16:427][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Hair_normal'
+[2015.08.05-07.33.16:427][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Hair_normal.RyanNew02_Hair_normal'
+[2015.08.05-07.33.16:427][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_normal.png' error.
+[2015.08.05-07.33.16:427][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_normal.png' error.
+[2015.08.05-07.33.16:427][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Hair_normal.png' error.
+[2015.08.05-07.33.16:427][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Hair_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Hair_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Hair_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Hair_normal.png
+[2015.08.05-07.33.16:439][100]LogMaterial: Missing cached shader map for material Hairmat2, compiling. 
+[2015.08.05-07.33.16:458][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat2'
+[2015.08.05-07.33.16:459][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat2'
+[2015.08.05-07.33.16:459][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Topmat2'
+[2015.08.05-07.33.16:459][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Topmat2.Topmat2'
+[2015.08.05-07.33.16:461][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-07.33.16:461][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-07.33.16:462][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_diffuse'
+[2015.08.05-07.33.16:462][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_diffuse.RyanNew02_Top_diffuse'
+[2015.08.05-07.33.16:462][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_diffuse.png' error.
+[2015.08.05-07.33.16:462][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_diffuse.png' error.
+[2015.08.05-07.33.16:462][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Top_diffuse.png' error.
+[2015.08.05-07.33.16:462][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Top_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Top_diffuse.png
+[2015.08.05-07.33.16:462][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-07.33.16:463][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-07.33.16:463][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_specular'
+[2015.08.05-07.33.16:463][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_specular.RyanNew02_Top_specular'
+[2015.08.05-07.33.16:463][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_specular.png' error.
+[2015.08.05-07.33.16:463][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_specular.png' error.
+[2015.08.05-07.33.16:463][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Top_specular.png' error.
+[2015.08.05-07.33.16:463][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Top_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Top_specular.png
+[2015.08.05-07.33.16:464][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-07.33.16:464][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-07.33.16:464][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Top_normal'
+[2015.08.05-07.33.16:464][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Top_normal.RyanNew02_Top_normal'
+[2015.08.05-07.33.16:465][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_normal.png' error.
+[2015.08.05-07.33.16:465][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_normal.png' error.
+[2015.08.05-07.33.16:465][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Top_normal.png' error.
+[2015.08.05-07.33.16:465][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Top_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Top_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Top_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Top_normal.png
+[2015.08.05-07.33.16:471][100]LogMaterial: Missing cached shader map for material Topmat2, compiling. 
+[2015.08.05-07.33.16:491][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat2'
+[2015.08.05-07.33.16:491][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat2'
+[2015.08.05-07.33.16:492][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Bottommat2'
+[2015.08.05-07.33.16:492][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Bottommat2.Bottommat2'
+[2015.08.05-07.33.16:494][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-07.33.16:494][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-07.33.16:494][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse'
+[2015.08.05-07.33.16:494][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_diffuse.RyanNew02_Bottom_diffuse'
+[2015.08.05-07.33.16:495][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_diffuse.png' error.
+[2015.08.05-07.33.16:495][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_diffuse.png' error.
+[2015.08.05-07.33.16:495][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_diffuse.png' error.
+[2015.08.05-07.33.16:495][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Bottom_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_diffuse.png
+[2015.08.05-07.33.16:495][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-07.33.16:496][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-07.33.16:496][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_specular'
+[2015.08.05-07.33.16:496][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_specular.RyanNew02_Bottom_specular'
+[2015.08.05-07.33.16:496][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_specular.png' error.
+[2015.08.05-07.33.16:496][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_specular.png' error.
+[2015.08.05-07.33.16:496][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_specular.png' error.
+[2015.08.05-07.33.16:496][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Bottom_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_specular.png
+[2015.08.05-07.33.16:497][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-07.33.16:497][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-07.33.16:497][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Bottom_normal'
+[2015.08.05-07.33.16:497][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Bottom_normal.RyanNew02_Bottom_normal'
+[2015.08.05-07.33.16:497][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_normal.png' error.
+[2015.08.05-07.33.16:498][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_normal.png' error.
+[2015.08.05-07.33.16:498][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_normal.png' error.
+[2015.08.05-07.33.16:498][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Bottom_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Bottom_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Bottom_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Bottom_normal.png
+[2015.08.05-07.33.16:554][100]LogMaterial: Missing cached shader map for material Bottommat2, compiling. 
+[2015.08.05-07.33.16:585][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat2'
+[2015.08.05-07.33.16:585][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat2'
+[2015.08.05-07.33.16:586][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Shoesmat2'
+[2015.08.05-07.33.16:586][100]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Ryan/NewFolder/Shoesmat2.Shoesmat2'
+[2015.08.05-07.33.16:588][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-07.33.16:588][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-07.33.16:589][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse'
+[2015.08.05-07.33.16:589][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_diffuse.RyanNew02_Shoes_diffuse'
+[2015.08.05-07.33.16:589][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_diffuse.png' error.
+[2015.08.05-07.33.16:589][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_diffuse.png' error.
+[2015.08.05-07.33.16:589][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_diffuse.png' error.
+[2015.08.05-07.33.16:589][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Shoes_diffuse.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_diffuse.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_diffuse.png
+[2015.08.05-07.33.16:590][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-07.33.16:590][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-07.33.16:590][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_specular'
+[2015.08.05-07.33.16:590][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_specular.RyanNew02_Shoes_specular'
+[2015.08.05-07.33.16:590][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_specular.png' error.
+[2015.08.05-07.33.16:590][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_specular.png' error.
+[2015.08.05-07.33.16:591][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_specular.png' error.
+[2015.08.05-07.33.16:591][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Shoes_specular.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_specular.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_specular.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_specular.png
+[2015.08.05-07.33.16:591][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-07.33.16:592][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-07.33.16:592][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/RyanNew02_Shoes_normal'
+[2015.08.05-07.33.16:592][100]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Ryan/NewFolder/RyanNew02_Shoes_normal.RyanNew02_Shoes_normal'
+[2015.08.05-07.33.16:592][100]LogStreaming:Warning: Failed to read file 'C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_normal.png' error.
+[2015.08.05-07.33.16:593][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_normal.png' error.
+[2015.08.05-07.33.16:593][100]LogStreaming:Warning: Failed to read file '../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_normal.png' error.
+[2015.08.05-07.33.16:593][100]LogFbxMaterialImport:Warning: Unable to find TEXTure file RyanNew02_Shoes_normal.png. Tried:
+ - C:\Users\col\Downloads\RyanNew02.fbm\RyanNew02_Shoes_normal.png
+ - ../../../../../../Users/Christian/Downloads/C:/Users/col/Downloads/RyanNew02.fbm/RyanNew02_Shoes_normal.png
+ - ../../../../../../Users/Christian/Downloads/RyanNew02_Shoes_normal.png
+[2015.08.05-07.33.16:642][100]LogMaterial: Missing cached shader map for material Shoesmat2, compiling. 
+[2015.08.05-07.33.16:747][100]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2015.08.05-07.33.18:102][100]LogSkeletalMesh: Chunk 0: 515 rigid vertices, 2037 soft vertices, 8 active bones
+[2015.08.05-07.33.18:102][100]LogSkeletalMesh: Chunk 1: 522 rigid vertices, 1053 soft vertices, 2 active bones
+[2015.08.05-07.33.18:103][100]LogSkeletalMesh: Chunk 2: 2284 rigid vertices, 4951 soft vertices, 44 active bones
+[2015.08.05-07.33.18:103][100]LogSkeletalMesh: Chunk 3: 98 rigid vertices, 0 soft vertices, 1 active bones
+[2015.08.05-07.33.18:104][100]LogSkeletalMesh: Chunk 4: 677 rigid vertices, 272 soft vertices, 3 active bones
+[2015.08.05-07.33.18:104][100]LogSkeletalMesh: Chunk 5: 188 rigid vertices, 1005 soft vertices, 17 active bones
+[2015.08.05-07.33.18:104][100]LogSkeletalMesh: Chunk 6: 174 rigid vertices, 689 soft vertices, 11 active bones
+[2015.08.05-07.33.18:104][100]LogSkeletalMesh: Chunk 7: 0 rigid vertices, 1376 soft vertices, 6 active bones
+[2015.08.05-07.33.18:220][100]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2512 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1308 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 12626 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 106 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 1490 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 2031 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 1380 triangles
+[2015.08.05-07.33.18:221][100]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 1984 triangles
+[2015.08.05-07.33.18:240][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Ryan_Textured_Unrigged_PhysicsAsset'
+[2015.08.05-07.33.18:240][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Ryan_Textured_Unrigged_PhysicsAsset'
+[2015.08.05-07.33.18:240][100]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ryan/NewFolder/Ryan_Textured_Unrigged_PhysicsAsset.Ryan_Textured_Unrigged_PhysicsAsset'
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.33.18:260][100]LogFbx: 	Total Deformer Count 2012707584.
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.33.18:260][100]LogFbx: 	Total Deformer Count 2017526856.
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.33.18:260][100]LogFbx: 	Total Deformer Count 2108952912.
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:260][100]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.33.18:260][100]LogFbx: =================================================
+[2015.08.05-07.33.18:260][100]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.33.18:260][100]LogFbx: 	Total Deformer Count 2108952912.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.33.18:261][100]LogFbx: 	Total Deformer Count 2102863424.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.33.18:261][100]LogFbx: 	Total Deformer Count 2108953632.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.33.18:261][100]LogFbx: 	Total Deformer Count 2108953632.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.33.18:261][100]LogFbx: 	Total Deformer Count 2017526856.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.33.18:261][100]LogFbx: =================================================
+[2015.08.05-07.33.18:261][100]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.33.18:261][100]LogFbx: 	Total Deformer Count 2108955024.
+[2015.08.05-07.33.18:261][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:262][100]LogFbx: =================================================
+[2015.08.05-07.33.18:262][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:262][100]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.33.18:262][100]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.33.18:262][100]LogFbx: =================================================
+[2015.08.05-07.33.18:262][100]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.33.18:262][100]LogFbx: 	Total Deformer Count 2012707584.
+[2015.08.05-07.33.18:262][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:262][100]LogFbx: =================================================
+[2015.08.05-07.33.18:262][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.33.18:263][100]LogFbx: 	Total Deformer Count 2017528144.
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.33.18:263][100]LogFbx: 	Total Deformer Count 2108952912.
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.33.18:263][100]LogFbx: 	Total Deformer Count 2108952912.
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.33.18:263][100]LogFbx: 	Total Deformer Count 2102863424.
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:263][100]LogFbx: =================================================
+[2015.08.05-07.33.18:263][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:263][100]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.33.18:263][100]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.33.18:264][100]LogFbx: 	Total Deformer Count 2108955024.
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.33.18:264][100]LogFbx: 	Total Deformer Count 2108955024.
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.33.18:264][100]LogFbx: 	Total Deformer Count 2017528144.
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.33.18:264][100]LogFbx: 	Total Deformer Count 2108953632.
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.33.18:264][100]LogFbx: =================================================
+[2015.08.05-07.33.18:264][100]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.33.18:264][100]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.33.18:264][100]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(0) root
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(1) pelvis
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(2) spine_01
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(3) spine_02
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(4) spine_03
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(5) clavicle_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(6) upperarm_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(7) lowerarm_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(8) hand_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(9) index_01_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(10) index_02_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(11) index_03_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(12) middle_01_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(13) middle_02_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(14) middle_03_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(15) pinky_01_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(16) pinky_02_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(17) pinky_03_l
+[2015.08.05-07.33.18:267][100]LogFbx: SortedLinks :(18) ring_01_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(19) ring_02_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(20) ring_03_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(21) thumb_01_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(22) thumb_02_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(23) thumb_03_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(26) clavicle_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(27) upperarm_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(28) lowerarm_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(29) hand_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(30) index_01_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(31) index_02_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(32) index_03_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(33) middle_01_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(34) middle_02_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(35) middle_03_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(36) pinky_01_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(37) pinky_02_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(38) pinky_03_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(39) ring_01_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(40) ring_02_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(41) ring_03_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(42) thumb_01_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(43) thumb_02_r
+[2015.08.05-07.33.18:268][100]LogFbx: SortedLinks :(44) thumb_03_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(47) neck_01
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(48) head
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(49) thigh_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(50) calf_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(52) foot_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(53) ball_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(55) thigh_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(56) calf_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(58) foot_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(59) ball_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(61) ik_foot_root
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(62) ik_foot_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(63) ik_foot_r
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(64) ik_hand_root
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(65) ik_hand_gun
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(66) ik_hand_l
+[2015.08.05-07.33.18:269][100]LogFbx: SortedLinks :(67) ik_hand_r
+[2015.08.05-07.33.18:273][100]LogFbx: Parsing AnimStack mixamo.com
+[2015.08.05-07.33.18:292][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Ryan_Textured_Unrigged_Anim'
+[2015.08.05-07.33.18:292][100]LogLinker:Warning: Can't find file '/Game/Ryan/NewFolder/Ryan_Textured_Unrigged_Anim'
+[2015.08.05-07.33.18:292][100]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ryan/NewFolder/Ryan_Textured_Unrigged_Anim.Ryan_Textured_Unrigged_Anim'
+[2015.08.05-07.33.18:454][100]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_l:65) 
+Source Global Transform (72.382751,-8.990299,143.246674|0.000000,-1.593292,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (144.692322,-4.113307,4.101219|0.000000,-1.593292,-89.999969|1.000000,1.000000,1.000000)
+[2015.08.05-07.33.18:454][100]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_r:66) 
+Source Global Transform (-72.433464,-9.064951,143.246628|0.000000,-1.593292,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.009864,-0.088279,0.000000|0.000000,-1.593292,89.999969|1.000000,1.000000,1.000000)
+[2015.08.05-07.33.18:454][100]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_l:65) 
+Source Global Transform (72.382751,-8.990299,143.246674|0.000000,-1.593292,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (144.692322,-4.113307,4.101219|0.000000,-1.593292,-89.999969|1.000000,1.000000,1.000000)
+[2015.08.05-07.33.18:454][100]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (ik_hand_r:66) 
+Source Global Transform (-72.433464,-9.064951,143.246628|0.000000,-1.593292,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.009864,-0.088279,0.000000|0.000000,-1.593292,89.999969|1.000000,1.000000,1.000000)
+[2015.08.05-07.33.18:475][100]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+lowerarm_twist_01_l  
+upperarm_twist_01_l  
+lowerarm_twist_01_r  
+upperarm_twist_01_r  
+calf_twist_01_l  
+thigh_twist_01_l  
+calf_twist_01_r  
+thigh_twist_01_r  
+ik_foot_root  
+ik_foot_l  
+ik_foot_r  
+ik_hand_root  
+ik_hand_gun  
+ik_hand_l  
+ik_hand_r  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.08.05-07.33.18:475][100]FBXImport:Warning: Warning Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2015.08.05-07.33.18:506][100]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.33.21:287][103]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.33.21:312][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/lambert3.lambert3 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:363][103]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2015.08.05-07.33.21:419][103]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:419][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Flashlight1.Flashlight1 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:513][103]LogMaterial: Missing cached shader map for material Flashlight1, compiling. 
+[2015.08.05-07.33.21:549][103]LogMaterial: 0.000328 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:549][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bodymat2.Bodymat2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:568][103]LogMaterial: Missing cached shader map for material Bodymat2, compiling. 
+[2015.08.05-07.33.21:602][103]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:602][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bodymat_eyelashes2.Bodymat_eyelashes2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:632][103]LogMaterial: Missing cached shader map for material Bodymat_eyelashes2, compiling. 
+[2015.08.05-07.33.21:667][103]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:667][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Hairmat2.Hairmat2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:670][103]LogMaterial: Missing cached shader map for material Hairmat2, compiling. 
+[2015.08.05-07.33.21:705][103]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:705][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Topmat2.Topmat2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:772][103]LogMaterial: Missing cached shader map for material Topmat2, compiling. 
+[2015.08.05-07.33.21:810][103]LogMaterial: 0.000537 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:810][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Bottommat2.Bottommat2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:882][103]LogMaterial: Missing cached shader map for material Bottommat2, compiling. 
+[2015.08.05-07.33.21:915][103]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.33.21:915][103]LogMaterial:Warning: Material /Game/Ryan/NewFolder/Shoesmat2.Shoesmat2 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.08.05-07.33.21:968][103]LogMaterial: Missing cached shader map for material Shoesmat2, compiling. 
+[2015.08.05-07.33.22:013][103]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.05-07.35.40:558][662]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.35.45:848][662]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.08.05-07.35.46:550][662]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-07.35.46:897][663]LogRenderer: Reallocating scene render targets to support 736x568 (Frame:965).
+[2015.08.05-07.36.06:042][787]LogRenderer: Reallocating scene render targets to support 736x608 (Frame:1072).
+[2015.08.05-07.36.06:042][787]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-07.36.32:463][991]LogContentBrowser:Verbose: The majority of assets in the view are of type: BlendSpace
+[2015.08.05-07.36.33:240][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-07.36.35:276][ 61]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2015.08.05-07.36.37:598][119]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-07.36.52:512][363]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2015.08.05-07.36.55:440][428]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-07.37.47:548][690]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.37.47:598][690]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.37.56:095][906]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.37.56:130][906]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.08:295][220]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.38.08:329][220]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.18:596][457]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.19:547][457]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.08.05-07.38.32:753][682]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.39:077][860]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.45:121][ 44]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.38.52:392][256]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.00:614][489]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.10:701][753]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.19:355][984]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.38:754][498]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.38:924][498]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.08.05-07.39.51:035][789]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.39.57:310][934]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.40.01:921][ 41]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.05-07.40.02:193][ 41]PIE: New page: PIE session: Untitled_1 (Aug 4, 2015, 9:40:01 PM)
+[2015.08.05-07.40.02:205][ 41]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.05-07.40.02:302][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097263s)
+[2015.08.05-07.40.02:304][ 41]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.05-07.40.02:306][ 41]LogPlayLevel: PIE: World Init took: (0.003796s)
+[2015.08.05-07.40.02:311][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.107117s)
+[2015.08.05-07.40.02:622][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000046299B7420
+[2015.08.05-07.40.02:622][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000461A2EC540
+[2015.08.05-07.40.02:670][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000046725971A0
+[2015.08.05-07.40.02:671][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004670A5AC00
+[2015.08.05-07.40.03:104][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.05-07.40.03:112][ 41]LogInit: FAudioDevice initialized.
+[2015.08.05-07.40.03:198][ 41]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.40.16:085][ 41]LogWorld: Game class is 'MyGame_C'
+[2015.08.05-07.40.16:091][ 41]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.05-02.40.16
+[2015.08.05-07.40.16:091][ 41]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-07.40.16:111][ 41]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-07.40.16:156][ 41]LogWorld: Bringing up level for play took: 0.068235
+[2015.08.05-07.40.17:288][ 41]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 15.241
+[2015.08.05-07.40.17:722][ 41]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:7355).
+[2015.08.05-07.40.22:204][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.24:698][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.24:778][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.24:930][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:026][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:114][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:204][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:297][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:384][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:473][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:564][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:653][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:742][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:903][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.25:934][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:016][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:108][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:201][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:292][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:386][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:485][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:571][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:659][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:747][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:840][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.26:933][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:021][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:113][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:201][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:289][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:378][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:469][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:559][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.27:645][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.05-07.40.28:221][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000465F977100
+[2015.08.05-07.40.31:016][143]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.40.39:625][337]LogEditorTransaction: Undo Edit Enable Per Poly Collision
+[2015.08.05-07.40.39:729][337]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.40.40:040][344]LogEditorTransaction: Undo Edit Physics Asset
+[2015.08.05-07.40.40:515][355]LogEditorTransaction: Undo Edit Physics Asset
+[2015.08.05-07.40.40:874][363]LogEditorTransaction: Undo Edit Enable Per Poly Collision
+[2015.08.05-07.40.41:539][378]LogEditorTransaction: Undo Edit Use Full Precision UVs
+[2015.08.05-07.40.42:898][409]LogEditorTransaction: Undo Edit Use Full Precision UVs
+[2015.08.05-07.40.52:098][619]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.40.52:271][619]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.41.04:063][848]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.41.29:865][425]LogEditorTransaction: Undo Translate Bone
+[2015.08.05-07.41.29:904][425]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.41.35:265][539]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.41.42:423][695]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.42.34:667][824]LogEditorTransaction: Undo Translate Bone
+[2015.08.05-07.42.34:710][824]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.43.05:877][489]LogEditorTransaction: Undo Translate Bone
+[2015.08.05-07.43.05:919][489]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.43.17:722][732]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.43.34:634][952]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.43.43:260][131]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.00:740][517]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.22:166][983]LogEditorTransaction: Undo Translate Bone
+[2015.08.05-07.44.22:208][983]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.41:037][338]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.41:131][338]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.08.05-07.44.44:026][392]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.51:035][546]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.54:222][577]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.44.59:729][696]Cmd: TRANSACTION UNDO
+[2015.08.05-07.44.59:738][696]LogEditorTransaction: Undo Edit Physics Asset
+[2015.08.05-07.44.59:773][696]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.03:800][782]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.12:970][984]LogEditorFactories: Performing atomic reimport of [C:/Users/Christian/Downloads/Ryan_Textured_Unrigged.fbx]
+[2015.08.05-07.45.12:973][984]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.13:112][984]LogFbx: Loading FBX Scene from C:/Users/Christian/Downloads/Ryan_Textured_Unrigged.fbx
+[2015.08.05-07.45.13:717][984]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.05-07.45.13:727][984]LogFbx: =================================================
+[2015.08.05-07.45.13:727][984]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.45.13:727][984]LogFbx: 	Total Deformer Count 456964784.
+[2015.08.05-07.45.13:727][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:727][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 790765080.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 2087406704.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 2087406704.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 263091520.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 2087406032.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 2087406032.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 790765080.
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:728][984]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.45.13:728][984]LogFbx: =================================================
+[2015.08.05-07.45.13:728][984]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.45.13:728][984]LogFbx: 	Total Deformer Count 2087410448.
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:729][984]LogFbx: =================================================
+[2015.08.05-07.45.13:729][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.45.13:729][984]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.45.13:729][984]LogFbx: =================================================
+[2015.08.05-07.45.13:729][984]LogFbx: Dumping Node START [polySurface1] 
+[2015.08.05-07.45.13:729][984]LogFbx: 	Total Deformer Count 456964784.
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:729][984]LogFbx: =================================================
+[2015.08.05-07.45.13:729][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node Attribute Child 1] polySurface1 (Type Mesh).
+[2015.08.05-07.45.13:729][984]LogFbx: Dumping Node END [polySurface1]
+[2015.08.05-07.45.13:729][984]LogFbx: =================================================
+[2015.08.05-07.45.13:729][984]LogFbx: Dumping Node START [pCube10] 
+[2015.08.05-07.45.13:729][984]LogFbx: 	Total Deformer Count 790764800.
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:729][984]LogFbx: =================================================
+[2015.08.05-07.45.13:729][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:729][984]LogFbx: 		[Node Attribute Child 1] pCube10 (Type Mesh).
+[2015.08.05-07.45.13:729][984]LogFbx: Dumping Node END [pCube10]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Body] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 2087406704.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Body]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Eyes] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 2087406704.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Eyes (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Eyes]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Eyelashes] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 263091520.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Eyelashes]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Hair] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 2087410448.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Hair]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Tops] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 2087410448.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Tops]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Bottoms] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 790764800.
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:730][984]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node END [Bottoms]
+[2015.08.05-07.45.13:730][984]LogFbx: =================================================
+[2015.08.05-07.45.13:730][984]LogFbx: Dumping Node START [Shoes] 
+[2015.08.05-07.45.13:730][984]LogFbx: 	Total Deformer Count 2087406032.
+[2015.08.05-07.45.13:731][984]LogFbx: 		[Node 1] UE4Skin_ (Type Skin).
+[2015.08.05-07.45.13:731][984]LogFbx: =================================================
+[2015.08.05-07.45.13:731][984]LogFbx: 	Attribute () Type (4).
+[2015.08.05-07.45.13:731][984]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
+[2015.08.05-07.45.13:731][984]LogFbx: Dumping Node END [Shoes]
+[2015.08.05-07.45.13:776][984]LogFbx: Valid bind pose for Pose (UE4BindPose) - polySurface1
+[2015.08.05-07.45.13:779][984]LogFbx:Warning: Warning The following bones are missing from the bind pose:
+lowerarm_twist_01_l  
+upperarm_twist_01_l  
+lowerarm_twist_01_r  
+upperarm_twist_01_r  
+calf_twist_01_l  
+thigh_twist_01_l  
+calf_twist_01_r  
+thigh_twist_01_r  
+ik_foot_root  
+ik_foot_l  
+ik_foot_r  
+ik_hand_root  
+ik_hand_gun  
+ik_hand_l  
+ik_hand_r  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh.
+[2015.08.05-07.45.13:918][984]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2015.08.05-07.45.13:944][984]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.14:778][984]LogSkeletalMesh: Chunk 0: 515 rigid vertices, 2037 soft vertices, 8 active bones
+[2015.08.05-07.45.14:779][984]LogSkeletalMesh: Chunk 1: 522 rigid vertices, 1053 soft vertices, 2 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 2: 2284 rigid vertices, 4951 soft vertices, 44 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 3: 98 rigid vertices, 0 soft vertices, 1 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 4: 677 rigid vertices, 272 soft vertices, 3 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 5: 188 rigid vertices, 1005 soft vertices, 17 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 6: 174 rigid vertices, 689 soft vertices, 11 active bones
+[2015.08.05-07.45.14:780][984]LogSkeletalMesh: Chunk 7: 0 rigid vertices, 1376 soft vertices, 6 active bones
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2512 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1308 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 12626 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 106 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 1490 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 2031 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 1380 triangles
+[2015.08.05-07.45.14:857][984]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 1984 triangles
+[2015.08.05-07.45.14:893][984]LogEditorFactories: -- imported successfully
+[2015.08.05-07.45.14:915][984]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.28:246][269]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.38:996][480]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.43:639][599]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.45.43:820][599]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-07.45.44:073][599]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-07.45.46:975][599]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.46.01:816][910]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.46.03:943][967]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.05-07.46.12:085][114]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-07.46.49:140][954]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.46.49:184][954]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.00:574][202]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.47.00:614][202]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.07:436][354]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.47.07:477][354]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.17:731][585]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.47.17:769][585]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.23:651][711]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.47.23:692][711]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.29:136][830]LogEditorTransaction: Undo Rotate Bone
+[2015.08.05-07.47.29:177][830]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.46:237][226]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.05-07.47.46:330][226]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.08.05-07.47.48:272][226]LogPlayLevel: [PIE] Compiling Pistol before PIE...
+[2015.08.05-07.47.48:681][226]LogPlayLevel: [PIE] Compiling BaseWeapon before PIE...
+[2015.08.05-07.47.49:024][226]LogPlayLevel: [PIE] Compiling RyanAnimBP before PIE...
+[2015.08.05-07.47.49:392][226]LogPlayLevel: [PIE] Compiling WeaponAmmoHealthPanel before PIE...
+[2015.08.05-07.47.49:611][226]LogPlayLevel: [PIE] Compiling MaxAmmo before PIE...
+[2015.08.05-07.47.49:874][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004685ED07C0
+[2015.08.05-07.47.49:875][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000461D052DE0
+[2015.08.05-07.47.50:007][226]LogPlayLevel: PIE:  Blueprint regeneration took 3769 ms (6 blueprints)
+[2015.08.05-07.47.50:007][226]PIE: New page: PIE session: Untitled_1 (Aug 4, 2015, 9:47:50 PM)
+[2015.08.05-07.47.50:008][226]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.05-07.47.50:011][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003318s)
+[2015.08.05-07.47.50:014][226]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.05-07.47.50:015][226]LogPlayLevel: PIE: World Init took: (0.004032s)
+[2015.08.05-07.47.50:015][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007678s)
+[2015.08.05-07.47.50:119][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.05-07.47.50:128][226]LogInit: FAudioDevice initialized.
+[2015.08.05-07.47.50:130][226]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.47.50:167][226]LogWorld: Game class is 'MyGame_C'
+[2015.08.05-07.47.50:172][226]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.05-02.47.50
+[2015.08.05-07.47.50:172][226]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-07.47.50:173][226]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.05-07.47.50:173][226]LogWorld: Bringing up level for play took: 0.003182
+[2015.08.05-07.47.50:255][226]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 4.208
+[2015.08.05-07.48.17:890][522]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.05-07.48.17:890][522]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.05-07.48.18:598][529]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.05-07.48.18:598][529]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.05-07.48.19:234][535]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.05-07.48.19:235][535]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.05-07.48.20:255][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000462FF5D440
+[2015.08.05-07.48.22:134][580]LogD3D11RHI: InitD3DDevice
+[2015.08.05-07.48.24:164][580]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.05-07.48.25:052][581]Cmd: QUIT_EDITOR
+[2015.08.05-07.48.26:128][581]LogExit: Preparing to exit.
+[2015.08.05-07.48.28:311][581]LogExit: Editor shut down
+[2015.08.05-07.48.28:312][581]LogExit: Transaction tracking system shut down
+[2015.08.05-07.48.28:317][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000467C8E3A60
+[2015.08.05-07.48.28:320][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004678355D00
+[2015.08.05-07.48.28:321][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000046783334C0
+[2015.08.05-07.48.28:322][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000466A1A7D80
+[2015.08.05-07.48.28:322][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000466A1A7A60
+[2015.08.05-07.48.28:323][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004670A5B740
+[2015.08.05-07.48.28:323][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004670A58FE0
+[2015.08.05-07.48.28:349][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004605D2BD80
+[2015.08.05-07.48.28:349][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000460E0A00E0
+[2015.08.05-07.48.28:352][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000046305927A0
+[2015.08.05-07.48.28:352][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000467CA69800
+[2015.08.05-07.48.31:097][581]LogExit: Object subsystem successfully closed.
+[2015.08.05-07.48.31:396][581]LogD3D11RHI: Shutdown
+[2015.08.05-07.48.31:396][581]LogD3D11RHI: CleanupD3DDevice
+[2015.08.05-07.48.31:652][581]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.05-07.48.31:826][581]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.05-07.48.31:827][581]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.05-07.48.31:827][581]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.05-07.48.31:827][581]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.05-07.48.31:849][581]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.05-07.48.31:875][581]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.05-07.48.31:875][581]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.05-07.48.31:895][581]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.05-07.48.31:913][581]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.05-07.48.31:919][581]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.05-07.48.31:938][581]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.05-07.48.31:938][581]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.05-07.48.31:938][581]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.05-07.48.31:938][581]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.05-07.48.31:938][581]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.05-07.48.31:948][581]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.05-07.48.31:948][581]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.05-07.48.31:948][581]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.05-07.48.31:948][581]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.05-07.48.31:948][581]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.05-07.48.31:972][581]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.05-07.48.32:007][581]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.05-07.48.32:039][581]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.05-07.48.32:039][581]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.05-07.48.32:086][581]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.05-07.48.32:086][581]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.05-07.48.32:905][581]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.05-07.48.32:905][581]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.05-07.48.32:905][581]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.05-07.48.32:905][581]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.05-07.48.32:918][581]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.05-07.48.32:918][581]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.05-07.48.32:981][581]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.05-07.48.32:981][581]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.05-07.48.33:026][581]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.05-07.48.33:026][581]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.05-07.48.33:044][581]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.05-07.48.33:058][581]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.05-07.48.33:106][581]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.05-07.48.33:106][581]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.05-07.48.33:128][581]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.05-07.48.33:128][581]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.05-07.48.33:128][581]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.05-07.48.33:128][581]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.05-07.48.33:237][581]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.05-07.48.33:237][581]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.05-07.48.33:293][581]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.05-07.48.33:379][581]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.05-07.48.33:417][581]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.05-07.48.33:572][581]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.05-07.48.33:572][581]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.05-07.48.33:646][581]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.05-07.48.33:691][581]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.05-07.48.33:725][581]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.05-07.48.33:818][581]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.05-07.48.33:819][581]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.05-07.48.33:819][581]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.05-07.48.33:819][581]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.05-07.48.34:099][581]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.05-07.48.34:110][581]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.05-07.48.34:110][581]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.05-07.48.34:110][581]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.05-07.48.34:111][581]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.05-07.48.34:111][581]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.05-07.48.34:126][581]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.05-07.48.34:140][581]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.05-07.48.34:140][581]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.05-07.48.34:156][581]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.05-07.48.34:157][581]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.05-07.48.34:169][581]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.05-07.48.34:169][581]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.05-07.48.34:170][581]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.05-07.48.34:170][581]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.05-07.48.34:178][581]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.05-07.48.34:178][581]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.05-07.48.34:178][581]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.05-07.48.34:350][581]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.05-07.48.34:378][581]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.05-07.48.34:461][581]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.05-07.48.34:462][581]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.05-07.48.34:467][581]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.05-07.48.34:500][581]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.05-07.48.34:519][581]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.05-07.48.34:519][581]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.05-07.48.34:525][581]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.05-07.48.34:541][581]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.05-07.48.34:565][581]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.05-07.48.34:573][581]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.05-07.48.34:574][581]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.05-07.48.34:585][581]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.05-07.48.34:596][581]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.05-07.48.34:622][581]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.05-07.48.34:632][581]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.05-07.48.34:632][581]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.05-07.48.34:632][581]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.05-07.48.34:632][581]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.05-07.48.34:642][581]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.05-07.48.34:669][581]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.05-07.48.34:669][581]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.05-07.48.34:669][581]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.05-07.48.34:670][581]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.05-07.48.34:690][581]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.05-07.48.34:691][581]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.05-07.48.34:751][581]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.05-07.48.34:853][581]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.05-07.48.34:883][581]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.05-07.48.34:906][581]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.05-07.48.34:906][581]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.05-07.48.34:949][581]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.05-07.48.34:949][581]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.05-07.48.34:949][581]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.05-07.48.34:976][581]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.05-07.48.35:007][581]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.05-07.48.35:029][581]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.05-07.48.35:029][581]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.05-07.48.35:029][581]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.05-07.48.35:101][581]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.05-07.48.35:185][581]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.05-07.48.35:340][581]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.05-07.48.35:340][581]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.05-07.48.35:341][581]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.05-07.48.35:344][581]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.05-07.48.35:462][581]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.05-07.48.35:541][581]LogDerivedDataCache: Shutdown
+[2015.08.05-07.48.35:541][581]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.05-07.48.35:564][581]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.05-07.48.35:597][581]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.05-07.48.35:640][581]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.05-07.48.35:640][581]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.05-07.48.35:665][581]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.05-07.48.35:679][581]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.05-07.48.35:700][581]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.05-07.48.35:700][581]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.05-07.48.35:700][581]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.05-07.48.35:700][581]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.05-07.48.35:812][581]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.05-07.48.35:971][581]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.05-07.48.35:971][581]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.05-07.48.35:971][581]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.05-07.48.35:993][581]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.05-07.48.36:060][581]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.05-07.48.36:060][581]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.05-07.48.36:061][581]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.05-07.48.36:063][581]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.05-07.48.36:063][581]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.05-07.48.36:270][581]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.05-07.48.36:270][581]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.05-07.48.36:270][581]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.05-07.48.36:337][581]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.05-07.48.36:395][581]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.05-07.48.36:395][581]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.05-07.48.36:395][581]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.05-07.48.36:395][581]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.05-07.48.36:396][581]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.05-07.48.36:448][581]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.05-07.48.36:471][581]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.05-07.48.36:505][581]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.05-07.48.36:636][581]LogExit: Exiting.
+[2015.08.05-07.48.36:722][581]Log file closed, 08/05/15 02:48:36
