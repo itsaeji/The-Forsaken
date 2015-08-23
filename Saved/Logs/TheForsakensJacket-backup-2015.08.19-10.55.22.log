@@ -1,0 +1,805 @@
+﻿[2015.08.18-23.24.31:749][  0]Log file open, 08/18/15 18:24:31
+[2015.08.18-23.24.31:749][  0]LogInit:Display: Running engine for game: TheForsakensJacket
+[2015.08.18-23.24.31:749][  0]LogInit:Display: RandInit(53188622) SRandInit(53188623).
+[2015.08.18-23.24.31:749][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.18-23.24.31:749][  0]LogStats: Stats thread started
+[2015.08.18-23.24.31:749][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.18-23.24.31:749][  0]LogInit: API Version: 2579680
+[2015.08.18-23.24.31:749][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.18-23.24.31:749][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.18-23.24.31:749][  0]LogInit: Build Configuration: Development
+[2015.08.18-23.24.31:749][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.18-23.24.31:749][  0]LogInit: Command line:  
+[2015.08.18-23.24.31:749][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.18-23.24.31:749][  0]LogInit: Rocket: 1
+[2015.08.18-23.24.31:826][  0]LogInit: Using libcurl 7.41.0
+[2015.08.18-23.24.31:826][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.18-23.24.31:826][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.18-23.24.31:826][  0]LogInit:  - other features:
+[2015.08.18-23.24.31:826][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.18-23.24.31:826][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.18-23.24.31:826][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.18-23.24.31:826][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.18-23.24.31:826][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.18-23.24.31:827][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.18-23.24.31:827][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.18-23.24.31:827][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.18-23.24.31:827][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.18-23.24.31:827][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.18-23.24.31:876][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.18-23.24.31:910][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.18-23.24.31:931][  0]LogInit: Object subsystem initialized
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.18-23.24.31:934][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.18-23.24.31:935][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.18-23.24.31:935][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.18-23.24.31:945][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.08.18-23.24.31:945][  0]LogInit: User: Christian
+[2015.08.18-23.24.31:945][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.18-23.24.31:945][  0]LogInit: High frequency timer resolution =2.143570 MHz
+[2015.08.18-23.24.31:945][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.08.18-23.24.31:945][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.18-23.24.31:945][  0]LogMemory: Process Physical Memory: 55.56 MB used, 57.74 MB peak
+[2015.08.18-23.24.31:945][  0]LogMemory: Process Virtual Memory: 28.11 MB used, 31.95 MB peak
+[2015.08.18-23.24.31:945][  0]LogMemory: Physical Memory: 2395.44 MB used, 3983.27 MB total
+[2015.08.18-23.24.31:945][  0]LogMemory: Virtual Memory: 296.71 MB used, 8388608.00 MB total
+[2015.08.18-23.24.32:078][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.18-23.24.32:559][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.18-23.24.33:488][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.08.18-23.24.33:488][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.08.18-23.24.33:489][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.18-23.24.33:489][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.18-23.24.33:489][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.18-23.24.33:506][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.18-23.24.33:506][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.18-23.24.33:506][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.08.18-23.24.33:511][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.18-23.24.33:540][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.18-23.24.37:636][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.18-23.24.37:662][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.18-23.24.37:690][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.18-23.24.37:734][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.18-23.24.37:776][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.18-23.24.37:807][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.18-23.24.37:835][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.18-23.24.37:864][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.18-23.24.37:904][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.18-23.24.37:939][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.18-23.24.37:969][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.18-23.24.37:999][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.18-23.24.38:113][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.18-23.24.38:136][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.18-23.24.38:162][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.18-23.24.38:229][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.18-23.24.38:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.18-23.24.38:959][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache: Loaded boot cache 0.84s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.18-23.24.39:800][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.18-23.24.40:138][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.18-23.24.40:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.18-23.24.48:713][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.18-23.24.49:428][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.18-23.24.49:428][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.18-23.24.49:604][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.18-23.24.49:604][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.18-23.24.52:222][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.18-23.25.18:151][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.18-23.25.20:293][  0]SourceControl: Info Source control is disabled
+[2015.08.18-23.25.20:574][  0]SourceControl: Info Source control is disabled
+[2015.08.18-23.25.20:644][  0]SourceControl: Info Source control is disabled
+[2015.08.18-23.25.20:704][  0]SourceControl: Info Source control is disabled
+[2015.08.18-23.25.21:985][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.18-23.25.21:985][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.18-23.25.22:695][  0]LogEngine: Initializing Engine...
+[2015.08.18-23.25.22:749][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.18-23.25.22:848][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.18-23.25.23:658][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.18-23.25.23:746][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.18-23.25.23:793][  0]LogInit: FAudioDevice initialized.
+[2015.08.18-23.25.23:847][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.18-23.25.23:916][  0]LogInit: Texture streaming: Disabled
+[2015.08.18-23.25.24:461][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.18-23.25.24:461][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.18-23.25.24:461][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.08.18-23.25.24:462][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.18-23.25.24:966][  0]LogInit: Transaction tracking system initialized
+[2015.08.18-23.25.28:185][  0]BlueprintLog: New page: Editor Load
+[2015.08.18-23.25.28:727][  0]LogAssetRegistry: FAssetRegistry took 0.0152 seconds to start up
+[2015.08.18-23.25.28:758][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.18-23.25.35:118][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.18-23.25.35:119][  0]LogConsoleResponse:Display: 
+[2015.08.18-23.25.38:242][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.18-23.25.39:919][  0]SourceControl: Info Source control is disabled
+[2015.08.18-23.25.39:973][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.18-23.25.40:037][  0]LightingResults: New page: Lighting Build
+[2015.08.18-23.25.40:172][  0]MapCheck: New page: Map Check
+[2015.08.18-23.25.40:172][  0]LightingResults: New page: Lighting Build
+[2015.08.18-23.25.40:196][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A0A3ED8A0
+[2015.08.18-23.25.42:459][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.18-23.25.42:620][  0]LogEditorServer: Finished looking for orphan Actors (0.023 secs)
+[2015.08.18-23.25.42:656][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.18-23.25.42:742][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.936ms to complete.
+[2015.08.18-23.25.42:742][  0]LogFileHelpers: Loading map 'Template_Default' took 2.769
+[2015.08.18-23.25.44:193][  0]LogCollectionManager: Loaded 0 collections in 0.003170 seconds
+[2015.08.18-23.25.44:241][  0]LogContentBrowser: Native class hierarchy populated in 0.0367 seconds. Added 1792 classes and 301 folders.
+[2015.08.18-23.25.44:479][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2015.08.18-23.25.45:281][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.18-23.25.45:343][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.08.18-23.25.46:021][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.18-23.25.46:076][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.18-23.25.46:101][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.18-23.25.46:194][  0]LogLoad: Full Startup: 78.79 seconds (BP compile: 0.61 seconds)
+[2015.08.18-23.25.46:965][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.18-23.25.47:151][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.18-23.25.47:685][  0]LogRenderer: Reallocating scene render targets to support 728x376 (Frame:2).
+[2015.08.18-23.25.49:274][  2]LogD3D11RHI: InitD3DDevice
+[2015.08.18-23.25.58:037][ 28]LogAssetRegistry: Asset discovery search completed in 29.3251 seconds
+[2015.08.18-23.26.05:328][ 59]LogD3D11RHI: InitD3DDevice
+[2015.08.18-23.26.12:705][129]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.08.18-23.26.12:705][129]LogSynthBenchmark:Display: ===============
+[2015.08.18-23.26.12:705][129]LogSynthBenchmark:Display: Main Processor:
+[2015.08.18-23.26.12:775][129]LogSynthBenchmark:Display:          ... 0.032941 s/Run 'RayIntersect'
+[2015.08.18-23.26.12:775][129]LogSynthBenchmark:Display:          ... 0.036529 s/Run 'Fractal'
+[2015.08.18-23.26.12:775][129]LogSynthBenchmark:Display: 
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   CPU Perf Index 0: 77.7
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   CPU Perf Index 1: 78.3
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:  
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display: Graphics:
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 3000'
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   GPU Memory: 32/0/1632 MB
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   CPUIndex: 77.7
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:   GPUIndex: -1.$
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display: 
+[2015.08.18-23.26.12:778][129]LogSynthBenchmark:Display:          ... Total Time: 0.073216 sec
+[2015.08.18-23.56.49:841][992]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.18-23.58.07:890][977]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.18-23.58.09:217][977]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 1:58:07 PM)
+[2015.08.18-23.58.09:912][977]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.18-23.58.12:793][977]LogPlayLevel: PIE: StaticDuplicateObject took: (2.823739s)
+[2015.08.18-23.58.14:329][977]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.18-23.58.14:789][977]LogPlayLevel: PIE: World Init took: (1.971735s)
+[2015.08.18-23.58.14:808][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (4.920900s)
+[2015.08.18-23.58.22:907][977]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.18-23.58.23:084][977]LogInit: FAudioDevice initialized.
+[2015.08.18-23.58.23:669][977]LogD3D11RHI: InitD3DDevice
+[2015.08.18-23.59.15:664][977]LogWorld: Game class is 'MyGame_C'
+[2015.08.18-23.59.19:981][977]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-18.59.19
+[2015.08.18-23.59.20:018][977]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.18-23.59.20:077][977]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.18-23.59.20:211][977]LogWorld: Bringing up level for play took: 0.882314
+[2015.08.18-23.59.22:667][977]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 75.579
+[2015.08.18-23.59.29:462][977]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:1254).
+[2015.08.18-23.59.40:964][992]LogTexture:Display: Building textures: lamp_19_C (AutoDXT)
+[2015.08.18-23.59.54:387][992]LogTexture:Display: Building textures: lamp_19_MR (AutoDXT)
+[2015.08.19-00.00.00:061][992]LogTexture:Display: Building textures: lamp_19_N (BC5)
+[2015.08.19-00.00.02:126][992]LogTexture:Display: Building textures: lamp_19_E (AutoDXT)
+[2015.08.19-00.00.06:216][992]LogMaterial: Missing cached shader map for material lamp_19_mat_a, compiling. 
+[2015.08.19-00.00.06:727][992]LogMaterial: Missing cached shader map for material lamp_19_mat, compiling. 
+[2015.08.19-00.00.07:026][992]LogStaticMesh: Building static mesh lamp_19...
+[2015.08.19-00.00.07:539][992]LogStaticMesh: Built static mesh [0.795551.2s] /Game/HorrorEnvironment_AbandonedManor/Models/Elements/v2_lamps/lamp_19.lamp_19
+[2015.08.19-00.00.07:972][992]LogPhysics:Warning: Failed to cook convex: /Game/HorrorEnvironment_AbandonedManor/Models/Elements/v2_lamps/lamp_19.lamp_19 2 (FlipX:0). The remaining elements will not get cooked.
+[2015.08.19-00.00.08:117][992]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2015.08.19-00.00.08:117][992]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.08.19-00.00.08:117][992]LogPhysics:Warning: Failed to cook convex: /Game/HorrorEnvironment_AbandonedManor/Models/Elements/v2_lamps/lamp_19.lamp_19 2 (FlipX:1). The remaining elements will not get cooked.
+[2015.08.19-00.00.09:368][992]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.00.28:291][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.28:910][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:033][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:119][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:219][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:312][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:408][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:498][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:591][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:688][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:783][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:879][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.29:973][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:072][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:168][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:265][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:360][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:452][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:543][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:638][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:732][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:830][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.30:923][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:012][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:101][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:199][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:291][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:385][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:474][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:564][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:657][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:757][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:847][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.31:940][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:029][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:308][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:372][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:416][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:503][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:666][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.32:967][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:065][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:150][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:265][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:352][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:442][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:527][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:619][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:710][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:797][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:890][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.33:979][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:071][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:157][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:243][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:327][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:413][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:499][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:582][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:666][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:750][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:833][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.34:948][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:002][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:088][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:172][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:263][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:376][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:434][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:521][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:605][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:691][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:776][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:860][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.35:945][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:033][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:119][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:205][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:292][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:377][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:465][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:553][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:639][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:724][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:811][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:901][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.36:988][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:073][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:159][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:243][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:328][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:413][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:499][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:586][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:670][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:756][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:843][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.37:929][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:014][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:101][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:190][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:277][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:364][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:451][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:539][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:624][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:714][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:801][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:891][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.38:980][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:073][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:160][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:249][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:338][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:426][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:515][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:602][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:691][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:782][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:873][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.39:963][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:053][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:144][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:239][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:336][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:430][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:521][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:615][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:710][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:807][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:901][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.40:995][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:090][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:183][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:277][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:374][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:472][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:563][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:656][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:749][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:843][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.41:934][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:026][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:118][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:211][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:298][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:386][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:479][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:572][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:661][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:749][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:838][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.42:931][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:019][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:110][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:198][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:287][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:372][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:459][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:545][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:628][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:717][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:809][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:898][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.43:987][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:078][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:170][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:266][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:355][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:448][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:540][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:633][329]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:727][330]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:815][331]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:909][332]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.44:996][333]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:088][334]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:175][335]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:264][336]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:356][337]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:445][338]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:574][339]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:624][340]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:714][341]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:803][342]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:891][343]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.45:978][344]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:070][345]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:154][346]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:240][347]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:328][348]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:414][349]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:502][350]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:618][351]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:678][352]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:764][353]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:850][354]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.46:943][355]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:038][356]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:127][357]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:215][358]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:311][359]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:403][360]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:493][361]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:580][362]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:670][363]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:758][364]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:847][365]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.47:933][366]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:017][367]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:103][368]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:187][369]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:272][370]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:353][371]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:437][372]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:525][373]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:608][374]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:690][375]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:774][376]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:858][377]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.48:941][378]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:027][379]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:112][380]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:194][381]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:284][382]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:372][383]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:458][384]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:543][385]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:630][386]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:715][387]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:804][388]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:895][389]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.49:985][390]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:076][391]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:163][392]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:258][393]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:346][394]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:433][395]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:523][396]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:612][397]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:702][398]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:796][399]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:883][400]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.50:978][401]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:069][402]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:161][403]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:251][404]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:340][405]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:453][406]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:517][407]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:606][408]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:698][409]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:786][410]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:874][411]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.51:964][412]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:079][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:080][413]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:144][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:145][414]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:234][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:234][415]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:329][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:330][416]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:422][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:422][417]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:516][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:516][418]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:633][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:633][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:634][419]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:698][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:698][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.52:699][420]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.00.53:911][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A1D566DE0
+[2015.08.19-00.02.03:404][665]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.03:417][665]LogEditorTransaction: Undo Edit Ground Offset
+[2015.08.19-00.02.03:541][665]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.02.04:056][687]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.04:056][687]LogEditorTransaction: Undo Edit Ground Offset
+[2015.08.19-00.02.04:616][709]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.04:616][709]LogEditorTransaction: Undo Edit Ground Offset
+[2015.08.19-00.02.05:013][717]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.05:013][717]LogEditorTransaction: Undo Edit Ground Offset
+[2015.08.19-00.02.05:834][734]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.05:834][734]LogEditorTransaction: Undo Edit Distance Scale
+[2015.08.19-00.02.06:543][748]Cmd: TRANSACTION UNDO
+[2015.08.19-00.02.06:543][748]LogEditorTransaction: Undo Edit Density Offset
+[2015.08.19-00.02.07:974][777]Cmd: TRANSACTION REDO
+[2015.08.19-00.02.07:974][777]LogEditorTransaction: Redo Edit Density Offset
+[2015.08.19-00.02.20:996][127]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-00.02.21:011][127]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 2:02:20 PM)
+[2015.08.19-00.02.21:033][127]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.19-00.02.21:036][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003164s)
+[2015.08.19-00.02.21:038][127]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-00.02.21:050][127]LogPlayLevel: PIE: World Init took: (0.014250s)
+[2015.08.19-00.02.21:051][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.017726s)
+[2015.08.19-00.02.21:149][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-00.02.21:162][127]LogInit: FAudioDevice initialized.
+[2015.08.19-00.02.21:166][127]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.02.21:204][127]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-00.02.21:210][127]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-19.02.21
+[2015.08.19-00.02.21:210][127]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.02.21:210][127]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.02.21:211][127]LogWorld: Bringing up level for play took: 0.003928
+[2015.08.19-00.02.21:359][127]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.335
+[2015.08.19-00.02.25:900][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A7DEF6DE0
+[2015.08.19-00.02.42:970][599]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.02.58:734][950]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.03.08:884][225]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-00.03.08:884][225]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 2:03:08 PM)
+[2015.08.19-00.03.08:885][225]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.19-00.03.08:890][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004373s)
+[2015.08.19-00.03.08:913][225]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-00.03.08:915][225]LogPlayLevel: PIE: World Init took: (0.024823s)
+[2015.08.19-00.03.08:915][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.029579s)
+[2015.08.19-00.03.09:002][225]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-00.03.09:010][225]LogInit: FAudioDevice initialized.
+[2015.08.19-00.03.09:013][225]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.03.09:062][225]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-00.03.09:067][225]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-19.03.09
+[2015.08.19-00.03.09:067][225]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.09:068][225]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.09:068][225]LogWorld: Bringing up level for play took: 0.003333
+[2015.08.19-00.03.09:120][225]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.096
+[2015.08.19-00.03.12:657][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.12:711][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.12:789][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.12:868][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.12:950][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:051][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:107][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:181][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:260][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:261][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:335][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:335][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:433][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:433][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:497][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:497][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:580][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:580][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.13:959][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A176CED40
+[2015.08.19-00.03.20:171][408]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-00.03.20:171][408]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 2:03:20 PM)
+[2015.08.19-00.03.20:172][408]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.19-00.03.20:176][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003905s)
+[2015.08.19-00.03.20:177][408]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-00.03.20:179][408]LogPlayLevel: PIE: World Init took: (0.003551s)
+[2015.08.19-00.03.20:180][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007857s)
+[2015.08.19-00.03.20:270][408]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-00.03.20:278][408]LogInit: FAudioDevice initialized.
+[2015.08.19-00.03.20:281][408]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.03.20:313][408]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-00.03.20:320][408]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-19.03.20
+[2015.08.19-00.03.20:320][408]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.20:321][408]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.20:321][408]LogWorld: Bringing up level for play took: 0.003211
+[2015.08.19-00.03.20:380][408]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.644
+[2015.08.19-00.03.22:231][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A1D49E2A0
+[2015.08.19-00.03.46:911][676]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-00.03.46:911][676]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 2:03:46 PM)
+[2015.08.19-00.03.46:912][676]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.19-00.03.46:915][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003702s)
+[2015.08.19-00.03.46:917][676]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-00.03.46:919][676]LogPlayLevel: PIE: World Init took: (0.003294s)
+[2015.08.19-00.03.46:919][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007402s)
+[2015.08.19-00.03.46:998][676]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-00.03.47:015][676]LogInit: FAudioDevice initialized.
+[2015.08.19-00.03.47:018][676]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.03.47:055][676]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-00.03.47:061][676]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-19.03.47
+[2015.08.19-00.03.47:061][676]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.47:061][676]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.03.47:062][676]LogWorld: Bringing up level for play took: 0.003320
+[2015.08.19-00.03.47:116][676]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.092
+[2015.08.19-00.03.47:945][682]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.47:998][683]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.48:069][684]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.48:148][685]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.48:230][686]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.08.19-00.03.48:577][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A17980220
+[2015.08.19-00.04.03:042][ 56]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-00.04.03:042][ 56]PIE: New page: PIE session: Untitled_1 (Aug 18, 2015, 2:04:03 PM)
+[2015.08.19-00.04.03:043][ 56]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.08.19-00.04.03:047][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004145s)
+[2015.08.19-00.04.03:049][ 56]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-00.04.03:050][ 56]LogPlayLevel: PIE: World Init took: (0.002831s)
+[2015.08.19-00.04.03:050][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007317s)
+[2015.08.19-00.04.03:143][ 56]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-00.04.03:149][ 56]LogInit: FAudioDevice initialized.
+[2015.08.19-00.04.03:152][ 56]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.04.03:189][ 56]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-00.04.03:194][ 56]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.08.18-19.04.03
+[2015.08.19-00.04.03:194][ 56]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.04.03:194][ 56]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-00.04.03:195][ 56]LogWorld: Bringing up level for play took: 0.003309
+[2015.08.19-00.04.03:247][ 56]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.223
+[2015.08.19-00.04.05:074][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A081D8720
+[2015.08.19-00.04.06:402][ 96]LogD3D11RHI: InitD3DDevice
+[2015.08.19-00.04.09:794][ 96]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.19-00.04.12:922][ 97]Cmd: QUIT_EDITOR
+[2015.08.19-00.04.16:283][ 97]LogExit: Preparing to exit.
+[2015.08.19-00.04.34:662][ 97]LogExit: Editor shut down
+[2015.08.19-00.04.34:787][ 97]LogExit: Transaction tracking system shut down
+[2015.08.19-00.04.34:987][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A1502AAC0
+[2015.08.19-00.04.35:038][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A187DBBA0
+[2015.08.19-00.04.35:061][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001A1885E840
+[2015.08.19-00.04.44:384][ 97]LogExit: Object subsystem successfully closed.
+[2015.08.19-00.04.49:935][ 97]LogD3D11RHI: Shutdown
+[2015.08.19-00.04.49:935][ 97]LogD3D11RHI: CleanupD3DDevice
+[2015.08.19-00.04.50:813][ 97]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.19-00.04.54:843][ 97]LogModuleManager: Shutting down and abandoning module SynthBenchmark (189)
+[2015.08.19-00.04.54:860][ 97]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.19-00.04.54:871][ 97]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.19-00.04.54:871][ 97]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.19-00.04.54:871][ 97]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.19-00.04.54:895][ 97]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.19-00.04.55:262][ 97]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.19-00.04.55:262][ 97]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.19-00.04.55:298][ 97]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.19-00.04.55:347][ 97]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.19-00.04.55:347][ 97]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.19-00.04.55:497][ 97]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.19-00.04.55:525][ 97]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.19-00.04.55:544][ 97]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.19-00.04.55:579][ 97]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.19-00.04.55:599][ 97]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.19-00.04.55:705][ 97]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.19-00.04.55:765][ 97]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.19-00.04.55:841][ 97]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.19-00.04.55:855][ 97]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.19-00.04.55:894][ 97]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.19-00.04.55:894][ 97]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.19-00.04.56:893][ 97]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.19-00.04.56:894][ 97]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.19-00.04.56:894][ 97]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.19-00.04.56:894][ 97]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.19-00.04.56:943][ 97]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.19-00.04.56:970][ 97]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.19-00.04.57:004][ 97]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.19-00.04.57:004][ 97]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.19-00.04.57:073][ 97]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.19-00.04.57:073][ 97]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.19-00.04.57:105][ 97]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.19-00.04.57:124][ 97]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.19-00.04.57:144][ 97]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.19-00.04.57:144][ 97]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.19-00.04.57:164][ 97]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.19-00.04.57:164][ 97]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.19-00.04.57:199][ 97]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.19-00.04.57:212][ 97]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.19-00.04.57:262][ 97]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.19-00.04.57:263][ 97]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.19-00.04.57:393][ 97]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.19-00.04.57:469][ 97]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.19-00.04.57:500][ 97]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.19-00.04.57:516][ 97]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.19-00.04.57:530][ 97]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.19-00.04.57:653][ 97]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.19-00.04.57:680][ 97]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.19-00.04.57:696][ 97]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.19-00.04.57:760][ 97]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.19-00.04.57:760][ 97]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.19-00.04.57:791][ 97]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.19-00.04.57:811][ 97]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.19-00.05.00:379][ 97]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.19-00.05.00:589][ 97]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.19-00.05.00:632][ 97]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.19-00.05.00:678][ 97]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.19-00.05.00:692][ 97]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.19-00.05.00:692][ 97]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.19-00.05.00:704][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.19-00.05.00:758][ 97]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.19-00.05.00:758][ 97]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.19-00.05.00:769][ 97]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.19-00.05.00:782][ 97]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.19-00.05.00:793][ 97]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.19-00.05.00:793][ 97]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.19-00.05.00:793][ 97]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.19-00.05.00:793][ 97]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.19-00.05.00:823][ 97]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.19-00.05.00:823][ 97]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.19-00.05.00:823][ 97]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.19-00.05.01:049][ 97]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.19-00.05.01:064][ 97]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.19-00.05.01:066][ 97]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.19-00.05.01:066][ 97]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.19-00.05.01:067][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.19-00.05.01:067][ 97]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.19-00.05.01:067][ 97]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.19-00.05.01:364][ 97]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.19-00.05.01:364][ 97]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.19-00.05.01:364][ 97]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.19-00.05.01:426][ 97]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.19-00.05.01:443][ 97]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.19-00.05.01:443][ 97]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.19-00.05.01:490][ 97]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.19-00.05.01:540][ 97]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.19-00.05.01:572][ 97]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.19-00.05.01:582][ 97]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.19-00.05.01:582][ 97]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.19-00.05.01:604][ 97]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.19-00.05.01:630][ 97]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.19-00.05.01:647][ 97]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.19-00.05.01:694][ 97]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.19-00.05.01:694][ 97]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.19-00.05.01:694][ 97]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.19-00.05.01:700][ 97]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.19-00.05.01:709][ 97]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.19-00.05.01:730][ 97]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.19-00.05.01:764][ 97]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.19-00.05.01:774][ 97]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.19-00.05.01:788][ 97]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.19-00.05.01:913][ 97]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.19-00.05.01:969][ 97]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.19-00.05.02:014][ 97]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.19-00.05.02:128][ 97]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.19-00.05.02:142][ 97]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.19-00.05.02:203][ 97]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.19-00.05.02:214][ 97]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.19-00.05.02:268][ 97]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.19-00.05.02:268][ 97]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.19-00.05.02:327][ 97]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.19-00.05.02:359][ 97]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.19-00.05.02:371][ 97]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.19-00.05.02:397][ 97]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.19-00.05.02:467][ 97]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.19-00.05.02:467][ 97]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.19-00.05.02:507][ 97]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.19-00.05.02:546][ 97]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.19-00.05.02:569][ 97]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.19-00.05.02:577][ 97]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.19-00.05.02:577][ 97]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.19-00.05.02:842][ 97]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.19-00.05.02:842][ 97]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.19-00.05.02:849][ 97]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.19-00.05.02:862][ 97]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.19-00.05.02:862][ 97]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.19-00.05.02:863][ 97]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.19-00.05.02:863][ 97]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.19-00.05.02:863][ 97]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.19-00.05.02:863][ 97]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.19-00.05.02:885][ 97]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.19-00.05.02:918][ 97]LogDerivedDataCache: Shutdown
+[2015.08.19-00.05.02:918][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.19-00.05.02:949][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.19-00.05.02:962][ 97]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.19-00.05.02:990][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.19-00.05.03:007][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.19-00.05.03:007][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.19-00.05.03:007][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.19-00.05.03:007][ 97]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.19-00.05.03:007][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.19-00.05.03:020][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.19-00.05.03:031][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.19-00.05.03:041][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.19-00.05.03:041][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.19-00.05.03:054][ 97]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.19-00.05.03:118][ 97]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.19-00.05.03:163][ 97]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.19-00.05.03:179][ 97]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.19-00.05.03:179][ 97]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.19-00.05.03:204][ 97]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.19-00.05.03:236][ 97]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.19-00.05.03:236][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.19-00.05.03:236][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.19-00.05.03:236][ 97]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.19-00.05.03:236][ 97]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.19-00.05.03:237][ 97]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.19-00.05.03:237][ 97]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.19-00.05.03:237][ 97]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.19-00.05.03:246][ 97]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.19-00.05.03:316][ 97]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.19-00.05.03:316][ 97]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.19-00.05.03:316][ 97]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.19-00.05.03:338][ 97]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.19-00.05.03:349][ 97]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.19-00.05.03:365][ 97]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.19-00.05.03:365][ 97]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.19-00.05.03:375][ 97]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.19-00.05.03:390][ 97]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.19-00.05.03:405][ 97]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.19-00.05.03:405][ 97]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.19-00.05.03:405][ 97]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.19-00.05.03:405][ 97]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.19-00.05.03:607][ 97]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.19-00.05.03:633][ 97]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.19-00.05.03:633][ 97]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.19-00.05.03:633][ 97]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.19-00.05.03:633][ 97]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.19-00.05.03:633][ 97]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.19-00.05.03:660][ 97]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.19-00.05.03:698][ 97]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.19-00.05.03:713][ 97]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.19-00.05.03:855][ 97]LogExit: Exiting.
+[2015.08.19-00.05.04:531][ 97]Log file closed, 08/18/15 19:05:04

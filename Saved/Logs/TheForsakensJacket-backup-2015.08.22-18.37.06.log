@@ -1,0 +1,1408 @@
+﻿[2015.08.22-19.40.02:040][  0]Log file open, 08/22/15 14:40:02
+[2015.08.22-19.40.02:040][  0]LogInit:Display: Running engine for game: TheForsakensJacket
+[2015.08.22-19.40.02:040][  0]LogInit:Display: RandInit(-425206206) SRandInit(-425206206).
+[2015.08.22-19.40.02:040][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.22-19.40.02:040][  0]LogStats: Stats thread started
+[2015.08.22-19.40.02:040][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-19.40.02:040][  0]LogInit: API Version: 2579680
+[2015.08.22-19.40.02:040][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.22-19.40.02:040][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.22-19.40.02:040][  0]LogInit: Build Configuration: Development
+[2015.08.22-19.40.02:040][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.22-19.40.02:040][  0]LogInit: Command line:  
+[2015.08.22-19.40.02:040][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.22-19.40.02:040][  0]LogInit: Rocket: 1
+[2015.08.22-19.40.02:324][  0]LogInit: Using libcurl 7.41.0
+[2015.08.22-19.40.02:324][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.22-19.40.02:324][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.22-19.40.02:324][  0]LogInit:  - other features:
+[2015.08.22-19.40.02:324][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.22-19.40.02:324][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.22-19.40.02:324][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.22-19.40.02:324][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.22-19.40.02:324][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.22-19.40.02:325][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.22-19.40.02:325][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.22-19.40.02:325][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.22-19.40.02:325][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.22-19.40.02:325][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.22-19.40.02:376][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.22-19.40.02:889][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.22-19.40.03:341][  0]LogInit: Object subsystem initialized
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.22-19.40.03:681][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-19.40.04:066][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-19.40.04:066][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.22-19.40.04:280][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.08.22-19.40.04:280][  0]LogInit: User: Christian
+[2015.08.22-19.40.04:280][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.22-19.40.04:280][  0]LogInit: High frequency timer resolution =2.143568 MHz
+[2015.08.22-19.40.04:287][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.08.22-19.40.04:288][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.22-19.40.04:288][  0]LogMemory: Process Physical Memory: 56.34 MB used, 56.90 MB peak
+[2015.08.22-19.40.04:288][  0]LogMemory: Process Virtual Memory: 30.02 MB used, 32.85 MB peak
+[2015.08.22-19.40.04:288][  0]LogMemory: Physical Memory: 2835.00 MB used, 3983.27 MB total
+[2015.08.22-19.40.04:288][  0]LogMemory: Virtual Memory: 298.65 MB used, 8388608.00 MB total
+[2015.08.22-19.40.07:129][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.22-19.40.08:636][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.22-19.40.12:517][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.08.22-19.40.12:517][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.08.22-19.40.12:540][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.22-19.40.12:540][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.22-19.40.12:540][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.22-19.40.12:568][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.40.12:568][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.22-19.40.12:572][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.08.22-19.40.12:589][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.22-19.40.13:476][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.22-19.40.33:557][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.22-19.40.33:610][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.22-19.40.33:686][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.22-19.40.33:738][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.22-19.40.33:792][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.22-19.40.33:844][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.22-19.40.33:889][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.22-19.40.33:911][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.22-19.40.33:934][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.22-19.40.33:983][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.22-19.40.34:006][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.22-19.40.34:028][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.22-19.40.34:150][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.22-19.40.34:195][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.22-19.40.34:215][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.22-19.40.34:277][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.22-19.40.34:277][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.22-19.40.35:356][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache: Loaded boot cache 0.94s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.22-19.40.36:297][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.22-19.40.36:626][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.22-19.40.36:665][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.22-19.40.45:807][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-19.40.47:615][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-19.40.47:615][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-19.40.48:186][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.22-19.40.48:186][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.22-19.40.55:399][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.22-19.41.43:131][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.22-19.41.53:068][  0]SourceControl: Info Source control is disabled
+[2015.08.22-19.41.54:319][  0]SourceControl: Info Source control is disabled
+[2015.08.22-19.41.54:629][  0]SourceControl: Info Source control is disabled
+[2015.08.22-19.41.54:840][  0]SourceControl: Info Source control is disabled
+[2015.08.22-19.41.59:984][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.22-19.41.59:984][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.22-19.42.02:344][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.63s
+[2015.08.22-19.42.02:638][  0]LogEngine: Initializing Engine...
+[2015.08.22-19.42.02:819][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.22-19.42.03:392][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.22-19.42.07:376][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.22-19.42.08:371][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-19.42.08:585][  0]LogInit: FAudioDevice initialized.
+[2015.08.22-19.42.08:677][  0]LogDerivedDataCache: Saved boot cache 0.09s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-19.42.08:962][  0]LogInit: Texture streaming: Disabled
+[2015.08.22-19.42.09:114][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.22-19.42.09:114][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-19.42.09:114][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.08.22-19.42.09:114][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.22-19.42.09:755][  0]LogInit: Transaction tracking system initialized
+[2015.08.22-19.42.11:082][  0]BlueprintLog: New page: Editor Load
+[2015.08.22-19.42.11:380][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
+[2015.08.22-19.42.11:467][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.22-19.42.29:775][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.22-19.42.29:775][  0]LogConsoleResponse:Display: 
+[2015.08.22-19.42.36:212][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.22-19.42.45:873][  0]SourceControl: Info Source control is disabled
+[2015.08.22-19.42.46:211][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.22-19.42.46:573][  0]LightingResults: New page: Lighting Build
+[2015.08.22-19.42.47:062][  0]MapCheck: New page: Map Check
+[2015.08.22-19.42.47:062][  0]LightingResults: New page: Lighting Build
+[2015.08.22-19.42.48:987][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205EA25760
+[2015.08.22-19.42.54:279][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.22-19.42.55:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.22-19.42.55:501][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.22-19.42.55:571][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.091ms to complete.
+[2015.08.22-19.42.55:571][  0]LogFileHelpers: Loading map 'Template_Default' took 9.561
+[2015.08.22-19.42.58:145][  0]LogCollectionManager: Loaded 0 collections in 0.003105 seconds
+[2015.08.22-19.42.58:180][  0]LogContentBrowser: Native class hierarchy populated in 0.0343 seconds. Added 1792 classes and 301 folders.
+[2015.08.22-19.42.58:600][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.22-19.42.59:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.08.22-19.42.59:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.08.22-19.43.02:986][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.22-19.43.03:050][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.43.03:170][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.22-19.43.03:262][  0]LogLoad: Full Startup: 194.09 seconds (BP compile: 1.71 seconds)
+[2015.08.22-19.43.04:689][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.22-19.43.04:911][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.22-19.43.06:080][  0]LogRenderer: Reallocating scene render targets to support 728x376 (Frame:2).
+[2015.08.22-19.43.15:457][ 24]LogAssetRegistry: Asset discovery search completed in 64.0937 seconds
+[2015.08.22-19.46.06:722][542]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.46.10:796][638]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.47.45:339][638]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-19.47.48:931][638]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.22-19.47.48:932][638]LightingResults: New page: Lighting Build
+[2015.08.22-19.47.49:013][638]LoadErrors: New page: Loading map: MansionNew.umap
+[2015.08.22-19.47.49:087][638]MapCheck: New page: Map Check
+[2015.08.22-19.47.49:087][638]LightingResults: New page: Lighting Build
+[2015.08.22-19.47.49:412][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205FF48360
+[2015.08.22-19.47.58:922][638]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-19.48.03:089][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.22-19.48.03:273][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.22-19.48.03:498][638]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 224.931ms to complete.
+[2015.08.22-19.48.03:500][638]LogFileHelpers: Loading map 'MansionNew' took 14.640
+[2015.08.22-19.48.30:302][221]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-19.48.31:901][221]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 9:48:30 AM)
+[2015.08.22-19.48.31:923][221]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-19.48.33:291][221]LogPlayLevel: PIE: StaticDuplicateObject took: (1.304478s)
+[2015.08.22-19.48.33:292][221]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-19.48.33:301][221]LogPlayLevel: PIE: World Init took: (0.002289s)
+[2015.08.22-19.48.33:664][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (1.740723s)
+[2015.08.22-19.48.35:655][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-19.48.35:818][221]LogInit: FAudioDevice initialized.
+[2015.08.22-19.48.37:721][221]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.48.44:584][221]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-19.48.46:848][221]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-19.48.46:848][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 0) at 2015.08.22-14.48.46
+[2015.08.22-19.48.46:930][221]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-19.48.47:063][221]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-19.48.48:322][221]LogWorld: Bringing up level for play took: 1.910857
+[2015.08.22-19.48.50:713][221]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 19.59
+[2015.08.22-19.48.51:414][221]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:722).
+[2015.08.22-19.50.02:663][810]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-19.50.02:663][810]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-19.50.43:842][215]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-19.50.43:842][215]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-19.51.31:398][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002003C69B20
+[2015.08.22-19.51.47:880][988]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.51.50:625][988]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.51.50:758][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.51.50:823][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.51.52:625][990]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.51.52:683][991]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.51.53:561][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.52.07:632][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow4)
+[2015.08.22-19.52.11:189][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.08.22-19.52.12:330][374]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube20)
+[2015.08.22-19.52.15:316][424]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube19)
+[2015.08.22-19.52.17:005][455]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube14)
+[2015.08.22-19.52.25:851][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.08.22-19.52.28:049][661]Cmd: DELETE
+[2015.08.22-19.52.28:049][661]Cmd: ACTOR DELETE
+[2015.08.22-19.52.28:471][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.22-19.52.28:605][661]LogEditorActor: Deleted 1 Actors (0.150 secs)
+[2015.08.22-19.52.36:989][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.08.22-19.52.41:283][900]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2015.08.22-19.52.46:260][990]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_GlassWindow6)
+[2015.08.22-19.52.51:474][ 82]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2015.08.22-19.52.53:024][111]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2015.08.22-19.53.00:603][252]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wallPlane260)
+[2015.08.22-19.53.00:659][252]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.53.02:387][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow6)
+[2015.08.22-19.53.05:116][332]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_GlassWindow4)
+[2015.08.22-19.53.06:255][352]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_GlassWindow)
+[2015.08.22-19.53.07:439][373]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_GlassWindow3)
+[2015.08.22-19.53.09:072][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_GlassWindow2)
+[2015.08.22-19.53.17:851][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow4)
+[2015.08.22-19.53.22:294][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow6)
+[2015.08.22-19.53.27:062][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.53.29:918][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow2)
+[2015.08.22-19.53.36:317][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
+[2015.08.22-19.53.42:860][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow8)
+[2015.08.22-19.53.45:701][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow3)
+[2015.08.22-19.53.55:776][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2015.08.22-19.54.17:055][621]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.54.26:664][812]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.54.37:702][ 40]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.54.39:294][ 94]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.54.41:350][ 94]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.54.41:662][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-19.55.28:500][ 94]LogSavePackage: Save=43050.718750ms
+[2015.08.22-19.55.28:500][ 94]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewC2343A1444B77F532890338306BBF3C0.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-19.55.29:114][ 94]LogFileHelpers: Saving map 'MansionNew' took 47.729
+[2015.08.22-19.56.08:362][845]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.56.08:521][845]LogActorFactory: Actor Factory created Cube
+[2015.08.22-19.56.09:389][861]LogActorFactory: Actor Factory created Cube
+[2015.08.22-19.56.58:013][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.08.22-19.56.59:990][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.08.22-19.57.33:876][415]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.57.33:902][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-19.57.44:779][415]LogSavePackage: Save=10760.411133ms
+[2015.08.22-19.57.44:779][415]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew008F4A0E4C1CC132823CD2A1DF9ED4E2.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-19.58.35:050][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (transition_wide_wood2)
+[2015.08.22-19.58.43:500][511]LogD3D11RHI: InitD3DDevice
+[2015.08.22-19.58.43:529][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-19.58.54:351][511]LogSavePackage: Save=10715.134766ms
+[2015.08.22-19.58.54:351][511]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewD26378FA45C363A9D890159958DD5C2E.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-19.59.11:451][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_jamb)
+[2015.08.22-19.59.24:235][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane331)
+[2015.08.22-19.59.39:327][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane330)
+[2015.08.22-19.59.41:982][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-19.59.43:053][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane327)
+[2015.08.22-19.59.44:843][432]Cmd: DELETE
+[2015.08.22-19.59.44:843][432]Cmd: ACTOR DELETE
+[2015.08.22-19.59.44:855][432]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.22-19.59.45:010][432]LogEditorActor: Deleted 1 Actors (0.165 secs)
+[2015.08.22-19.59.59:847][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane330)
+[2015.08.22-20.00.19:295][ 58]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.00.25:994][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane330)
+[2015.08.22-20.00.28:586][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane333)
+[2015.08.22-20.00.54:948][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.00.56:154][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane333)
+[2015.08.22-20.01.01:146][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.01.06:000][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small273)
+[2015.08.22-20.01.50:383][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane332)
+[2015.08.22-20.01.58:300][702]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.01.58:365][702]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.01.59:165][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.02.06:022][853]Cmd: TRANSACTION UNDO
+[2015.08.22-20.02.06:046][853]LogEditorTransaction: Undo Clicking on Actors
+[2015.08.22-20.02.06:058][853]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.02.06:654][874]Cmd: TRANSACTION UNDO
+[2015.08.22-20.02.06:674][874]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.08.22-20.02.07:180][887]Cmd: TRANSACTION UNDO
+[2015.08.22-20.02.07:180][887]LogEditorTransaction: Undo Rotate Actors
+[2015.08.22-20.02.10:339][944]Cmd: TRANSACTION UNDO
+[2015.08.22-20.02.10:339][944]LogEditorTransaction: Undo Move Actors
+[2015.08.22-20.02.10:342][944]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.02.51:231][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane333)
+[2015.08.22-20.03.01:924][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane337)
+[2015.08.22-20.03.04:531][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.03.05:529][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane338)
+[2015.08.22-20.03.10:516][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big91)
+[2015.08.22-20.03.33:342][397]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.03.33:365][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-20.03.53:375][397]LogSavePackage: Save=14348.549805ms
+[2015.08.22-20.03.53:377][397]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew80D3FD06467FC66295AAB1B5D49CC16F.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-20.04.21:281][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small275)
+[2015.08.22-20.04.24:548][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small276)
+[2015.08.22-20.04.25:614][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small275)
+[2015.08.22-20.04.27:264][687]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small276)
+[2015.08.22-20.04.49:239][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small273)
+[2015.08.22-20.04.53:310][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small277)
+[2015.08.22-20.04.54:492][189]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small278)
+[2015.08.22-20.05.23:314][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small272)
+[2015.08.22-20.05.24:316][721]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small271)
+[2015.08.22-20.06.00:696][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small288)
+[2015.08.22-20.06.01:664][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small283)
+[2015.08.22-20.06.02:590][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small284)
+[2015.08.22-20.06.04:777][416]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small285)
+[2015.08.22-20.06.05:653][429]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small283)
+[2015.08.22-20.06.06:677][446]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small288)
+[2015.08.22-20.06.20:738][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small292)
+[2015.08.22-20.06.28:174][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small290)
+[2015.08.22-20.06.28:957][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small291)
+[2015.08.22-20.06.36:993][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small285)
+[2015.08.22-20.06.42:677][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small291)
+[2015.08.22-20.07.02:720][421]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.07.03:690][421]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.07.03:945][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-20.07.14:967][421]LogSavePackage: Save=10924.291992ms
+[2015.08.22-20.07.14:967][421]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew2137F1D3491162CC46B789A431CEED1D.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-20.07.15:100][421]LogFileHelpers: Saving map 'MansionNew' took 11.384
+[2015.08.22-20.09.33:251][862]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.09.33:305][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-20.09.49:708][862]LogSavePackage: Save=11403.806641ms
+[2015.08.22-20.09.49:708][862]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewD8877183486AD420086764AA4A005EAF.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-20.43.35:738][661]LogHttp:Warning: Timeout processing Http request. 0000002068F8F800
+[2015.08.22-20.45.41:999][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_jamb7)
+[2015.08.22-20.46.04:720][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big93)
+[2015.08.22-20.46.53:231][963]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.08.22-20.46.56:015][963]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.47.22:691][435]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-20.47.23:028][435]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 10:47:22 AM)
+[2015.08.22-20.47.23:368][435]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-20.47.30:516][435]LogPlayLevel: PIE: StaticDuplicateObject took: (7.112958s)
+[2015.08.22-20.47.31:832][435]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-20.47.32:055][435]LogPlayLevel: PIE: World Init took: (1.538284s)
+[2015.08.22-20.47.32:087][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (8.732429s)
+[2015.08.22-20.47.33:386][435]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-20.47.33:471][435]LogInit: FAudioDevice initialized.
+[2015.08.22-20.47.33:748][435]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.47.34:480][435]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-20.47.37:829][435]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-20.47.37:829][435]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.22-15.47.37
+[2015.08.22-20.47.37:843][435]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-20.47.37:923][435]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-20.47.38:266][435]LogWorld: Bringing up level for play took: 3.311431
+[2015.08.22-20.47.40:083][435]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 16.923
+[2015.08.22-20.47.53:854][480]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-20.47.53:854][480]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-20.47.55:258][488]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-20.47.55:259][488]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-20.49.09:678][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205D6F8220
+[2015.08.22-20.49.10:663][183]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wallPlane312)
+[2015.08.22-20.49.10:965][183]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.49.30:344][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_jamb7)
+[2015.08.22-20.49.48:988][847]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2015.08.22-20.49.55:207][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane337)
+[2015.08.22-20.49.57:036][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_jamb8)
+[2015.08.22-20.50.20:526][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane338)
+[2015.08.22-20.50.32:774][639]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight32)
+[2015.08.22-20.50.49:645][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane329)
+[2015.08.22-20.52.27:278][612]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big92)
+[2015.08.22-20.52.27:394][612]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.52.28:080][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane340)
+[2015.08.22-20.53.14:968][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bed_C2)
+[2015.08.22-20.53.16:624][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (mattress_B2)
+[2015.08.22-20.54.04:278][358]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.54.14:351][420]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.54.14:582][421]LogActorFactory: Actor Factory created chair_a
+[2015.08.22-20.54.15:253][430]LogActorFactory: Actor Factory created chair_a
+[2015.08.22-20.54.29:318][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair_a)
+[2015.08.22-20.54.38:039][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane348)
+[2015.08.22-20.54.38:982][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane349)
+[2015.08.22-20.54.47:885][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small292)
+[2015.08.22-20.54.48:887][979]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small289)
+[2015.08.22-20.54.52:711][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small290)
+[2015.08.22-20.54.53:792][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small291)
+[2015.08.22-20.54.55:683][105]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small290)
+[2015.08.22-20.54.57:092][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small290)
+[2015.08.22-20.54.59:211][167]Cmd: TRANSACTION UNDO
+[2015.08.22-20.54.59:256][167]LogEditorTransaction: Undo Move Actors
+[2015.08.22-20.54.59:326][167]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.55.01:288][220]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small289)
+[2015.08.22-20.55.02:355][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small292)
+[2015.08.22-20.55.03:095][250]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.08.22-20.55.03:367][250]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.55.03:516][251]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.55.04:311][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small290)
+[2015.08.22-20.55.06:100][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small291)
+[2015.08.22-20.55.09:098][360]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small289)
+[2015.08.22-20.55.10:160][377]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small292)
+[2015.08.22-20.55.11:128][394]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (wallPlane319)
+[2015.08.22-20.55.34:207][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small297)
+[2015.08.22-20.55.35:233][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small298)
+[2015.08.22-20.55.36:259][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small299)
+[2015.08.22-20.55.37:842][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small298)
+[2015.08.22-20.55.38:955][876]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small299)
+[2015.08.22-20.55.40:227][896]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small297)
+[2015.08.22-20.55.44:566][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small303)
+[2015.08.22-20.55.47:139][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small302)
+[2015.08.22-20.55.48:322][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small303)
+[2015.08.22-20.55.49:042][ 42]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small301)
+[2015.08.22-20.55.52:762][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small298)
+[2015.08.22-20.55.57:100][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small299)
+[2015.08.22-20.55.58:591][213]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small303)
+[2015.08.22-20.55.59:719][234]Cmd: TRANSACTION UNDO
+[2015.08.22-20.55.59:719][234]LogEditorTransaction: Undo Move Actors
+[2015.08.22-20.55.59:798][234]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.56.00:763][282]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small303)
+[2015.08.22-20.56.02:227][311]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small295)
+[2015.08.22-20.56.18:509][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small299)
+[2015.08.22-20.56.19:998][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small307)
+[2015.08.22-20.56.21:293][673]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small306)
+[2015.08.22-20.56.22:551][695]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small305)
+[2015.08.22-20.56.29:920][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small299)
+[2015.08.22-20.56.31:354][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small305)
+[2015.08.22-20.56.32:456][871]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small306)
+[2015.08.22-20.56.33:656][891]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small307)
+[2015.08.22-20.56.39:972][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small298)
+[2015.08.22-20.56.47:360][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small305)
+[2015.08.22-20.56.48:245][156]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small295)
+[2015.08.22-20.56.51:306][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small306)
+[2015.08.22-20.57.05:826][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small245)
+[2015.08.22-20.58.42:626][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small315)
+[2015.08.22-20.58.45:928][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small316)
+[2015.08.22-20.59.05:054][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small316)
+[2015.08.22-20.59.08:584][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small317)
+[2015.08.22-20.59.14:439][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small317)
+[2015.08.22-20.59.17:023][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small318)
+[2015.08.22-20.59.29:483][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small309)
+[2015.08.22-20.59.33:275][  2]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.59.40:105][ 47]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.59.44:986][120]LogD3D11RHI: InitD3DDevice
+[2015.08.22-20.59.48:833][235]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.00:426][460]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.07:279][593]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.10:343][677]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.17:861][836]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.21:319][910]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.24:277][994]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.26:891][ 70]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.29:639][144]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.39:805][351]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.44:218][435]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.51:310][564]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.55:908][653]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.00.58:136][704]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.00:256][750]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.02:925][826]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.05:170][894]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.07:844][976]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.10:965][ 71]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.14:250][154]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.17:599][254]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.27:141][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane333)
+[2015.08.22-21.01.31:734][529]Cmd: TRANSACTION UNDO
+[2015.08.22-21.01.31:734][529]LogEditorTransaction: Undo Move Actors
+[2015.08.22-21.01.31:795][529]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.01.33:077][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane330)
+[2015.08.22-21.01.37:824][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small315)
+[2015.08.22-21.01.53:244][893]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight31)
+[2015.08.22-21.01.54:468][910]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight21)
+[2015.08.22-21.01.55:931][931]Cmd: DELETE
+[2015.08.22-21.01.55:931][931]Cmd: ACTOR DELETE
+[2015.08.22-21.01.56:289][931]LogEditorActor: Deleted Actor: PointLight
+[2015.08.22-21.01.56:317][931]LogEditorActor: Deleted Actor: PointLight
+[2015.08.22-21.01.56:699][931]LogEditorActor: Deleted 2 Actors (0.436 secs)
+[2015.08.22-21.02.28:919][514]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.02.29:001][516]LogActorFactory: Actor Factory created lamp_18_wall
+[2015.08.22-21.02.30:015][537]LogActorFactory: Actor Factory created lamp_18_wall
+[2015.08.22-21.03.00:645][116]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.03.11:531][311]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.03.19:882][499]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2015.08.22-21.03.20:716][514]Cmd: DELETE
+[2015.08.22-21.03.20:716][514]Cmd: ACTOR DELETE
+[2015.08.22-21.03.20:725][514]LogEditorActor: Deleted Actor: PointLight
+[2015.08.22-21.03.20:906][514]LogEditorActor: Deleted 1 Actors (0.189 secs)
+[2015.08.22-21.03.25:716][613]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2015.08.22-21.03.40:785][917]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lamp_18_wall12)
+[2015.08.22-21.03.41:769][934]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight21)
+[2015.08.22-21.04.09:927][455]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.04.10:024][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-21.04.34:440][455]LogSavePackage: Save=15609.788086ms
+[2015.08.22-21.04.34:440][455]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewC332F76F4EAB5A1DD2E37DBAD773F07E.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-21.04.43:739][574]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2015.08.22-21.04.45:509][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (lamp_18_wall12)
+[2015.08.22-21.05.05:148][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane335)
+[2015.08.22-21.05.34:883][518]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight23)
+[2015.08.22-21.05.35:541][530]Cmd: DELETE
+[2015.08.22-21.05.35:541][530]Cmd: ACTOR DELETE
+[2015.08.22-21.05.35:552][530]LogEditorActor: Deleted Actor: PointLight
+[2015.08.22-21.05.35:921][530]LogEditorActor: Deleted 1 Actors (0.380 secs)
+[2015.08.22-21.05.48:680][726]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.05.50:854][735]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big64)
+[2015.08.22-21.05.50:936][735]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.05.52:189][788]LogEditorViewport: Clicking on Actor (LMB): Blueprint_CeilingLight_C (Blueprint_CeilingLight6)
+[2015.08.22-21.06.25:065][403]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.06.27:382][500]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.06.28:244][536]MapCheck: New page: Map Check
+[2015.08.22-21.06.28:358][536]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.06.28:384][536]Cmd: MAP REBUILD ALLVISIBLE
+[2015.08.22-21.06.28:402][536]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.08.22-21.06.36:364][536]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2015.08.22-21.06.36:386][536]LightingResults: New page: Lighting Build - Aug 22, 2015, 11:06:36 AM
+[2015.08.22-21.07.07:863][536]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.08.22-21.07.08:145][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.08.22-21.07.08:145][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.08.22-21.07.08:145][536]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.08.22-21.07.08:146][536]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.08.22-21.07.08:146][536]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.08.22-21.07.28:662][536]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.07.28:686][536]LogEditorBuildUtils: Build time 0:01:00
+[2015.08.22-21.07.38:547][539]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.09.46:502][930]LightingResults:Error: Error lamp_18_hanging Object has overlapping UVs.
+[2015.08.22-21.09.46:514][930]LightingResults: Info lamp_18_hanging Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2015.08.22-21.10.02:131][977]LightingResults:Error: Error lamp_18_hanging Object has overlapping UVs.
+[2015.08.22-21.10.02:131][977]LightingResults: Info lamp_18_hanging Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2015.08.22-21.14.05:883][699]Job is a success!
+[2015.08.22-21.14.06:300][700]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.14.06:423][700]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.14.35:758][700]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.08.22-21.14.40:458][700]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.08.22-21.14.40:559][700]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.08.22-21.14.44:019][700]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.08.22-21.14.44:229][700]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.08.22-21.14.44:541][700]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.08.22-21.14.44:626][700]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.08.22-21.14.44:953][700]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.08.22-21.14.45:202][700]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.08.22-21.14.45:603][700]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.08.22-21.14.47:006][700]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.08.22-21.14.48:569][700]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.08.22-21.14.48:693][700]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.08.22-21.14.48:986][700]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.08.22-21.14.49:020][700]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.08.22-21.14.49:066][700]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.08.22-21.14.50:553][700]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.08.22-21.14.52:599][700]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.08.22-21.14.53:835][700]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.08.22-21.14.55:560][700]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.08.22-21.14.56:626][700]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.08.22-21.14.58:458][700]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.08.22-21.14.58:596][700]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.08.22-21.14.58:892][700]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.08.22-21.14.58:899][700]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.08.22-21.14.59:008][700]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.08.22-21.15.01:698][700]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.08.22-21.15.04:775][700]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.08.22-21.15.05:906][700]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.08.22-21.15.07:938][700]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.08.22-21.15.09:974][700]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.08.22-21.15.13:080][700]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.08.22-21.15.15:365][700]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.08.22-21.15.19:033][700]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.08.22-21.15.21:436][700]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.08.22-21.15.24:688][700]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.08.22-21.15.27:189][700]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.08.22-21.15.29:988][700]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.08.22-21.15.30:928][700]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.08.22-21.15.32:568][700]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.08.22-21.15.35:352][700]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.08.22-21.15.38:914][700]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.08.22-21.15.41:136][700]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.08.22-21.15.41:158][700]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.08.22-21.15.41:843][700]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.08.22-21.15.42:241][700]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.08.22-21.15.43:969][700]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.08.22-21.15.44:714][700]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.08.22-21.15.44:873][700]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.08.22-21.15.45:244][700]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.08.22-21.15.45:836][700]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.08.22-21.15.45:930][700]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.08.22-21.15.46:979][700]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.08.22-21.16.12:347][700]Lightmass on CHRISTIANGAMING: 7:53 min total, 7.82 sec importing, 918 ms setup, 30.1 sec photons, 7:11 min processing, 0 ms extra exporting [1648/1648 mappings]. Threads: 28:44 min total, 16:23 min processing.
+[2015.08.22-21.16.12:347][700]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.16.16:116][700]LogStaticLightingSystem: Illumination: 9:39 min (1:14 min encoding lightmaps)
+[2015.08.22-21.16.16:116][700]LogStaticLightingSystem: Lightmap texture memory:  19.5 MB (19.2 MB streaming, 0.3 MB non-streaming), 44 textures
+[2015.08.22-21.16.16:116][700]LogStaticLightingSystem: Shadowmap texture memory: 20.9 MB (20.2 MB streaming, 0.7 MB non-streaming), 9 textures
+[2015.08.22-21.16.29:235][701]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.08.22-21.16.30:009][701]MapCheck: New page: MansionNew - Aug 22, 2015, 11:16:29 AM
+[2015.08.22-21.17.07:150][701]MapCheck:Warning: Warning woodenPanel57 'woodenPanel' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:151][701]MapCheck:Warning: Warning woodenPanel50 'woodenPanel' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:151][701]MapCheck:Warning: Warning woodenPanel49_37 'woodenPanel' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:151][701]MapCheck:Warning: Warning woodenPanel47 'woodenPanel' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:151][701]MapCheck:Warning: Warning woodenPanel46_83 'woodenPanel' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:183][701]MapCheck:Warning: Warning wallPlane99_123 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:183][701]MapCheck:Warning: Warning wallPlane98 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:184][701]MapCheck:Warning: Warning wallPlane97 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:184][701]MapCheck:Warning: Warning wallPlane96 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:321][701]MapCheck:Warning: Warning wallPlane95 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:321][701]MapCheck:Warning: Warning wallPlane94 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:321][701]MapCheck:Warning: Warning wallPlane93 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane92 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane91 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane90_122 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane9 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane89 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:322][701]MapCheck:Warning: Warning wallPlane88_121 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:351][701]MapCheck:Warning: Warning wallPlane87 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:352][701]MapCheck:Warning: Warning wallPlane86_120 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:352][701]MapCheck:Warning: Warning wallPlane85 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:352][701]MapCheck:Warning: Warning wallPlane84 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:352][701]MapCheck:Warning: Warning wallPlane83 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:352][701]MapCheck:Warning: Warning wallPlane81 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:353][701]MapCheck:Warning: Warning wallPlane8 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:353][701]MapCheck:Warning: Warning wallPlane7 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:353][701]MapCheck:Warning: Warning wallPlane6 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:354][701]MapCheck:Warning: Warning wallPlane5_43 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:354][701]MapCheck:Warning: Warning wallPlane54 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:354][701]MapCheck:Warning: Warning wallPlane50 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:354][701]MapCheck:Warning: Warning wallPlane47 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:354][701]MapCheck:Warning: Warning wallPlane46 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:355][701]MapCheck:Warning: Warning wallPlane45 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:355][701]MapCheck:Warning: Warning wallPlane44 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane43 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane42 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane41 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane40 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane39 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane38 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:468][701]MapCheck:Warning: Warning wallPlane37 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane35 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane331 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane330 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane329 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane328 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane326 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane325 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane324 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:469][701]MapCheck:Warning: Warning wallPlane323 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane322 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane321 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane320 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane319 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane318 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane317 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane316 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane315 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:470][701]MapCheck:Warning: Warning wallPlane314 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane313 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane312 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane311 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane310_22 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane309 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane307 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane306 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:471][701]MapCheck:Warning: Warning wallPlane305 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane304 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane303 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane302 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane301 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane300 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane299 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane298 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane297 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:472][701]MapCheck:Warning: Warning wallPlane296 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane295 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane294 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane293 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane292 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane291 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane290 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane289 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:473][701]MapCheck:Warning: Warning wallPlane288 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:474][701]MapCheck:Warning: Warning wallPlane287 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:474][701]MapCheck:Warning: Warning wallPlane286 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:474][701]MapCheck:Warning: Warning wallPlane285 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:474][701]MapCheck:Warning: Warning wallPlane284 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:474][701]MapCheck:Warning: Warning wallPlane283 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:475][701]MapCheck:Warning: Warning wallPlane282_17 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:475][701]MapCheck:Warning: Warning wallPlane281 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:475][701]MapCheck:Warning: Warning wallPlane280 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:475][701]MapCheck:Warning: Warning wallPlane279 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:476][701]MapCheck:Warning: Warning wallPlane278 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:476][701]MapCheck:Warning: Warning wallPlane277 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:476][701]MapCheck:Warning: Warning wallPlane276 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:476][701]MapCheck:Warning: Warning wallPlane275 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:477][701]MapCheck:Warning: Warning wallPlane274 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:477][701]MapCheck:Warning: Warning wallPlane273 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:477][701]MapCheck:Warning: Warning wallPlane272 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:477][701]MapCheck:Warning: Warning wallPlane271 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:659][701]MapCheck:Warning: Warning wallPlane270 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:660][701]MapCheck:Warning: Warning wallPlane269 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:660][701]MapCheck:Warning: Warning wallPlane268 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:660][701]MapCheck:Warning: Warning wallPlane267 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:661][701]MapCheck:Warning: Warning wallPlane266 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:661][701]MapCheck:Warning: Warning wallPlane265 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:661][701]MapCheck:Warning: Warning wallPlane264 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:661][701]MapCheck:Warning: Warning wallPlane263 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:662][701]MapCheck:Warning: Warning wallPlane262 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:662][701]MapCheck:Warning: Warning wallPlane261 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:662][701]MapCheck:Warning: Warning wallPlane260 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:662][701]MapCheck:Warning: Warning wallPlane259 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:662][701]MapCheck:Warning: Warning wallPlane258 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane257 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane256 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane255 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane254 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane253 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane252 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane251_11 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:663][701]MapCheck:Warning: Warning wallPlane250 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:664][701]MapCheck:Warning: Warning wallPlane249 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:664][701]MapCheck:Warning: Warning wallPlane248 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:664][701]MapCheck:Warning: Warning wallPlane247 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:664][701]MapCheck:Warning: Warning wallPlane246 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:664][701]MapCheck:Warning: Warning wallPlane245 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:665][701]MapCheck:Warning: Warning wallPlane244 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:665][701]MapCheck:Warning: Warning wallPlane243 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:665][701]MapCheck:Warning: Warning wallPlane242 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:665][701]MapCheck:Warning: Warning wallPlane241 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:665][701]MapCheck:Warning: Warning wallPlane240 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:666][701]MapCheck:Warning: Warning wallPlane239 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:667][701]MapCheck:Warning: Warning wallPlane238 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:715][701]MapCheck:Warning: Warning wallPlane237 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:715][701]MapCheck:Warning: Warning wallPlane236 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:715][701]MapCheck:Warning: Warning wallPlane235 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane234 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane233 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane232 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane231 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane230 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane229 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane228 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:716][701]MapCheck:Warning: Warning wallPlane227 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane226 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane225 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane224 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane223 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane222 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane221 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane220 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:717][701]MapCheck:Warning: Warning wallPlane219 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane218 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane217 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane216 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane215 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane214 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane213 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane212_8 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:718][701]MapCheck:Warning: Warning wallPlane211 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane210 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane20_20 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane209 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane208 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane207 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane206 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane205 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane204 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:719][701]MapCheck:Warning: Warning wallPlane203 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane202 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane201 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane200 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane199 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane198 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane197 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane196 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:720][701]MapCheck:Warning: Warning wallPlane195 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane194 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane193 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane192 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane191 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane190 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane189 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane188 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:721][701]MapCheck:Warning: Warning wallPlane187 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane186 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane185 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane184 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane183 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane182 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:722][701]MapCheck:Warning: Warning wallPlane181 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane180 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane18 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane179 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane178 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane177 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:723][701]MapCheck:Warning: Warning wallPlane176_63 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:724][701]MapCheck:Warning: Warning wallPlane175 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:724][701]MapCheck:Warning: Warning wallPlane174 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:756][701]MapCheck:Warning: Warning wallPlane173 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:756][701]MapCheck:Warning: Warning wallPlane172 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:757][701]MapCheck:Warning: Warning wallPlane171_52 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:757][701]MapCheck:Warning: Warning wallPlane170_50 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:757][701]MapCheck:Warning: Warning wallPlane17 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:757][701]MapCheck:Warning: Warning wallPlane169_48 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:758][701]MapCheck:Warning: Warning wallPlane168 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:758][701]MapCheck:Warning: Warning wallPlane167 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:759][701]MapCheck:Warning: Warning wallPlane166 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:759][701]MapCheck:Warning: Warning wallPlane165 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:759][701]MapCheck:Warning: Warning wallPlane164 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:759][701]MapCheck:Warning: Warning wallPlane163 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:760][701]MapCheck:Warning: Warning wallPlane162 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:760][701]MapCheck:Warning: Warning wallPlane161 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:760][701]MapCheck:Warning: Warning wallPlane160 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:760][701]MapCheck:Warning: Warning wallPlane16 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:762][701]MapCheck:Warning: Warning wallPlane159 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:762][701]MapCheck:Warning: Warning wallPlane158 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:762][701]MapCheck:Warning: Warning wallPlane157 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:762][701]MapCheck:Warning: Warning wallPlane156 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:763][701]MapCheck:Warning: Warning wallPlane155 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:763][701]MapCheck:Warning: Warning wallPlane154 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:763][701]MapCheck:Warning: Warning wallPlane153 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:763][701]MapCheck:Warning: Warning wallPlane152 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:826][701]MapCheck:Warning: Warning wallPlane151 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:826][701]MapCheck:Warning: Warning wallPlane150 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:827][701]MapCheck:Warning: Warning wallPlane149 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:827][701]MapCheck:Warning: Warning wallPlane148_5 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:827][701]MapCheck:Warning: Warning wallPlane147_4 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:827][701]MapCheck:Warning: Warning wallPlane146 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:828][701]MapCheck:Warning: Warning wallPlane145 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:828][701]MapCheck:Warning: Warning wallPlane144 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:828][701]MapCheck:Warning: Warning wallPlane143 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:828][701]MapCheck:Warning: Warning wallPlane142 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:828][701]MapCheck:Warning: Warning wallPlane141 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:835][701]MapCheck:Warning: Warning wallPlane140 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane139 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane138 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane137 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane136 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane135 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:836][701]MapCheck:Warning: Warning wallPlane134 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane133 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane132 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane131 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane130 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane12_154 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane129 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane128 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:837][701]MapCheck:Warning: Warning wallPlane127 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:838][701]MapCheck:Warning: Warning wallPlane126 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:838][701]MapCheck:Warning: Warning wallPlane125 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:838][701]MapCheck:Warning: Warning wallPlane124_137 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:838][701]MapCheck:Warning: Warning wallPlane123_136 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:856][701]MapCheck:Warning: Warning wallPlane122 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:856][701]MapCheck:Warning: Warning wallPlane121 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:856][701]MapCheck:Warning: Warning wallPlane120_135 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane119_134 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane118_133 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane117_132 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane116_131 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane115_130 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:857][701]MapCheck:Warning: Warning wallPlane114_9 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane113 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane112 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane111 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane110 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane109 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane108_128 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:858][701]MapCheck:Warning: Warning wallPlane107_127 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:873][701]MapCheck:Warning: Warning wallPlane106 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:873][701]MapCheck:Warning: Warning wallPlane105 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:927][701]MapCheck:Warning: Warning wallPlane104 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:928][701]MapCheck:Warning: Warning wallPlane103 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:956][701]MapCheck:Warning: Warning wallPlane102_125 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:956][701]MapCheck:Warning: Warning wallPlane101_124 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:956][701]MapCheck:Warning: Warning wallPlane100 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.07:957][701]MapCheck:Warning: Warning smallFrame_c5_14 'smallFrame_c' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:009][701]MapCheck:Warning: Warning glassPlane_182 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:009][701]MapCheck:Warning: Warning glassPlane9 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:009][701]MapCheck:Warning: Warning glassPlane8 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:009][701]MapCheck:Warning: Warning glassPlane7 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:011][701]MapCheck:Warning: Warning glassPlane66 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:011][701]MapCheck:Warning: Warning glassPlane65 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:012][701]MapCheck:Warning: Warning glassPlane64_23 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:013][701]MapCheck:Warning: Warning glassPlane63_106 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:013][701]MapCheck:Warning: Warning glassPlane62 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:013][701]MapCheck:Warning: Warning glassPlane61 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:013][701]MapCheck:Warning: Warning glassPlane60 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane6 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane59 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane58 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane57 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane56 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:014][701]MapCheck:Warning: Warning glassPlane55 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:015][701]MapCheck:Warning: Warning glassPlane54 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:030][701]MapCheck:Warning: Warning glassPlane53 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:030][701]MapCheck:Warning: Warning glassPlane52_240 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:030][701]MapCheck:Warning: Warning glassPlane51 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:030][701]MapCheck:Warning: Warning glassPlane50 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:030][701]MapCheck:Warning: Warning glassPlane5 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:031][701]MapCheck:Warning: Warning glassPlane49 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:031][701]MapCheck:Warning: Warning glassPlane48 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:032][701]MapCheck:Warning: Warning glassPlane47 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:032][701]MapCheck:Warning: Warning glassPlane46 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:032][701]MapCheck:Warning: Warning glassPlane45 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:032][701]MapCheck:Warning: Warning glassPlane44 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:051][701]MapCheck:Warning: Warning glassPlane43 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:051][701]MapCheck:Warning: Warning glassPlane42 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:091][701]MapCheck:Warning: Warning glassPlane41 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:091][701]MapCheck:Warning: Warning glassPlane40 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:091][701]MapCheck:Warning: Warning glassPlane4 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:091][701]MapCheck:Warning: Warning glassPlane39 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane38 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane37 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane36 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane35 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane34 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:092][701]MapCheck:Warning: Warning glassPlane33 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:093][701]MapCheck:Warning: Warning glassPlane32 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:093][701]MapCheck:Warning: Warning glassPlane31 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:093][701]MapCheck:Warning: Warning glassPlane30 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:094][701]MapCheck:Warning: Warning glassPlane3 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:094][701]MapCheck:Warning: Warning glassPlane29 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:094][701]MapCheck:Warning: Warning glassPlane28_230 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:094][701]MapCheck:Warning: Warning glassPlane27 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:094][701]MapCheck:Warning: Warning glassPlane26 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:095][701]MapCheck:Warning: Warning glassPlane25 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:095][701]MapCheck:Warning: Warning glassPlane24 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:095][701]MapCheck:Warning: Warning glassPlane23 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:095][701]MapCheck:Warning: Warning glassPlane22 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:095][701]MapCheck:Warning: Warning glassPlane21 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:137][701]MapCheck:Warning: Warning glassPlane20 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:137][701]MapCheck:Warning: Warning glassPlane2 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane19 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane18 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane17 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane16 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane15 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:138][701]MapCheck:Warning: Warning glassPlane14 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:153][701]MapCheck:Warning: Warning glassPlane13 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:153][701]MapCheck:Warning: Warning glassPlane12 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:153][701]MapCheck:Warning: Warning glassPlane11 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:154][701]MapCheck:Warning: Warning glassPlane10 'glassPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:154][701]MapCheck:Warning: Warning floorPlane_small94 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:155][701]MapCheck:Warning: Warning floorPlane_small83 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:155][701]MapCheck:Warning: Warning floorPlane_small82 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:155][701]MapCheck:Warning: Warning floorPlane_small81 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:155][701]MapCheck:Warning: Warning floorPlane_small80 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:156][701]MapCheck:Warning: Warning floorPlane_small79 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:156][701]MapCheck:Warning: Warning floorPlane_small78 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:156][701]MapCheck:Warning: Warning floorPlane_small77 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:156][701]MapCheck:Warning: Warning floorPlane_small76 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:156][701]MapCheck:Warning: Warning floorPlane_small75 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:194][701]MapCheck:Warning: Warning floorPlane_small74 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:195][701]MapCheck:Warning: Warning floorPlane_small73 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:195][701]MapCheck:Warning: Warning floorPlane_small72 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:195][701]MapCheck:Warning: Warning floorPlane_small71 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:195][701]MapCheck:Warning: Warning floorPlane_small70 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:195][701]MapCheck:Warning: Warning floorPlane_small69 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:196][701]MapCheck:Warning: Warning floorPlane_small68 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:196][701]MapCheck:Warning: Warning floorPlane_small67 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:196][701]MapCheck:Warning: Warning floorPlane_small66 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:196][701]MapCheck:Warning: Warning floorPlane_small65 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small64 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small63 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small62 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small61 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small60 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:197][701]MapCheck:Warning: Warning floorPlane_small59 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:198][701]MapCheck:Warning: Warning floorPlane_small58 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:198][701]MapCheck:Warning: Warning floorPlane_small57 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:198][701]MapCheck:Warning: Warning floorPlane_small36 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:199][701]MapCheck:Warning: Warning floorPlane_small29 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:199][701]MapCheck:Warning: Warning floorPlane_small28 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:199][701]MapCheck:Warning: Warning floorPlane_small273 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:199][701]MapCheck:Warning: Warning floorPlane_small272 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:199][701]MapCheck:Warning: Warning floorPlane_small271 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:200][701]MapCheck:Warning: Warning floorPlane_small270 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:200][701]MapCheck:Warning: Warning floorPlane_small27 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:200][701]MapCheck:Warning: Warning floorPlane_small269 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:200][701]MapCheck:Warning: Warning floorPlane_small26 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:201][701]MapCheck:Warning: Warning floorPlane_small25 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:201][701]MapCheck:Warning: Warning floorPlane_small248 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:201][701]MapCheck:Warning: Warning floorPlane_small24 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:202][701]MapCheck:Warning: Warning floorPlane_small226 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:202][701]MapCheck:Warning: Warning floorPlane_small224 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:202][701]MapCheck:Warning: Warning floorPlane_small222 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:202][701]MapCheck:Warning: Warning floorPlane_small220 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:203][701]MapCheck:Warning: Warning floorPlane_small218 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:203][701]MapCheck:Warning: Warning floorPlane_small216 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:203][701]MapCheck:Warning: Warning floorPlane_small214 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:203][701]MapCheck:Warning: Warning floorPlane_small212 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:203][701]MapCheck:Warning: Warning floorPlane_small210 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small208 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small206 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small205 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small202 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small200 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small20 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:204][701]MapCheck:Warning: Warning floorPlane_small198 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:205][701]MapCheck:Warning: Warning floorPlane_small196 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:205][701]MapCheck:Warning: Warning floorPlane_small194 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:205][701]MapCheck:Warning: Warning floorPlane_small192 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:205][701]MapCheck:Warning: Warning floorPlane_small190 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:205][701]MapCheck:Warning: Warning floorPlane_small188 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:254][701]MapCheck:Warning: Warning floorPlane_small181 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:280][701]MapCheck:Warning: Warning floorPlane_small180 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:281][701]MapCheck:Warning: Warning floorPlane_small178 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:281][701]MapCheck:Warning: Warning floorPlane_small176 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:282][701]MapCheck:Warning: Warning floorPlane_small173 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:282][701]MapCheck:Warning: Warning floorPlane_small170 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:282][701]MapCheck:Warning: Warning floorPlane_small167 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:282][701]MapCheck:Warning: Warning floorPlane_small164 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:282][701]MapCheck:Warning: Warning floorPlane_small161 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small158 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small155 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small152 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small149 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small146 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:283][701]MapCheck:Warning: Warning floorPlane_small143 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small140 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small137 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small134 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small132 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small131 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small126 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:284][701]MapCheck:Warning: Warning floorPlane_small125 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:285][701]MapCheck:Warning: Warning floorPlane_small124 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:285][701]MapCheck:Warning: Warning floorPlane_small120 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:285][701]MapCheck:Warning: Warning floorPlane_small112 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:323][701]MapCheck:Warning: Warning floorPlane_big88 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:324][701]MapCheck:Warning: Warning floorPlane_big87 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big30 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big25 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big24_18 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big23 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big20 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:325][701]MapCheck:Warning: Warning floorPlane_big19 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:357][701]MapCheck:Warning: Warning floorPlane_big18 'floorPlane_big' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:361][701]MapCheck:Warning: Warning wallPlane332 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:362][701]MapCheck:Warning: Warning wallPlane333 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:362][701]MapCheck:Warning: Warning floorPlane_small274 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:362][701]MapCheck:Warning: Warning floorPlane_small275 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:362][701]MapCheck:Warning: Warning floorPlane_small276 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:363][701]MapCheck:Warning: Warning wallPlane334 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:363][701]MapCheck:Warning: Warning wallPlane335 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:363][701]MapCheck:Warning: Warning wallPlane336 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:363][701]MapCheck:Warning: Warning wallPlane337 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:363][701]MapCheck:Warning: Warning wallPlane338 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small277 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small278 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small279 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small280 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small281 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:384][701]MapCheck:Warning: Warning floorPlane_small282 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small283 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small284 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small285 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small286 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small287 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small288 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small289 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:385][701]MapCheck:Warning: Warning floorPlane_small290 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning floorPlane_small291 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning floorPlane_small292 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane339 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane340 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane341 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane342 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane343 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:386][701]MapCheck:Warning: Warning wallPlane344 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:387][701]MapCheck:Warning: Warning wallPlane345 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:387][701]MapCheck:Warning: Warning wallPlane346 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:387][701]MapCheck:Warning: Warning wallPlane347 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:387][701]MapCheck:Warning: Warning wallPlane348 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:396][701]MapCheck:Warning: Warning wallPlane349 'wallPlane' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:396][701]MapCheck:Warning: Warning floorPlane_small293 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small294 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small295 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small296 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small297 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small298 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small299 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:397][701]MapCheck:Warning: Warning floorPlane_small300 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:398][701]MapCheck:Warning: Warning floorPlane_small301 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:398][701]MapCheck:Warning: Warning floorPlane_small302 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small303 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small304 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small305 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small306 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small307 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:399][701]MapCheck:Warning: Warning floorPlane_small308 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:400][701]MapCheck:Warning: Warning floorPlane_small309 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:400][701]MapCheck:Warning: Warning floorPlane_small310 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:400][701]MapCheck:Warning: Warning floorPlane_small311 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:400][701]MapCheck:Warning: Warning floorPlane_small312 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:400][701]MapCheck:Warning: Warning floorPlane_small313 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:401][701]MapCheck:Warning: Warning floorPlane_small314 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:401][701]MapCheck:Warning: Warning floorPlane_small315 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:402][701]MapCheck:Warning: Warning floorPlane_small316 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:402][701]MapCheck:Warning: Warning floorPlane_small317 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.08:402][701]MapCheck:Warning: Warning floorPlane_small318 'floorPlane_small' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.08.22-21.17.28:535][701]MapCheck: Info Map check complete: 0 Error(s), 503 Warning(s), took 59,009.877ms to complete.
+[2015.08.22-21.17.28:564][701]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.17.31:715][704]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.17.40:700][755]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.17.42:310][755]LogD3D11RHI: InitD3DDevice
+[2015.08.22-21.17.42:495][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-21.18.49:731][755]LogSavePackage: Save=59052.445313ms
+[2015.08.22-21.18.49:731][755]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew9EAC5C214E27C95FC1BE6D8DEDE1C073.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-21.18.50:094][755]LogFileHelpers: Saving map 'MansionNew' took 67.759
+[2015.08.22-23.07.28:839][ 63]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big62)
+[2015.08.22-23.07.45:268][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.08.08:516][153]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.08.21:891][356]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.08.38:846][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane336)
+[2015.08.22-23.08.40:895][787]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (wallPlane335)
+[2015.08.22-23.09.44:018][236]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.09.49:651][236]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.10.02:235][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-23.10.55:230][236]LogSavePackage: Save=46267.175781ms
+[2015.08.22-23.10.55:238][236]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew723C60B14829F892BF206C9ADEAA71AB.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-23.10.57:132][236]LogFileHelpers: Saving map 'MansionNew' took 67.377
+[2015.08.22-23.11.18:118][310]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-23.11.18:373][310]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 1:11:18 PM)
+[2015.08.22-23.11.18:539][310]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-23.11.46:786][310]LogPlayLevel: PIE: StaticDuplicateObject took: (28.189072s)
+[2015.08.22-23.11.48:891][310]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-23.11.49:783][310]LogPlayLevel: PIE: World Init took: (2.980625s)
+[2015.08.22-23.11.49:913][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (31.387304s)
+[2015.08.22-23.11.50:883][310]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-23.11.51:068][310]LogInit: FAudioDevice initialized.
+[2015.08.22-23.11.51:347][310]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.11.52:574][310]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-23.12.01:760][310]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-23.12.01:760][310]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 3) at 2015.08.22-18.12.01
+[2015.08.22-23.12.01:779][310]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.12.02:080][310]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.12.03:083][310]LogWorld: Bringing up level for play took: 9.926250
+[2015.08.22-23.12.19:606][310]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 62.452
+[2015.08.22-23.13.22:703][560]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.13.22:718][560]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.14.32:318][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205D6FA020
+[2015.08.22-23.15.14:775][312]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.15.31:461][338]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.15.36:854][338]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.22-23.15.38:094][338]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.22-23.16.07:645][368]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.16.07:709][368]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.17.25:464][591]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.21.57:947][630]BlueprintLog: New page: Compile MyCharacter
+[2015.08.22-23.22.09:350][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.22-23.22.10:603][630]BlueprintEditorCompileResults: Info [3341.44] Compile of MyCharacter successful! [in 12,640 ms]
+[2015.08.22-23.23.11:074][862]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-23.23.11:074][862]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 1:23:11 PM)
+[2015.08.22-23.23.11:075][862]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-23.23.15:764][862]LogPlayLevel: PIE: StaticDuplicateObject took: (4.688821s)
+[2015.08.22-23.23.15:765][862]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-23.23.15:779][862]LogPlayLevel: PIE: World Init took: (0.015147s)
+[2015.08.22-23.23.15:780][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (4.704713s)
+[2015.08.22-23.23.15:780][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.22-23.23.16:014][862]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-23.23.16:022][862]LogInit: FAudioDevice initialized.
+[2015.08.22-23.23.16:024][862]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.23.16:061][862]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-23.23.16:694][862]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-23.23.16:694][862]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 3) at 2015.08.22-18.23.16
+[2015.08.22-23.23.16:694][862]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.23.16:695][862]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.23.16:705][862]LogWorld: Bringing up level for play took: 0.627497
+[2015.08.22-23.23.16:746][862]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 5.635
+[2015.08.22-23.24.27:673][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002003FA0A40
+[2015.08.22-23.24.43:015][626]BlueprintLog: New page: Compile MyCharacter
+[2015.08.22-23.24.44:415][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.22-23.24.44:726][626]BlueprintEditorCompileResults: Info [3495.56] Compile of MyCharacter successful! [in 1,710 ms]
+[2015.08.22-23.25.27:723][805]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-23.25.27:723][805]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 1:25:27 PM)
+[2015.08.22-23.25.27:724][805]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-23.25.31:280][805]LogPlayLevel: PIE: StaticDuplicateObject took: (3.556033s)
+[2015.08.22-23.25.31:282][805]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-23.25.31:284][805]LogPlayLevel: PIE: World Init took: (0.004114s)
+[2015.08.22-23.25.31:286][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (3.561639s)
+[2015.08.22-23.25.31:286][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.22-23.25.31:722][805]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-23.25.31:815][805]LogInit: FAudioDevice initialized.
+[2015.08.22-23.25.31:818][805]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.25.31:856][805]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-23.25.32:455][805]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-23.25.32:455][805]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.22-18.25.32
+[2015.08.22-23.25.32:455][805]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.25.33:100][805]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.25.33:109][805]LogWorld: Bringing up level for play took: 1.250974
+[2015.08.22-23.25.33:347][805]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 6.236
+[2015.08.22-23.25.38:250][837]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.25.38:251][837]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.25.39:465][845]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.25.39:465][845]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.25.41:296][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002005195DA0
+[2015.08.22-23.25.44:849][936]BlueprintLog: New page: Compile MyCharacter
+[2015.08.22-23.25.46:984][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.22-23.25.47:221][936]BlueprintEditorCompileResults: Info [3558.05] Compile of MyCharacter successful! [in 2,371 ms]
+[2015.08.22-23.25.52:300][981]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.22-23.25.52:301][981]PIE: New page: PIE session: MansionNew (Aug 22, 2015, 1:25:52 PM)
+[2015.08.22-23.25.52:302][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.22-23.25.53:952][981]LogPlayLevel: PIE: StaticDuplicateObject took: (1.649152s)
+[2015.08.22-23.25.53:956][981]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.22-23.25.53:961][981]LogPlayLevel: PIE: World Init took: (0.009025s)
+[2015.08.22-23.25.53:961][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (1.658967s)
+[2015.08.22-23.25.53:961][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.22-23.25.54:105][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-23.25.54:112][981]LogInit: FAudioDevice initialized.
+[2015.08.22-23.25.54:115][981]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.25.54:149][981]LogWorld: Game class is 'MyGame_C'
+[2015.08.22-23.25.54:489][981]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.22-23.25.54:489][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.22-18.25.54
+[2015.08.22-23.25.54:489][981]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.25.54:490][981]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-23.25.54:499][981]LogWorld: Bringing up level for play took: 0.347794
+[2015.08.22-23.25.54:649][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.538
+[2015.08.22-23.27.01:815][550]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.27.01:815][550]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.27.15:094][670]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.27.15:094][670]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.27.33:543][835]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.22-23.27.33:543][835]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.22-23.30.25:778][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002005610C20
+[2015.08.22-23.30.33:843][623]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.30.34:037][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.22-23.30.57:581][623]LogSavePackage: Save=18723.011719ms
+[2015.08.22-23.30.57:638][623]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew5C2CE8574569098266F259955ACFF3B0.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.22-23.31.19:495][ 48]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.31.28:897][ 48]LogD3D11RHI: InitD3DDevice
+[2015.08.22-23.31.30:015][ 48]LogSavePackage: Save=864.520264ms
+[2015.08.22-23.31.30:015][ 48]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MyCharacterC1D558B641C6BB037497FCA51A24C307.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/RealisticBlueprintWeapons/Blueprints/MyCharacter.uasset'
+[2015.08.22-23.31.31:480][ 48]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.22-23.31.40:619][ 49]Cmd: QUIT_EDITOR
+[2015.08.22-23.31.48:774][ 49]LogExit: Preparing to exit.
+[2015.08.22-23.32.03:923][ 49]LogExit: Editor shut down
+[2015.08.22-23.32.04:073][ 49]LogExit: Transaction tracking system shut down
+[2015.08.22-23.32.04:244][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002068C67BA0
+[2015.08.22-23.32.04:314][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205F19AF20
+[2015.08.22-23.32.04:314][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002005D32DE0
+[2015.08.22-23.32.05:487][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205DCB31A0
+[2015.08.22-23.32.05:487][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000205DCB2FC0
+[2015.08.22-23.32.07:032][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002004564C20
+[2015.08.22-23.32.07:898][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000207E81EF20
+[2015.08.22-23.33.36:128][ 49]LogExit: Object subsystem successfully closed.
+[2015.08.22-23.33.45:758][ 49]LogD3D11RHI: Shutdown
+[2015.08.22-23.33.45:758][ 49]LogD3D11RHI: CleanupD3DDevice
+[2015.08.22-23.33.50:292][ 49]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.22-23.33.58:066][ 49]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.22-23.33.58:119][ 49]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.22-23.33.58:134][ 49]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.22-23.33.58:134][ 49]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.22-23.33.58:445][ 49]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.22-23.33.59:181][ 49]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.22-23.33.59:181][ 49]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.22-23.33.59:243][ 49]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.22-23.33.59:354][ 49]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.22-23.33.59:377][ 49]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.22-23.33.59:700][ 49]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.22-23.33.59:700][ 49]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.22-23.33.59:726][ 49]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.22-23.33.59:726][ 49]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.22-23.33.59:726][ 49]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.22-23.33.59:844][ 49]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.22-23.34.00:089][ 49]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.22-23.34.00:094][ 49]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.22-23.34.00:094][ 49]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.22-23.34.00:136][ 49]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.22-23.34.00:604][ 49]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.22-23.34.00:743][ 49]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.22-23.34.00:980][ 49]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.22-23.34.01:023][ 49]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.22-23.34.01:195][ 49]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.22-23.34.01:288][ 49]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.22-23.34.02:841][ 49]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.22-23.34.03:063][ 49]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.22-23.34.03:063][ 49]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.22-23.34.03:063][ 49]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.22-23.34.03:375][ 49]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.22-23.34.03:482][ 49]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.22-23.34.03:621][ 49]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.22-23.34.03:677][ 49]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.22-23.34.03:943][ 49]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.22-23.34.03:943][ 49]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.22-23.34.03:995][ 49]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.22-23.34.04:052][ 49]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.22-23.34.04:154][ 49]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.22-23.34.04:154][ 49]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.22-23.34.04:214][ 49]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.22-23.34.04:214][ 49]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.22-23.34.04:496][ 49]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.22-23.34.04:506][ 49]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.22-23.34.04:696][ 49]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.22-23.34.04:770][ 49]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.22-23.34.04:879][ 49]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.22-23.34.05:003][ 49]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.22-23.34.05:046][ 49]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.22-23.34.05:075][ 49]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.22-23.34.05:114][ 49]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.22-23.34.05:291][ 49]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.22-23.34.05:316][ 49]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.22-23.34.05:330][ 49]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.22-23.34.05:367][ 49]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.22-23.34.05:367][ 49]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.22-23.34.05:380][ 49]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.22-23.34.05:380][ 49]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.22-23.34.15:516][ 49]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.22-23.34.15:618][ 49]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.22-23.34.15:646][ 49]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.22-23.34.15:646][ 49]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.22-23.34.15:671][ 49]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.22-23.34.15:672][ 49]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.22-23.34.15:684][ 49]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.22-23.34.15:740][ 49]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.22-23.34.15:747][ 49]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.22-23.34.15:759][ 49]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.22-23.34.15:778][ 49]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.22-23.34.15:799][ 49]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.22-23.34.15:812][ 49]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.22-23.34.15:812][ 49]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.22-23.34.15:818][ 49]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.22-23.34.15:828][ 49]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.22-23.34.15:828][ 49]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.22-23.34.15:828][ 49]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.22-23.34.15:954][ 49]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.22-23.34.15:970][ 49]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.22-23.34.16:014][ 49]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.22-23.34.16:014][ 49]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.22-23.34.16:031][ 49]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.22-23.34.16:031][ 49]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.22-23.34.16:031][ 49]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.22-23.34.16:493][ 49]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.22-23.34.16:493][ 49]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.22-23.34.16:493][ 49]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.22-23.34.16:712][ 49]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.22-23.34.16:815][ 49]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.22-23.34.16:815][ 49]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.22-23.34.16:927][ 49]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.22-23.34.17:150][ 49]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.22-23.34.17:210][ 49]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.22-23.34.17:219][ 49]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.22-23.34.17:219][ 49]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.22-23.34.17:248][ 49]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.22-23.34.17:327][ 49]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.22-23.34.17:375][ 49]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.22-23.34.17:461][ 49]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.22-23.34.17:461][ 49]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.22-23.34.17:461][ 49]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.22-23.34.17:500][ 49]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.22-23.34.17:557][ 49]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.22-23.34.17:587][ 49]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.22-23.34.17:808][ 49]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.22-23.34.17:856][ 49]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.22-23.34.17:906][ 49]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.22-23.34.18:181][ 49]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.22-23.34.18:248][ 49]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.22-23.34.18:284][ 49]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.22-23.34.18:436][ 49]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.22-23.34.18:446][ 49]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.22-23.34.18:769][ 49]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.22-23.34.18:775][ 49]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.22-23.34.18:813][ 49]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.22-23.34.18:813][ 49]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.22-23.34.18:906][ 49]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.22-23.34.18:956][ 49]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.22-23.34.18:981][ 49]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.22-23.34.19:095][ 49]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.22-23.34.19:223][ 49]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.22-23.34.19:223][ 49]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.22-23.34.19:279][ 49]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.22-23.34.19:348][ 49]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.22-23.34.19:373][ 49]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.22-23.34.19:387][ 49]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.22-23.34.19:387][ 49]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.22-23.34.19:642][ 49]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.22-23.34.19:642][ 49]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.22-23.34.19:650][ 49]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.22-23.34.19:666][ 49]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.22-23.34.19:666][ 49]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.22-23.34.19:677][ 49]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.22-23.34.19:677][ 49]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.22-23.34.19:688][ 49]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.22-23.34.19:696][ 49]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.22-23.34.19:734][ 49]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.22-23.34.19:943][ 49]LogDerivedDataCache: Shutdown
+[2015.08.22-23.34.19:943][ 49]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.22-23.34.19:956][ 49]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.22-23.34.19:974][ 49]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.22-23.34.19:991][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.22-23.34.20:008][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.22-23.34.20:008][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.22-23.34.20:008][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.22-23.34.20:024][ 49]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.22-23.34.20:024][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.22-23.34.20:039][ 49]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.22-23.34.20:058][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.22-23.34.20:085][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.22-23.34.20:098][ 49]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.22-23.34.20:098][ 49]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.22-23.34.20:115][ 49]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.22-23.34.20:129][ 49]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.22-23.34.20:129][ 49]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.22-23.34.20:129][ 49]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.22-23.34.20:144][ 49]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.22-23.34.20:158][ 49]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.22-23.34.20:179][ 49]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.22-23.34.20:202][ 49]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.22-23.34.20:203][ 49]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.22-23.34.20:211][ 49]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.22-23.34.20:212][ 49]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.22-23.34.20:248][ 49]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.22-23.34.20:248][ 49]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.22-23.34.20:248][ 49]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.22-23.34.20:258][ 49]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.22-23.34.20:322][ 49]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.22-23.34.20:327][ 49]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.22-23.34.20:350][ 49]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.22-23.34.20:350][ 49]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.22-23.34.20:350][ 49]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.22-23.34.21:037][ 49]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.22-23.34.21:057][ 49]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.22-23.34.21:057][ 49]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.22-23.34.21:057][ 49]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.22-23.34.21:057][ 49]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.22-23.34.21:071][ 49]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.22-23.34.21:084][ 49]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.22-23.34.21:131][ 49]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.22-23.34.21:152][ 49]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.22-23.34.21:412][ 49]LogExit: Exiting.
+[2015.08.22-23.34.22:887][ 49]Log file closed, 08/22/15 18:34:22

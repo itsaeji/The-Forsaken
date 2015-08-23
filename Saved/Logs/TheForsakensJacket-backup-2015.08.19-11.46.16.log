@@ -1,0 +1,947 @@
+﻿[2015.08.19-15.55.22:051][  0]Log file open, 08/19/15 10:55:22
+[2015.08.19-15.55.22:051][  0]LogInit:Display: Running engine for game: TheForsakensJacket
+[2015.08.19-15.55.22:051][  0]LogInit:Display: RandInit(-1357227201) SRandInit(-1357227200).
+[2015.08.19-15.55.22:051][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.19-15.55.22:051][  0]LogStats: Stats thread started
+[2015.08.19-15.55.22:051][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.19-15.55.22:051][  0]LogInit: API Version: 2579680
+[2015.08.19-15.55.22:051][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.19-15.55.22:051][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.19-15.55.22:051][  0]LogInit: Build Configuration: Development
+[2015.08.19-15.55.22:051][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.19-15.55.22:051][  0]LogInit: Command line:  
+[2015.08.19-15.55.22:051][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.19-15.55.22:051][  0]LogInit: Rocket: 1
+[2015.08.19-15.55.22:198][  0]LogInit: Using libcurl 7.41.0
+[2015.08.19-15.55.22:198][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.19-15.55.22:198][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.19-15.55.22:198][  0]LogInit:  - other features:
+[2015.08.19-15.55.22:198][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.19-15.55.22:198][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.19-15.55.22:198][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.19-15.55.22:198][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.19-15.55.22:198][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.19-15.55.22:198][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.19-15.55.22:198][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.19-15.55.22:198][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.19-15.55.22:198][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.19-15.55.22:198][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.19-15.55.22:216][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.19-15.55.22:238][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.19-15.55.22:252][  0]LogInit: Object subsystem initialized
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.19-15.55.22:253][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christian/Desktop/TheForsakensJacket/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.19-15.55.22:254][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.19-15.55.22:254][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.19-15.55.22:265][  0]LogInit: Computer: CHRISTIANGAMING
+[2015.08.19-15.55.22:265][  0]LogInit: User: Christian
+[2015.08.19-15.55.22:265][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.19-15.55.22:265][  0]LogInit: High frequency timer resolution =2.143570 MHz
+[2015.08.19-15.55.22:265][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.08.19-15.55.22:265][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.19-15.55.22:265][  0]LogMemory: Process Physical Memory: 55.92 MB used, 58.14 MB peak
+[2015.08.19-15.55.22:265][  0]LogMemory: Process Virtual Memory: 29.44 MB used, 32.27 MB peak
+[2015.08.19-15.55.22:265][  0]LogMemory: Physical Memory: 2262.57 MB used, 3983.27 MB total
+[2015.08.19-15.55.22:265][  0]LogMemory: Virtual Memory: 298.02 MB used, 8388608.00 MB total
+[2015.08.19-15.55.22:448][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.19-15.55.22:920][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.19-15.55.23:660][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.08.19-15.55.23:660][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.08.19-15.55.23:661][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.19-15.55.23:661][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.19-15.55.23:661][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.19-15.55.23:668][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.55.23:668][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.19-15.55.23:668][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.08.19-15.55.23:671][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.19-15.55.23:692][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.19-15.55.26:953][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.19-15.55.26:975][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.19-15.55.26:998][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.19-15.55.27:022][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.19-15.55.27:047][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.19-15.55.27:066][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.19-15.55.27:085][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.19-15.55.27:103][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.19-15.55.27:123][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.19-15.55.27:142][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.19-15.55.27:161][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.19-15.55.27:180][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.19-15.55.27:247][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.19-15.55.27:266][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.19-15.55.27:284][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.19-15.55.27:306][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.19-15.55.27:306][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.19-15.55.27:686][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.19-15.55.28:515][  0]LogDerivedDataCache: Loaded boot cache 0.83s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.19-15.55.28:516][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.19-15.55.28:516][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.19-15.55.28:516][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.19-15.55.28:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Desktop/TheForsakensJacket/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.19-15.55.28:517][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.19-15.55.28:870][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.19-15.55.28:897][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.19-15.55.37:759][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.19-15.55.38:741][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.19-15.55.38:743][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.19-15.55.38:938][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.19-15.55.38:938][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.19-15.55.42:037][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.19-15.56.10:254][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.19-15.56.13:404][  0]SourceControl: Info Source control is disabled
+[2015.08.19-15.56.13:630][  0]SourceControl: Info Source control is disabled
+[2015.08.19-15.56.13:726][  0]SourceControl: Info Source control is disabled
+[2015.08.19-15.56.13:807][  0]SourceControl: Info Source control is disabled
+[2015.08.19-15.56.16:110][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.19-15.56.16:110][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.19-15.56.16:899][  0]LogEngine: Initializing Engine...
+[2015.08.19-15.56.16:963][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.19-15.56.17:129][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.19-15.56.18:227][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.19-15.56.18:349][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-15.56.18:428][  0]LogInit: FAudioDevice initialized.
+[2015.08.19-15.56.18:508][  0]LogDerivedDataCache: Saved boot cache 0.08s 48MB C:/Users/Christian/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.19-15.56.18:522][  0]LogInit: Texture streaming: Disabled
+[2015.08.19-15.56.18:941][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.19-15.56.18:941][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.19-15.56.18:941][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d520111f42444ed2ae17ceb4cce854a2|256081b0662a4905b440382e278adc23|3ae4f12a-3c0a-4aaf-bb63-a78589ca1625
+[2015.08.19-15.56.18:942][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.19-15.56.19:557][  0]LogInit: Transaction tracking system initialized
+[2015.08.19-15.56.22:443][  0]BlueprintLog: New page: Editor Load
+[2015.08.19-15.56.24:890][  0]LogAssetRegistry: FAssetRegistry took 0.1091 seconds to start up
+[2015.08.19-15.56.25:026][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.19-15.56.31:793][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.19-15.56.31:793][  0]LogConsoleResponse:Display: 
+[2015.08.19-15.56.34:123][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.19-15.56.36:235][  0]SourceControl: Info Source control is disabled
+[2015.08.19-15.56.36:298][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.19-15.56.36:440][  0]LightingResults: New page: Lighting Build
+[2015.08.19-15.56.36:653][  0]MapCheck: New page: Map Check
+[2015.08.19-15.56.36:653][  0]LightingResults: New page: Lighting Build
+[2015.08.19-15.56.36:717][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057FFAB98A0
+[2015.08.19-15.56.39:016][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.19-15.56.39:157][  0]LogEditorServer: Finished looking for orphan Actors (0.020 secs)
+[2015.08.19-15.56.39:260][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.19-15.56.39:320][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.37ms to complete.
+[2015.08.19-15.56.39:322][  0]LogFileHelpers: Loading map 'Template_Default' took 3.024
+[2015.08.19-15.56.40:763][  0]LogCollectionManager: Loaded 0 collections in 0.003148 seconds
+[2015.08.19-15.56.40:810][  0]LogContentBrowser: Native class hierarchy populated in 0.0363 seconds. Added 1792 classes and 301 folders.
+[2015.08.19-15.56.41:193][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.08.19-15.56.42:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2015.08.19-15.56.42:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.08.19-15.56.43:124][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.19-15.56.43:189][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.56.43:205][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.19-15.56.43:275][  0]LogLoad: Full Startup: 84.19 seconds (BP compile: 0.58 seconds)
+[2015.08.19-15.56.44:013][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.19-15.56.44:333][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.19-15.56.44:999][  0]LogRenderer: Reallocating scene render targets to support 728x376 (Frame:2).
+[2015.08.19-15.56.50:119][ 19]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.56.51:041][ 30]LogAssetRegistry: Asset discovery search completed in 26.2598 seconds
+[2015.08.19-15.56.53:475][ 93]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.56.56:625][234]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.57.07:335][564]LogD3D11RHI: InitD3DDevice
+[2015.08.19-15.58.35:756][564]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-15.58.39:883][564]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.08.19-15.58.39:885][564]LightingResults: New page: Lighting Build
+[2015.08.19-15.58.39:976][564]LoadErrors: New page: Loading map: MansionNew.umap
+[2015.08.19-15.58.40:243][564]MapCheck: New page: Map Check
+[2015.08.19-15.58.40:243][564]LightingResults: New page: Lighting Build
+[2015.08.19-15.58.40:739][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005780582700
+[2015.08.19-15.58.46:739][564]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-15.58.48:469][564]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2015.08.19-15.58.49:975][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.19-15.58.50:142][564]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.654ms to complete.
+[2015.08.19-15.58.50:143][564]LogFileHelpers: Loading map 'MansionNew' took 10.309
+[2015.08.19-15.59.44:026][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane148)
+[2015.08.19-15.59.45:990][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane148)
+[2015.08.19-15.59.46:984][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (wallPlane147)
+[2015.08.19-16.00.22:896][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small168)
+[2015.08.19-16.00.34:436][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane159)
+[2015.08.19-16.00.35:726][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane160)
+[2015.08.19-16.00.36:716][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane159)
+[2015.08.19-16.00.43:451][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane157)
+[2015.08.19-16.00.44:541][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane158)
+[2015.08.19-16.00.54:998][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane157)
+[2015.08.19-16.01.14:390][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small140)
+[2015.08.19-16.01.15:497][758]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small143)
+[2015.08.19-16.01.16:820][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small137)
+[2015.08.19-16.01.17:797][800]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (floorPlane_small131)
+[2015.08.19-16.01.19:323][832]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_small144)
+[2015.08.19-16.01.19:540][832]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.01.21:002][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane117)
+[2015.08.19-16.01.29:547][ 90]Cmd: TRANSACTION UNDO
+[2015.08.19-16.01.29:567][ 90]LogEditorTransaction: Undo Move Actors
+[2015.08.19-16.01.29:614][ 90]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.01.31:369][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (transition_narrow_wood19)
+[2015.08.19-16.01.34:405][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane117)
+[2015.08.19-16.01.39:728][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane116)
+[2015.08.19-16.01.44:112][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane115)
+[2015.08.19-16.01.51:267][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane109)
+[2015.08.19-16.02.00:377][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane108)
+[2015.08.19-16.02.07:293][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane103)
+[2015.08.19-16.02.12:244][ 64]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.02.14:264][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane107)
+[2015.08.19-16.02.18:160][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane103)
+[2015.08.19-16.02.19:264][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane103)
+[2015.08.19-16.02.24:968][319]Cmd: DELETE
+[2015.08.19-16.02.24:968][319]Cmd: ACTOR DELETE
+[2015.08.19-16.02.25:302][319]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.02.25:328][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.02.25:330][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.02.25:481][319]LogEditorActor: Deleted 1 Actors (0.214 secs)
+[2015.08.19-16.02.32:832][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (transition_narrow_wood19)
+[2015.08.19-16.02.37:597][598]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.08.19-16.02.54:839][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (transition_narrow_wood19)
+[2015.08.19-16.03.07:628][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (constr_C6)
+[2015.08.19-16.03.31:640][818]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BigGuy)
+[2015.08.19-16.03.37:790][954]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.03.39:067][954]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.03.39:326][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.03.56:113][954]LogSavePackage: Save=12970.841797ms
+[2015.08.19-16.03.56:127][954]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew9ABEC472422614EC8803A4832DE5D8B4.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.03.56:622][954]LogFileHelpers: Saving map 'MansionNew' took 17.514
+[2015.08.19-16.04.18:454][491]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.04.24:309][608]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.04.24:377][608]LogActorFactory: Actor Factory created doors_wing_b
+[2015.08.19-16.04.25:870][642]LogActorFactory: Actor Factory created doors_wing_b
+[2015.08.19-16.05.13:938][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small143)
+[2015.08.19-16.05.16:402][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_wing_b)
+[2015.08.19-16.05.28:610][ 67]Cmd: DELETE
+[2015.08.19-16.05.28:610][ 67]Cmd: ACTOR DELETE
+[2015.08.19-16.05.28:616][ 67]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.05.28:616][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.05.28:617][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.05.28:724][ 67]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2015.08.19-16.05.30:766][115]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.08.19-16.05.30:901][115]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.05.33:386][189]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.05.33:419][189]LogActorFactory: Actor Factory created doors_wing_e
+[2015.08.19-16.05.34:569][216]LogActorFactory: Actor Factory created doors_wing_e
+[2015.08.19-16.05.44:290][435]Cmd: DELETE
+[2015.08.19-16.05.44:290][435]Cmd: ACTOR DELETE
+[2015.08.19-16.05.44:300][435]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.05.44:301][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.05.44:302][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.05.44:403][435]LogEditorActor: Deleted 1 Actors (0.112 secs)
+[2015.08.19-16.05.47:895][500]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.05.47:982][504]LogActorFactory: Actor Factory created doors_wing_a
+[2015.08.19-16.05.49:815][547]LogActorFactory: Actor Factory created doors_wing_a
+[2015.08.19-16.06.54:254][ 39]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.07.01:864][307]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.07.07:269][506]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.07.34:454][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.07.34:455][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.07.34:547][165]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.07.35:839][165]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.07.36:016][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.07.46:354][165]LogSavePackage: Save=10253.334961ms
+[2015.08.19-16.07.46:354][165]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew8167A89A474CBBC6E682EEBCD9369578.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.07.46:424][165]LogFileHelpers: Saving map 'MansionNew' took 10.561
+[2015.08.19-16.08.38:226][304]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.08.38:684][330]LogActorFactory: Actor Factory created doors_handle_b
+[2015.08.19-16.08.39:256][343]LogActorFactory: Actor Factory created doors_handle_b
+[2015.08.19-16.09.46:156][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_wing_a6)
+[2015.08.19-16.09.48:346][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_handle_b3)
+[2015.08.19-16.09.52:709][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (doors_wing_a6)
+[2015.08.19-16.10.05:584][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane119)
+[2015.08.19-16.10.09:811][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane120)
+[2015.08.19-16.10.13:645][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small134)
+[2015.08.19-16.10.22:355][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.10.22:357][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.10.22:472][799]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.10.23:584][799]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.10.23:748][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.10.36:868][799]LogSavePackage: Save=12940.307617ms
+[2015.08.19-16.10.36:871][799]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew8B2198B04BB1CA9D6DBDF7B4A3211788.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.10.38:858][799]LogFileHelpers: Saving map 'MansionNew' took 15.258
+[2015.08.19-16.10.55:242][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big24)
+[2015.08.19-16.10.56:219][120]Cmd: DELETE
+[2015.08.19-16.10.56:220][120]Cmd: ACTOR DELETE
+[2015.08.19-16.10.56:226][120]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.10.56:359][120]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2015.08.19-16.11.01:488][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (constr_C2)
+[2015.08.19-16.11.02:495][253]Cmd: DELETE
+[2015.08.19-16.11.02:495][253]Cmd: ACTOR DELETE
+[2015.08.19-16.11.02:503][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.11.02:632][253]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2015.08.19-16.11.03:241][266]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wallPlane9)
+[2015.08.19-16.11.03:290][266]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.11.04:212][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane9)
+[2015.08.19-16.11.11:418][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane23)
+[2015.08.19-16.11.13:456][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane84)
+[2015.08.19-16.11.22:591][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane246)
+[2015.08.19-16.11.32:419][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane9)
+[2015.08.19-16.11.33:665][948]Cmd: TRANSACTION UNDO
+[2015.08.19-16.11.33:665][948]LogEditorTransaction: Undo Clicking on Actors
+[2015.08.19-16.11.33:708][948]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.11.34:651][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane9)
+[2015.08.19-16.11.44:424][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_small128)
+[2015.08.19-16.11.46:684][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane103)
+[2015.08.19-16.12.00:441][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (constr_C16)
+[2015.08.19-16.13.45:032][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big25)
+[2015.08.19-16.13.45:959][513]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big40)
+[2015.08.19-16.13.46:035][513]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.13.47:247][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big40)
+[2015.08.19-16.13.48:294][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big25)
+[2015.08.19-16.13.58:520][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big10)
+[2015.08.19-16.15.00:775][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big24)
+[2015.08.19-16.15.18:960][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane20)
+[2015.08.19-16.15.21:596][597]Cmd: DELETE
+[2015.08.19-16.15.21:596][597]Cmd: ACTOR DELETE
+[2015.08.19-16.15.21:603][597]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.19-16.15.21:733][597]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2015.08.19-16.15.23:518][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane8)
+[2015.08.19-16.15.59:000][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (transition_narrow_wood15)
+[2015.08.19-16.16.04:135][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (constr_C17)
+[2015.08.19-16.16.50:921][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big40)
+[2015.08.19-16.17.56:520][931]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.17.57:425][931]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.17.57:586][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.18.08:520][931]LogSavePackage: Save=10720.354492ms
+[2015.08.19-16.18.08:520][931]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNew86EEBCA74B2598DFFF66769157A658E7.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.18.08:744][931]LogFileHelpers: Saving map 'MansionNew' took 11.305
+[2015.08.19-16.18.44:264][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane159)
+[2015.08.19-16.18.46:865][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane159)
+[2015.08.19-16.18.47:631][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane158)
+[2015.08.19-16.18.53:498][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallPlane157)
+[2015.08.19-16.19.25:707][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big29)
+[2015.08.19-16.19.35:201][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big41)
+[2015.08.19-16.19.36:526][136]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (floorPlane_big41)
+[2015.08.19-16.19.36:570][136]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.19.37:257][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big29)
+[2015.08.19-16.19.38:511][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorPlane_big41)
+[2015.08.19-16.20.36:208][289]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.20.37:467][289]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.20.37:676][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.20.48:613][289]LogSavePackage: Save=10840.901367ms
+[2015.08.19-16.20.48:613][289]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewFC80255D46CDE5DABF2E4BA7A02E830E.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.20.48:699][289]LogFileHelpers: Saving map 'MansionNew' took 11.202
+[2015.08.19-16.21.08:199][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stairs_simple_low2)
+[2015.08.19-16.21.46:027][448]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.21.56:760][720]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.22.02:438][875]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.22.13:085][157]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.22.14:199][157]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.22.14:358][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.22.23:930][157]LogSavePackage: Save=9470.857422ms
+[2015.08.19-16.22.23:930][157]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewF7BEAF9E4112FC2E592868BA0D124C5A.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.22.24:016][157]LogFileHelpers: Saving map 'MansionNew' took 9.802
+[2015.08.19-16.22.33:783][381]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.22.34:209][381]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:22:33 AM)
+[2015.08.19-16.22.34:226][381]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.22.41:011][381]LogPlayLevel: PIE: StaticDuplicateObject took: (6.785087s)
+[2015.08.19-16.22.41:035][381]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.22.41:039][381]LogPlayLevel: PIE: World Init took: (0.006149s)
+[2015.08.19-16.22.41:287][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (7.061287s)
+[2015.08.19-16.22.42:534][381]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.22.42:557][381]LogInit: FAudioDevice initialized.
+[2015.08.19-16.22.44:192][381]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.22.45:252][381]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.22.45:932][381]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.22.45:932][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 0) at 2015.08.19-11.22.45
+[2015.08.19-16.22.45:932][381]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.22.45:961][381]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.22.46:212][381]LogWorld: Bringing up level for play took: 0.604275
+[2015.08.19-16.22.46:868][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 13.845
+[2015.08.19-16.22.47:452][381]LogRenderer: Reallocating scene render targets to support 1296x728 (Frame:29054).
+[2015.08.19-16.23.47:890][947]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.23.47:890][947]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.23.50:970][977]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.23.50:970][977]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.24.01:602][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578504C220
+[2015.08.19-16.24.16:187][341]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.19:610][432]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.30:022][663]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.34:921][785]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.38:272][883]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.47:208][ 92]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.50:777][184]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.24.57:540][344]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.25.18:950][776]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.25.22:877][852]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.25.31:971][ 69]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.25.37:061][199]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.25.47:359][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stairs_simple_low3)
+[2015.08.19-16.26.25:287][200]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.26.27:115][200]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.26.27:285][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MansionNew" FILE="../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.19-16.26.40:449][200]LogSavePackage: Save=9808.098633ms
+[2015.08.19-16.26.40:449][200]LogSavePackage: Moving '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Saved/MansionNewDA76DD4E4A41E31C9489BF848AB42F5A.tmp' to '../../../../../../Users/Christian/Desktop/TheForsakensJacket/Content/Maps/MansionNew.umap'
+[2015.08.19-16.26.40:641][200]LogFileHelpers: Saving map 'MansionNew' took 13.502
+[2015.08.19-16.33.43:409][854]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.33.50:910][971]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.33.50:910][971]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:33:50 AM)
+[2015.08.19-16.33.50:911][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.33.56:620][971]LogPlayLevel: PIE: StaticDuplicateObject took: (5.708449s)
+[2015.08.19-16.33.56:622][971]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.33.56:624][971]LogPlayLevel: PIE: World Init took: (0.004185s)
+[2015.08.19-16.33.56:625][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (5.714048s)
+[2015.08.19-16.33.56:625][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.33.56:626][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing4E28A64744853265DD880CAC4141A6C8) Not registered. Aborting.
+[2015.08.19-16.33.56:738][971]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.33.56:746][971]LogInit: FAudioDevice initialized.
+[2015.08.19-16.33.56:749][971]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.33.56:787][971]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.33.57:119][971]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.33.57:119][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.33.57
+[2015.08.19-16.33.57:119][971]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.33.57:120][971]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.33.57:128][971]LogWorld: Bringing up level for play took: 0.338462
+[2015.08.19-16.33.57:199][971]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 6.175
+[2015.08.19-16.34.13:790][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579FD96DE0
+[2015.08.19-16.34.24:260][283]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.34.24:260][283]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:34:24 AM)
+[2015.08.19-16.34.24:261][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.34.24:825][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.564203s)
+[2015.08.19-16.34.24:827][283]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.34.24:828][283]LogPlayLevel: PIE: World Init took: (0.002709s)
+[2015.08.19-16.34.24:829][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.567897s)
+[2015.08.19-16.34.24:915][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.34.24:922][283]LogInit: FAudioDevice initialized.
+[2015.08.19-16.34.24:924][283]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.34.24:959][283]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.34.25:300][283]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.34.25:300][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.34.25
+[2015.08.19-16.34.25:300][283]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.34.25:301][283]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.34.25:310][283]LogWorld: Bringing up level for play took: 0.349326
+[2015.08.19-16.34.25:353][283]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.33
+[2015.08.19-16.34.37:025][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578F1F5DA0
+[2015.08.19-16.34.44:519][503]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.34.44:688][503]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.34.45:276][503]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.19-16.34.46:171][503]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.19-16.35.31:342][273]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.35.31:342][273]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:35:31 AM)
+[2015.08.19-16.35.31:343][273]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.35.31:910][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.566745s)
+[2015.08.19-16.35.31:912][273]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.35.31:913][273]LogPlayLevel: PIE: World Init took: (0.002553s)
+[2015.08.19-16.35.31:913][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.569979s)
+[2015.08.19-16.35.32:055][273]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.35.32:063][273]LogInit: FAudioDevice initialized.
+[2015.08.19-16.35.32:066][273]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.35.32:106][273]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.35.32:449][273]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.35.32:449][273]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.35.32
+[2015.08.19-16.35.32:449][273]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.35.32:450][273]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.35.32:459][273]LogWorld: Bringing up level for play took: 0.350717
+[2015.08.19-16.35.32:532][273]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.509
+[2015.08.19-16.35.40:162][330]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.35.40:162][330]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.35.40:708][333]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.35.40:708][333]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.35.41:462][338]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.35.41:462][338]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.35.41:760][339]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.35.42:143][340]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.35.42:143][340]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.35.42:192][341]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.35.43:326][349]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.35.43:326][349]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.35.43:928][353]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.35.43:928][353]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.35.47:799][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005816940A40
+[2015.08.19-16.35.49:220][390]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.03:722][784]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.08:688][ 10]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.10:107][ 89]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.10:814][130]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.25:303][571]Cmd: DELETE
+[2015.08.19-16.36.25:303][571]Cmd: ACTOR DELETE
+[2015.08.19-16.36.25:311][571]LogEditorActor: Deleted Actor: Pistol_Pickup_Blueprint_C
+[2015.08.19-16.36.25:426][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578024C680
+[2015.08.19-16.36.25:463][571]LogEditorActor: Deleted 1 Actors (0.159 secs)
+[2015.08.19-16.36.28:557][622]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.30:397][642]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.36.53:260][302]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.36.57:756][302]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.36.58:361][302]BlueprintEditorCompileResults: Info [2499.19] Compile of MyCharacter successful! [in 5,013 ms]
+[2015.08.19-16.37.01:381][303]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.37.01:381][303]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:37:01 AM)
+[2015.08.19-16.37.01:383][303]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.37.12:667][303]LogPlayLevel: PIE: StaticDuplicateObject took: (11.283456s)
+[2015.08.19-16.37.12:670][303]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.37.12:672][303]LogPlayLevel: PIE: World Init took: (0.004855s)
+[2015.08.19-16.37.12:673][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (11.289479s)
+[2015.08.19-16.37.12:673][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.37.12:794][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.37.13:442][303]LogInit: FAudioDevice initialized.
+[2015.08.19-16.37.13:452][303]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.37.13:496][303]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.37.13:841][303]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.37.13:841][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.37.13
+[2015.08.19-16.37.13:841][303]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.37.16:298][303]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.37.16:319][303]LogWorld: Bringing up level for play took: 2.820178
+[2015.08.19-16.37.16:345][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 15.322
+[2015.08.19-16.37.56:641][625]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.37.56:641][625]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.38.11:003][780]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.38.11:003][780]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.38.12:137][791]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.38.12:137][791]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.38.14:049][810]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.38.14:049][810]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.38.14:967][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579E361940
+[2015.08.19-16.38.19:938][920]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.38.21:028][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.19-16.38.21:267][920]BlueprintEditorCompileResults: Info [2582.18] Compile of MyCharacter successful! [in 1,328 ms]
+[2015.08.19-16.38.22:101][943]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.38.22:101][943]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:38:22 AM)
+[2015.08.19-16.38.22:101][943]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.38.22:697][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.595127s)
+[2015.08.19-16.38.22:699][943]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.38.22:700][943]LogPlayLevel: PIE: World Init took: (0.002559s)
+[2015.08.19-16.38.22:700][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.598564s)
+[2015.08.19-16.38.22:701][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.19-16.38.22:808][943]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.38.22:815][943]LogInit: FAudioDevice initialized.
+[2015.08.19-16.38.22:818][943]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.38.22:849][943]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.38.23:178][943]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.38.23:178][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.38.23
+[2015.08.19-16.38.23:178][943]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.38.23:179][943]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.38.23:187][943]LogWorld: Bringing up level for play took: 0.336887
+[2015.08.19-16.38.23:219][943]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.195
+[2015.08.19-16.38.31:302][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579FB454E0
+[2015.08.19-16.38.34:035][ 77]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.38.35:150][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.19-16.38.35:386][ 77]BlueprintEditorCompileResults: Info [2596.30] Compile of MyCharacter successful! [in 1,351 ms]
+[2015.08.19-16.38.35:948][ 95]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.38.35:948][ 95]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:38:35 AM)
+[2015.08.19-16.38.35:948][ 95]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.38.36:486][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.538413s)
+[2015.08.19-16.38.36:488][ 95]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.38.36:489][ 95]LogPlayLevel: PIE: World Init took: (0.002656s)
+[2015.08.19-16.38.36:490][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.541779s)
+[2015.08.19-16.38.36:490][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.19-16.38.36:599][ 95]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.38.36:607][ 95]LogInit: FAudioDevice initialized.
+[2015.08.19-16.38.36:609][ 95]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.38.36:641][ 95]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.38.36:969][ 95]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.38.36:969][ 95]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.38.36
+[2015.08.19-16.38.36:969][ 95]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.38.36:970][ 95]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.38.36:979][ 95]LogWorld: Bringing up level for play took: 0.335252
+[2015.08.19-16.38.37:008][ 95]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.985
+[2015.08.19-16.39.04:836][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057CC319C60
+[2015.08.19-16.39.08:775][413]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.39.09:926][413]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.08.19-16.39.10:163][413]BlueprintEditorCompileResults: Info [2631.08] Compile of MyCharacter successful! [in 1,387 ms]
+[2015.08.19-16.39.10:654][427]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.39.10:654][427]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:39:10 AM)
+[2015.08.19-16.39.10:655][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.39.11:215][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.560472s)
+[2015.08.19-16.39.11:217][427]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.39.11:218][427]LogPlayLevel: PIE: World Init took: (0.002660s)
+[2015.08.19-16.39.11:218][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.563803s)
+[2015.08.19-16.39.11:219][427]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.08.19-16.39.11:328][427]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.39.11:336][427]LogInit: FAudioDevice initialized.
+[2015.08.19-16.39.11:338][427]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.39.11:368][427]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.39.11:700][427]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.39.11:700][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.39.11
+[2015.08.19-16.39.11:700][427]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.39.11:701][427]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.39.11:709][427]LogWorld: Bringing up level for play took: 0.339172
+[2015.08.19-16.39.11:739][427]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.716
+[2015.08.19-16.39.17:369][468]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.39.17:369][468]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.39.39:329][640]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.39.39:329][640]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.39.42:027][660]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.08.19-16.39.45:025][685]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.39.45:025][685]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.39.45:976][693]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.39.47:151][703]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.39.47:151][703]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.39.47:894][709]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.39.47:894][709]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.17:902][993]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.17:902][993]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.21:492][ 23]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.21:492][ 23]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.22:489][ 31]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.22:489][ 31]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.23:114][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005809B5BCE0
+[2015.08.19-16.40.27:186][156]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.40.28:272][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.08.19-16.40.28:512][156]BlueprintEditorCompileResults: Info [2709.43] Compile of MyCharacter successful! [in 1,325 ms]
+[2015.08.19-16.40.30:658][220]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.40.30:658][220]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:40:30 AM)
+[2015.08.19-16.40.30:659][220]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.40.31:212][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.552895s)
+[2015.08.19-16.40.31:214][220]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.40.31:215][220]LogPlayLevel: PIE: World Init took: (0.002842s)
+[2015.08.19-16.40.31:216][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.556419s)
+[2015.08.19-16.40.31:216][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.08.19-16.40.31:330][220]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.40.31:338][220]LogInit: FAudioDevice initialized.
+[2015.08.19-16.40.31:341][220]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.40.31:372][220]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.40.31:706][220]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.40.31:706][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.40.31
+[2015.08.19-16.40.31:707][220]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.40.31:922][220]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.40.31:944][220]LogWorld: Bringing up level for play took: 0.570036
+[2015.08.19-16.40.31:988][220]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.965
+[2015.08.19-16.40.35:695][246]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.35:695][246]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.49:262][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.49:262][357]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.50:029][363]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.40.50:029][363]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.40.50:956][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579E362200
+[2015.08.19-16.40.55:039][489]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.40.56:132][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.08.19-16.40.56:371][489]BlueprintEditorCompileResults: Info [2737.29] Compile of MyCharacter successful! [in 1,331 ms]
+[2015.08.19-16.40.56:939][506]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.40.56:939][506]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:40:56 AM)
+[2015.08.19-16.40.56:940][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.40.57:487][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.546569s)
+[2015.08.19-16.40.57:489][506]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.40.57:490][506]LogPlayLevel: PIE: World Init took: (0.002814s)
+[2015.08.19-16.40.57:491][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.550407s)
+[2015.08.19-16.40.57:491][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.08.19-16.40.57:604][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.40.57:611][506]LogInit: FAudioDevice initialized.
+[2015.08.19-16.40.57:614][506]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.40.57:648][506]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.40.57:975][506]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.40.57:975][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.40.57
+[2015.08.19-16.40.57:976][506]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.40.57:976][506]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.40.57:985][506]LogWorld: Bringing up level for play took: 0.333952
+[2015.08.19-16.40.58:015][506]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.991
+[2015.08.19-16.41.05:626][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057AD521EE0
+[2015.08.19-16.41.07:931][627]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.41.09:022][627]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.08.19-16.41.09:261][627]BlueprintEditorCompileResults: Info [2750.18] Compile of MyCharacter successful! [in 1,330 ms]
+[2015.08.19-16.41.11:329][682]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.41.11:330][682]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:41:11 AM)
+[2015.08.19-16.41.11:330][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.41.11:885][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.554942s)
+[2015.08.19-16.41.11:886][682]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.41.11:888][682]LogPlayLevel: PIE: World Init took: (0.002673s)
+[2015.08.19-16.41.11:888][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.558330s)
+[2015.08.19-16.41.11:888][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.08.19-16.41.11:997][682]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.41.12:004][682]LogInit: FAudioDevice initialized.
+[2015.08.19-16.41.12:007][682]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.41.12:040][682]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.41.12:361][682]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.41.12:361][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.41.12
+[2015.08.19-16.41.12:361][682]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.41.12:362][682]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.41.12:371][682]LogWorld: Bringing up level for play took: 0.328760
+[2015.08.19-16.41.12:402][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.379
+[2015.08.19-16.41.22:709][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.41.22:709][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.41.23:392][765]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.41.23:392][765]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.41.52:835][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579FED3740
+[2015.08.19-16.41.56:797][150]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.41.57:908][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.08.19-16.41.58:147][150]BlueprintEditorCompileResults: Info [2799.06] Compile of MyCharacter successful! [in 1,350 ms]
+[2015.08.19-16.41.58:647][164]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.41.58:647][164]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:41:58 AM)
+[2015.08.19-16.41.58:648][164]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.41.59:204][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.555648s)
+[2015.08.19-16.41.59:205][164]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.41.59:206][164]LogPlayLevel: PIE: World Init took: (0.002444s)
+[2015.08.19-16.41.59:207][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.558805s)
+[2015.08.19-16.41.59:207][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.08.19-16.41.59:318][164]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.41.59:325][164]LogInit: FAudioDevice initialized.
+[2015.08.19-16.41.59:328][164]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.41.59:359][164]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.41.59:691][164]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.41.59:691][164]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.41.59
+[2015.08.19-16.41.59:692][164]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.41.59:693][164]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.41.59:702][164]LogWorld: Bringing up level for play took: 0.340468
+[2015.08.19-16.41.59:733][164]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.71
+[2015.08.19-16.42.08:976][233]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.42.08:976][233]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.42.14:432][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005816041440
+[2015.08.19-16.42.17:993][379]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.42.19:090][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.08.19-16.42.19:333][379]BlueprintEditorCompileResults: Info [2820.25] Compile of MyCharacter successful! [in 1,340 ms]
+[2015.08.19-16.42.19:767][391]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.42.19:768][391]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:42:19 AM)
+[2015.08.19-16.42.19:768][391]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.42.20:326][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.558486s)
+[2015.08.19-16.42.20:328][391]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.42.20:329][391]LogPlayLevel: PIE: World Init took: (0.002595s)
+[2015.08.19-16.42.20:330][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.561776s)
+[2015.08.19-16.42.20:330][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.08.19-16.42.20:438][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.42.20:534][391]LogInit: FAudioDevice initialized.
+[2015.08.19-16.42.20:540][391]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.42.20:580][391]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.42.20:920][391]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.42.20:920][391]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.42.20
+[2015.08.19-16.42.20:921][391]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.42.20:921][391]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.42.20:930][391]LogWorld: Bringing up level for play took: 0.347496
+[2015.08.19-16.42.20:960][391]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 1.936
+[2015.08.19-16.42.27:128][436]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.42.27:128][436]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.42.28:928][448]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.42.28:929][448]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.43.37:225][ 99]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.43.37:225][ 99]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.43.37:866][105]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.43.38:052][107]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.43.38:264][109]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.43.38:545][112]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.43.38:754][114]LogBlueprintUserMessages: No ammo, CLICK!
+[2015.08.19-16.43.39:608][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005809B5AA20
+[2015.08.19-16.43.44:448][264]BlueprintLog: New page: Compile MyCharacter
+[2015.08.19-16.43.45:547][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.08.19-16.43.45:788][264]BlueprintEditorCompileResults: Info [2906.70] Compile of MyCharacter successful! [in 1,339 ms]
+[2015.08.19-16.43.46:263][278]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.19-16.43.46:263][278]PIE: New page: PIE session: MansionNew (Aug 19, 2015, 6:43:46 AM)
+[2015.08.19-16.43.46:264][278]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MansionNew
+[2015.08.19-16.43.46:822][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.558252s)
+[2015.08.19-16.43.46:823][278]LogAIModule: Creating AISystem for world MansionNew
+[2015.08.19-16.43.46:824][278]LogPlayLevel: PIE: World Init took: (0.002608s)
+[2015.08.19-16.43.46:825][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MansionNew.MansionNew to /Game/Maps/UEDPIE_0_MansionNew.MansionNew (0.561558s)
+[2015.08.19-16.43.46:825][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.08.19-16.43.46:937][278]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.19-16.43.46:958][278]LogInit: FAudioDevice initialized.
+[2015.08.19-16.43.46:960][278]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.43.46:994][278]LogWorld: Game class is 'MyGame_C'
+[2015.08.19-16.43.47:339][278]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.19-16.43.47:339][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MansionNew.MansionNew up for play (max tick rate 60) at 2015.08.19-11.43.47
+[2015.08.19-16.43.47:339][278]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.43.47:340][278]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MansionNew.MansionNew:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.19-16.43.47:349][278]LogWorld: Bringing up level for play took: 0.352402
+[2015.08.19-16.43.47:379][278]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MansionNew 0.355
+[2015.08.19-16.43.52:934][318]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.43.52:934][318]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.43.53:995][325]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.43.53:996][325]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.44.18:278][539]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.44.18:278][539]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.44.24:399][592]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [5/4]!
+[2015.08.19-16.44.24:399][592]LogArray:Warning: Attempted to get an item from array CallFunc_GetDataTableRowNames_OutRowNames out of bounds [6/4]!
+[2015.08.19-16.44.27:451][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579FB47EC0
+[2015.08.19-16.44.29:073][663]LogD3D11RHI: InitD3DDevice
+[2015.08.19-16.44.31:003][663]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.19-16.44.34:188][664]Cmd: QUIT_EDITOR
+[2015.08.19-16.44.40:869][664]LogExit: Preparing to exit.
+[2015.08.19-16.44.48:124][664]LogExit: Editor shut down
+[2015.08.19-16.44.48:147][664]LogExit: Transaction tracking system shut down
+[2015.08.19-16.44.48:151][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578A314FE0
+[2015.08.19-16.44.48:153][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057866C07C0
+[2015.08.19-16.44.48:153][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057AD610E00
+[2015.08.19-16.44.48:204][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578913B240
+[2015.08.19-16.44.48:204][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005789545B20
+[2015.08.19-16.44.56:415][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000579BDB58A0
+[2015.08.19-16.44.56:415][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057A0F1BC40
+[2015.08.19-16.44.56:415][664]LogExit: Object subsystem successfully closed.
+[2015.08.19-16.45.03:410][664]LogD3D11RHI: Shutdown
+[2015.08.19-16.45.03:413][664]LogD3D11RHI: CleanupD3DDevice
+[2015.08.19-16.45.11:444][664]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.19-16.45.14:052][664]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.19-16.45.14:052][664]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.19-16.45.14:052][664]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.19-16.45.14:052][664]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.19-16.45.14:080][664]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.19-16.45.14:144][664]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.19-16.45.14:144][664]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.19-16.45.14:162][664]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.19-16.45.14:177][664]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.19-16.45.14:189][664]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.19-16.45.14:224][664]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.19-16.45.14:224][664]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.19-16.45.14:224][664]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.19-16.45.14:224][664]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.19-16.45.14:224][664]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.19-16.45.14:234][664]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.19-16.45.14:234][664]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.19-16.45.14:234][664]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.19-16.45.14:234][664]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.19-16.45.14:234][664]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.19-16.45.14:394][664]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.19-16.45.14:418][664]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.19-16.45.14:436][664]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.19-16.45.14:436][664]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.19-16.45.14:469][664]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.19-16.45.14:469][664]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.19-16.45.15:112][664]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.19-16.45.15:121][664]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.19-16.45.15:121][664]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.19-16.45.15:121][664]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.19-16.45.15:141][664]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.19-16.45.15:163][664]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.19-16.45.15:208][664]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.19-16.45.15:208][664]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.19-16.45.15:226][664]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.19-16.45.15:226][664]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.19-16.45.15:291][664]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.19-16.45.15:324][664]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.19-16.45.15:347][664]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.19-16.45.15:347][664]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.19-16.45.15:370][664]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.19-16.45.15:370][664]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.19-16.45.15:371][664]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.19-16.45.15:371][664]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.19-16.45.15:445][664]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.19-16.45.15:469][664]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.19-16.45.15:534][664]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.19-16.45.15:623][664]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.19-16.45.15:684][664]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.19-16.45.15:713][664]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.19-16.45.15:713][664]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.19-16.45.15:960][664]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.19-16.45.15:989][664]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.19-16.45.16:049][664]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.19-16.45.16:318][664]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.19-16.45.16:319][664]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.19-16.45.16:319][664]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.19-16.45.16:319][664]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.19-16.45.17:243][664]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.19-16.45.17:281][664]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.19-16.45.17:281][664]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.19-16.45.17:281][664]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.19-16.45.17:301][664]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.19-16.45.17:301][664]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.19-16.45.17:313][664]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.19-16.45.17:344][664]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.19-16.45.17:344][664]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.19-16.45.17:355][664]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.19-16.45.17:356][664]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.19-16.45.17:368][664]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.19-16.45.17:368][664]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.19-16.45.17:368][664]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.19-16.45.17:368][664]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.19-16.45.17:375][664]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.19-16.45.17:375][664]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.19-16.45.17:375][664]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.19-16.45.17:410][664]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.19-16.45.17:440][664]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.19-16.45.17:552][664]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.19-16.45.17:552][664]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.19-16.45.17:573][664]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.19-16.45.17:605][664]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.19-16.45.17:629][664]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.19-16.45.17:629][664]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.19-16.45.17:636][664]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.19-16.45.17:658][664]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.19-16.45.17:704][664]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.19-16.45.17:729][664]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.19-16.45.17:730][664]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.19-16.45.17:754][664]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.19-16.45.17:782][664]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.19-16.45.17:799][664]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.19-16.45.17:813][664]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.19-16.45.17:813][664]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.19-16.45.17:813][664]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.19-16.45.17:813][664]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.19-16.45.17:829][664]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.19-16.45.17:861][664]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.19-16.45.17:863][664]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.19-16.45.17:863][664]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.19-16.45.17:863][664]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.19-16.45.17:950][664]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.19-16.45.17:952][664]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.19-16.45.17:997][664]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.19-16.45.18:097][664]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.19-16.45.18:127][664]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.19-16.45.18:202][664]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.19-16.45.18:202][664]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.19-16.45.18:280][664]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.19-16.45.18:280][664]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.19-16.45.18:280][664]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.19-16.45.18:301][664]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.19-16.45.18:312][664]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.19-16.45.18:453][664]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.19-16.45.18:453][664]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.19-16.45.18:453][664]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.19-16.45.18:535][664]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.19-16.45.18:651][664]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.19-16.45.18:666][664]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.19-16.45.18:675][664]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.19-16.45.18:675][664]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.19-16.45.18:810][664]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.19-16.45.18:849][664]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.19-16.45.18:917][664]LogDerivedDataCache: Shutdown
+[2015.08.19-16.45.18:917][664]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.19-16.45.18:949][664]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.19-16.45.18:959][664]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.19-16.45.18:977][664]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.19-16.45.18:994][664]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.19-16.45.18:994][664]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.19-16.45.18:994][664]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.19-16.45.18:999][664]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.19-16.45.18:999][664]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.19-16.45.19:008][664]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.19-16.45.19:017][664]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.19-16.45.19:026][664]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.19-16.45.19:027][664]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.19-16.45.19:027][664]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.19-16.45.19:045][664]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.19-16.45.19:062][664]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.19-16.45.19:108][664]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.19-16.45.19:108][664]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.19-16.45.19:119][664]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.19-16.45.19:132][664]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.19-16.45.19:155][664]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.19-16.45.19:160][664]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.19-16.45.19:161][664]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.19-16.45.19:161][664]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.19-16.45.19:168][664]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.19-16.45.19:185][664]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.19-16.45.19:185][664]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.19-16.45.19:186][664]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.19-16.45.19:186][664]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.19-16.45.19:223][664]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.19-16.45.19:226][664]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.19-16.45.19:281][664]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.19-16.45.19:281][664]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.19-16.45.19:281][664]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.19-16.45.19:353][664]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.19-16.45.19:375][664]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.19-16.45.19:375][664]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.19-16.45.19:375][664]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.19-16.45.19:375][664]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.19-16.45.19:375][664]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.19-16.45.19:396][664]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.19-16.45.19:427][664]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.19-16.45.19:449][664]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.19-16.45.19:531][664]LogExit: Exiting.
+[2015.08.19-16.45.20:540][664]Log file closed, 08/19/15 11:45:20
